@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Weather Trading Bot v1 — Polymarket
-Simple base bot. Finds mispriced temperature markets using Open-Meteo forecasts.
+Simple base bot. Finds mispriced temperature markets using NWS forecasts.
 
 Usage:
     python bot_v1.py           # Scan markets and show signals (paper mode)
@@ -30,13 +30,30 @@ MIN_HOURS_LEFT  = _cfg.get("min_hours_to_resolution", 2)
 POSITION_PCT    = 0.05    # Flat 5% of balance per trade
 SIM_BALANCE     = 1000.0  # Starting virtual balance
 
+# Airport coordinates — match the exact stations Polymarket resolves on
 LOCATIONS = {
-    "nyc":     {"lat": 40.71, "lon": -74.00, "name": "New York City"},
-    "chicago": {"lat": 41.87, "lon": -87.62, "name": "Chicago"},
-    "miami":   {"lat": 25.76, "lon": -80.19, "name": "Miami"},
-    "dallas":  {"lat": 32.77, "lon": -96.79, "name": "Dallas"},
-    "seattle": {"lat": 47.60, "lon": -122.33, "name": "Seattle"},
-    "atlanta": {"lat": 33.74, "lon": -84.38, "name": "Atlanta"},
+    "nyc":     {"lat": 40.7772, "lon": -73.8726, "name": "New York City"},  # KLGA LaGuardia
+    "chicago": {"lat": 41.9742, "lon": -87.9073, "name": "Chicago"},        # KORD O'Hare
+    "miami":   {"lat": 25.7959, "lon": -80.2870, "name": "Miami"},          # KMIA
+    "dallas":  {"lat": 32.8471, "lon": -96.8518, "name": "Dallas"},         # KDAL Love Field
+    "seattle": {"lat": 47.4502, "lon": -122.3088, "name": "Seattle"},       # KSEA Sea-Tac
+    "atlanta": {"lat": 33.6407, "lon": -84.4277,  "name": "Atlanta"},       # KATL Hartsfield
+}
+
+# NWS hourly endpoints per city
+NWS_ENDPOINTS = {
+    "nyc":     "https://api.weather.gov/gridpoints/OKX/37,39/forecast/hourly",
+    "chicago": "https://api.weather.gov/gridpoints/LOT/66,77/forecast/hourly",
+    "miami":   "https://api.weather.gov/gridpoints/MFL/106,51/forecast/hourly",
+    "dallas":  "https://api.weather.gov/gridpoints/FWD/87,107/forecast/hourly",
+    "seattle": "https://api.weather.gov/gridpoints/SEW/124,61/forecast/hourly",
+    "atlanta": "https://api.weather.gov/gridpoints/FFC/50,82/forecast/hourly",
+}
+
+# Station IDs for real observations
+STATION_IDS = {
+    "nyc": "KLGA", "chicago": "KORD", "miami": "KMIA",
+    "dallas": "KDAL", "seattle": "KSEA", "atlanta": "KATL",
 }
 
 ACTIVE_LOCATIONS = _cfg.get("locations", "nyc,chicago,miami,dallas,seattle,atlanta").split(",")
@@ -96,27 +113,50 @@ def reset_sim():
     print(f"{C.GREEN}  ✅ Simulation reset — balance back to ${SIM_BALANCE:.2f}{C.RESET}")
 
 # =============================================================================
-# OPEN-METEO FORECAST
+# NWS FORECAST
 # =============================================================================
 
 def get_forecast(city_slug: str) -> dict:
-    """Fetch 4-day max temperature forecast from Open-Meteo (free, no API key)"""
-    loc = LOCATIONS[city_slug]
-    url = (
-        f"https://api.open-meteo.com/v1/forecast"
-        f"?latitude={loc['lat']}&longitude={loc['lon']}"
-        f"&daily=temperature_2m_max&temperature_unit=fahrenheit&forecast_days=4"
-    )
+    """
+    Fetch daily max temperature from NWS.
+    Combines real station observations (past hours today) with
+    hourly forecast (upcoming hours) to get the true daily maximum.
+    """
+    forecast_url = NWS_ENDPOINTS.get(city_slug)
+    station_id = STATION_IDS.get(city_slug)
+    daily_max = {}
+    headers = {"User-Agent": "weatherbot/1.0"}
+
+    # Real observations — what already happened today
     try:
-        r = requests.get(url, timeout=10)
-        data = r.json()
-        result = {}
-        for date, temp in zip(data["daily"]["time"], data["daily"]["temperature_2m_max"]):
-            result[date] = round(temp, 1)
-        return result
+        obs_url = f"https://api.weather.gov/stations/{station_id}/observations?limit=48"
+        r = requests.get(obs_url, timeout=10, headers=headers)
+        for obs in r.json().get("features", []):
+            props = obs["properties"]
+            time_str = props.get("timestamp", "")[:10]
+            temp_c = props.get("temperature", {}).get("value")
+            if temp_c is not None:
+                temp_f = round(temp_c * 9/5 + 32)
+                if time_str not in daily_max or temp_f > daily_max[time_str]:
+                    daily_max[time_str] = temp_f
+    except Exception as e:
+        warn(f"Observations error for {city_slug}: {e}")
+
+    # Hourly forecast — upcoming hours
+    try:
+        r = requests.get(forecast_url, timeout=10, headers=headers)
+        periods = r.json()["properties"]["periods"]
+        for p in periods:
+            date = p["startTime"][:10]
+            temp = p["temperature"]
+            if p.get("temperatureUnit") == "C":
+                temp = round(temp * 9/5 + 32)
+            if date not in daily_max or temp > daily_max[date]:
+                daily_max[date] = temp
     except Exception as e:
         warn(f"Forecast error for {city_slug}: {e}")
-        return {}
+
+    return daily_max
 
 # =============================================================================
 # POLYMARKET API
@@ -329,7 +369,6 @@ def run(dry_run: bool = True):
             info(f"Bucket: {question[:60]}")
             info(f"Market price: ${price:.3f}")
 
-            # Entry check — is market underpricing what the forecast says?
             if price >= ENTRY_THRESHOLD:
                 skip(f"Price ${price:.3f} above threshold ${ENTRY_THRESHOLD:.2f}")
                 continue
