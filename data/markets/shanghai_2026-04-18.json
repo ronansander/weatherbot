@@ -1,0 +1,194 @@
+{
+  "city": "shanghai",
+  "city_name": "Shanghai",
+  "date": "2026-04-18",
+  "unit": "C",
+  "station": "ZSPD",
+  "event_end_date": "2026-04-18T12:00:00Z",
+  "hours_at_discovery": 43.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-16T16:53:17.127999+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.1,
+      "ecmwf": 18.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T17:23:03.347332+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.6,
+      "ecmwf": 18.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-16T16:53:17.127999+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-04-16T17:23:03.347332+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.34
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Shanghai be 15°C or below on April 18?",
+      "market_id": "1996499",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 941.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 16°C on April 18?",
+      "market_id": "1996500",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.017,
+      "ask": 0.983,
+      "price": 0.017,
+      "spread": 0.966,
+      "volume": 1208.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 17°C on April 18?",
+      "market_id": "1996501",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 872.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 18°C on April 18?",
+      "market_id": "1996502",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.165,
+      "ask": 0.835,
+      "price": 0.165,
+      "spread": 0.67,
+      "volume": 490.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 19°C on April 18?",
+      "market_id": "1996503",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.34,
+      "ask": 0.66,
+      "price": 0.34,
+      "spread": 0.32,
+      "volume": 192.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 20°C on April 18?",
+      "market_id": "1996504",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 152.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 21°C on April 18?",
+      "market_id": "1996505",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 624.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 22°C on April 18?",
+      "market_id": "1996506",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 956.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 23°C on April 18?",
+      "market_id": "1996507",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.034,
+      "ask": 0.966,
+      "price": 0.034,
+      "spread": 0.932,
+      "volume": 330.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 24°C on April 18?",
+      "market_id": "1996508",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 267.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 25°C or higher on April 18?",
+      "market_id": "1996509",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 424.0
+    }
+  ],
+  "created_at": "2026-04-16T16:53:38.629330+00:00"
+}

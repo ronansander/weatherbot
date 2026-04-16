@@ -50,6 +50,7 @@ STATE_FILE       = DATA_DIR / "state.json"
 MARKETS_DIR      = DATA_DIR / "markets"
 MARKETS_DIR.mkdir(exist_ok=True)
 CALIBRATION_FILE = DATA_DIR / "calibration.json"
+DASHBOARD_FILE   = DATA_DIR / "dashboard.json"
 
 LOCATIONS = {
     "nyc":          {"lat": 40.7772,  "lon":  -73.8726, "name": "New York City", "station": "KLGA", "unit": "F", "region": "us"},
@@ -367,6 +368,89 @@ def load_all_markets():
             pass
     return markets
 
+def export_dashboard_data():
+    """Build a dashboard-friendly summary from v2 state and market files."""
+    state = load_state()
+    markets = load_all_markets()
+    positions = {}
+    trades = []
+
+    for mkt in markets:
+        pos = mkt.get("position")
+        if not pos:
+            continue
+
+        unit_sym = "F" if mkt.get("unit") == "F" else "C"
+        label = f"{pos.get('bucket_low')}-{pos.get('bucket_high')}{unit_sym}"
+        current_price = pos.get("entry_price", 0.0)
+        for outcome in mkt.get("all_outcomes", []):
+            if outcome.get("market_id") == pos.get("market_id"):
+                current_price = outcome.get("bid", outcome.get("price", current_price))
+                break
+
+        if pos.get("status") == "open":
+            unrealized_pnl = round((current_price - pos["entry_price"]) * pos["shares"], 2)
+            positions[pos["market_id"]] = {
+                "question": pos.get("question"),
+                "location": mkt.get("city_name"),
+                "date": mkt.get("date"),
+                "label": label,
+                "entry_price": pos.get("entry_price"),
+                "current_price": round(current_price, 4),
+                "cost": pos.get("cost"),
+                "pnl": unrealized_pnl,
+                "ev": pos.get("ev", 0.0),
+                "kelly_pct": pos.get("kelly", 0.0),
+                "forecast_src": pos.get("forecast_src"),
+            }
+
+        trades.append({
+            "type": "entry",
+            "market_id": pos.get("market_id"),
+            "question": pos.get("question"),
+            "location": mkt.get("city_name"),
+            "date": mkt.get("date"),
+            "entry_price": pos.get("entry_price"),
+            "cost": pos.get("cost"),
+            "ev": pos.get("ev", 0.0),
+            "kelly_pct": pos.get("kelly", 0.0),
+            "our_prob": pos.get("p", 0.0),
+            "opened_at": pos.get("opened_at"),
+        })
+
+        if pos.get("status") == "closed":
+            trades.append({
+                "type": "exit",
+                "market_id": pos.get("market_id"),
+                "question": pos.get("question"),
+                "location": mkt.get("city_name"),
+                "date": mkt.get("date"),
+                "entry_price": pos.get("entry_price"),
+                "exit_price": pos.get("exit_price"),
+                "cost": pos.get("cost"),
+                "pnl": pos.get("pnl", mkt.get("pnl", 0.0)),
+                "ev": pos.get("ev", 0.0),
+                "kelly_pct": pos.get("kelly", 0.0),
+                "our_prob": pos.get("p", 0.0),
+                "close_reason": pos.get("close_reason"),
+                "closed_at": pos.get("closed_at"),
+            })
+
+    trades.sort(key=lambda t: t.get("opened_at") or t.get("closed_at") or "")
+
+    dashboard = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "balance": state.get("balance", BALANCE),
+        "starting_balance": state.get("starting_balance", BALANCE),
+        "peak_balance": state.get("peak_balance", state.get("balance", BALANCE)),
+        "wins": state.get("wins", 0),
+        "losses": state.get("losses", 0),
+        "total_trades": state.get("total_trades", 0),
+        "positions": positions,
+        "trades": trades,
+    }
+    DASHBOARD_FILE.write_text(json.dumps(dashboard, indent=2, ensure_ascii=False), encoding="utf-8")
+
 def new_market(city_slug, date_str, event, hours):
     loc = LOCATIONS[city_slug]
     return {
@@ -540,7 +624,7 @@ def scan_and_update():
             best_source   = snap.get("best_source")
 
             # --- STOP-LOSS AND TRAILING STOP ---
-            if mkt.get("position") and mkt["position"].get("status") == "open":
+            if False and mkt.get("position") and mkt["position"].get("status") == "open":
                 pos = mkt["position"]
                 current_price = None
                 for o in outcomes:
@@ -750,6 +834,8 @@ def scan_and_update():
         global _cal
         _cal = run_calibration(all_mkts)
 
+    export_dashboard_data()
+
     return new_pos, closed, resolved
 
 # =============================================================================
@@ -857,7 +943,7 @@ def print_report():
 # MAIN LOOP
 # =============================================================================
 
-MONITOR_INTERVAL = 600  # monitor positions every 10 minutes
+MONITOR_INTERVAL = 10  # monitor positions every 10 seconds
 
 def monitor_positions():
     """Quick stop check on open positions without full scan."""
@@ -912,7 +998,7 @@ def monitor_positions():
             take_profit = 0.75        # 48h+: take profit at $0.75
 
         # Trailing: if up 20%+ — move stop to breakeven
-        if current_price >= entry * 1.20 and stop < entry:
+        if False and current_price >= entry * 1.20 and stop < entry:
             pos["stop_price"] = entry
             pos["trailing_activated"] = True
             print(f"  [TRAILING] {city_name} {mkt['date']} — stop moved to breakeven ${entry:.3f}")
@@ -922,7 +1008,7 @@ def monitor_positions():
         # Check stop
         stop_triggered = current_price <= stop
 
-        if take_triggered or stop_triggered:
+        if False and (take_triggered or stop_triggered):
             pnl = round((current_price - entry) * pos["shares"], 2)
             balance += pos["cost"] + pnl
             pos["closed_at"]    = datetime.now(timezone.utc).isoformat()
@@ -946,12 +1032,15 @@ def monitor_positions():
         state["balance"] = round(balance, 2)
         save_state(state)
 
+    export_dashboard_data()
+
     return closed
 
 
 def run_loop():
     global _cal
     _cal = load_cal()
+    export_dashboard_data()
 
     print(f"\n{'='*55}")
     print(f"  WEATHERBET — STARTING")
@@ -1020,9 +1109,11 @@ if __name__ == "__main__":
         run_loop()
     elif cmd == "status":
         _cal = load_cal()
+        export_dashboard_data()
         print_status()
     elif cmd == "report":
         _cal = load_cal()
+        export_dashboard_data()
         print_report()
     else:
         print("Usage: python weatherbet.py [run|status|report]")

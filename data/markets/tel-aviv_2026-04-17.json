@@ -1,0 +1,216 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-04-17",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-04-17T12:00:00Z",
+  "hours_at_discovery": 19.1,
+  "status": "open",
+  "position": {
+    "market_id": "1988503",
+    "question": "Will the highest temperature in Tel Aviv be 34°C on April 17?",
+    "bucket_low": 34.0,
+    "bucket_high": 34.0,
+    "entry_price": 0.36,
+    "bid_at_entry": 0.33,
+    "spread": 0.03,
+    "shares": 13.89,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 1.7778,
+    "kelly": 0.25,
+    "forecast_temp": 34.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-16T16:53:59.179237+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-16T16:53:59.179237+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.1,
+      "ecmwf": 34.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 34.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T17:23:27.047885+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.6,
+      "ecmwf": 34.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 34.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-16T16:53:59.179237+00:00",
+      "top_bucket": "34.0-34.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-16T17:23:27.047885+00:00",
+      "top_bucket": "34.0-34.0C",
+      "top_price": 0.325
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 25°C or below on April 17?",
+      "market_id": "1988494",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1336.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 26°C on April 17?",
+      "market_id": "1988495",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1381.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 27°C on April 17?",
+      "market_id": "1988496",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1614.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 28°C on April 17?",
+      "market_id": "1988497",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1293.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 29°C on April 17?",
+      "market_id": "1988498",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 2130.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 30°C on April 17?",
+      "market_id": "1988499",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 1711.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 31°C on April 17?",
+      "market_id": "1988500",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 2710.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 32°C on April 17?",
+      "market_id": "1988501",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.14,
+      "ask": 0.86,
+      "price": 0.14,
+      "spread": 0.72,
+      "volume": 2078.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 33°C on April 17?",
+      "market_id": "1988502",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.285,
+      "ask": 0.715,
+      "price": 0.285,
+      "spread": 0.43,
+      "volume": 1707.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 34°C on April 17?",
+      "market_id": "1988503",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 1639.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 35°C or higher on April 17?",
+      "market_id": "1988504",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 3313.0
+    }
+  ],
+  "created_at": "2026-04-16T16:54:10.891611+00:00"
+}
