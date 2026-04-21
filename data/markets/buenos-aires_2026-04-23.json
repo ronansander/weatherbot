@@ -1,0 +1,194 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-04-23",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 45.8,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T14:09:52.387440+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.8,
+      "ecmwf": 21.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:12:38.893520+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 21.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T14:09:52.387440+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-21T15:12:38.893520+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.275
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C or below on April 23?",
+      "market_id": "2040206",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 739.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C on April 23?",
+      "market_id": "2040207",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 775.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 18°C on April 23?",
+      "market_id": "2040208",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1191.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 19°C on April 23?",
+      "market_id": "2040209",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 586.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 20°C on April 23?",
+      "market_id": "2040210",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 502.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 21°C on April 23?",
+      "market_id": "2040211",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 261.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 22°C on April 23?",
+      "market_id": "2040212",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.255,
+      "ask": 0.745,
+      "price": 0.255,
+      "spread": 0.49,
+      "volume": 327.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 23°C on April 23?",
+      "market_id": "2040213",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 36.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 24°C on April 23?",
+      "market_id": "2040214",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.135,
+      "ask": 0.865,
+      "price": 0.135,
+      "spread": 0.73,
+      "volume": 328.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 25°C on April 23?",
+      "market_id": "2040215",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.045,
+      "ask": 0.955,
+      "price": 0.045,
+      "spread": 0.91,
+      "volume": 211.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 26°C or higher on April 23?",
+      "market_id": "2040216",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 678.0
+    }
+  ],
+  "created_at": "2026-04-21T14:09:58.961206+00:00"
+}

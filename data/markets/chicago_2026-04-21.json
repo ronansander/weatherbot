@@ -1,0 +1,254 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-04-21",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-04-21T12:00:00Z",
+  "hours_at_discovery": 13.2,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:47:54.962081+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 72,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-20T23:08:50.822150+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.9,
+      "ecmwf": 72,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T07:00:04.454252+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 69,
+      "hrrr": 78,
+      "metar": 51,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:06:19.211310+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": 77,
+      "metar": 60,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:06:45.440645+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 70,
+      "hrrr": 77,
+      "metar": 60,
+      "best": 77,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:10:50.501996+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 70,
+      "hrrr": 77,
+      "metar": 64,
+      "best": 77,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:47:54.962081+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.998
+    },
+    {
+      "ts": "2026-04-20T23:08:50.822150+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.9975
+    },
+    {
+      "ts": "2026-04-21T07:00:04.454252+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-21T14:06:19.211310+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-21T14:06:45.440645+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-04-21T15:10:50.501996+00:00",
+      "top_bucket": "54.0-999.0F",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 35°F or below on April 21?",
+      "market_id": "2019231",
+      "range": [
+        -999.0,
+        35.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 21200.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 36-37°F on April 21?",
+      "market_id": "2019232",
+      "range": [
+        36.0,
+        37.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 16038.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 38-39°F on April 21?",
+      "market_id": "2019233",
+      "range": [
+        38.0,
+        39.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6632.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 40-41°F on April 21?",
+      "market_id": "2019234",
+      "range": [
+        40.0,
+        41.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4743.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 42-43°F on April 21?",
+      "market_id": "2019235",
+      "range": [
+        42.0,
+        43.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4098.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 44-45°F on April 21?",
+      "market_id": "2019236",
+      "range": [
+        44.0,
+        45.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4070.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 46-47°F on April 21?",
+      "market_id": "2019237",
+      "range": [
+        46.0,
+        47.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4121.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 48-49°F on April 21?",
+      "market_id": "2019238",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6627.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 50-51°F on April 21?",
+      "market_id": "2019239",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 13973.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 52-53°F on April 21?",
+      "market_id": "2019240",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 18983.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 54°F or higher on April 21?",
+      "market_id": "2019241",
+      "range": [
+        54.0,
+        999.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 42425.0
+    }
+  ],
+  "created_at": "2026-04-20T22:48:06.962555+00:00"
+}

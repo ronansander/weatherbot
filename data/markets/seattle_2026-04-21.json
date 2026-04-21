@@ -1,0 +1,261 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-21",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-21T12:00:00Z",
+  "hours_at_discovery": 13.2,
+  "status": "closed",
+  "position": {
+    "market_id": "2019178",
+    "question": "Will the highest temperature in Seattle be between 58-59°F on April 21?",
+    "bucket_low": 58.0,
+    "bucket_high": 59.0,
+    "entry_price": 0.4,
+    "bid_at_entry": 0.39,
+    "spread": 0.01,
+    "shares": 12.5,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 1.5,
+    "kelly": 0.25,
+    "forecast_temp": 58,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-04-21T07:00:39.118328+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:36.053849+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 58,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-20T23:09:16.974072+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.8,
+      "ecmwf": 58,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 58,
+      "hrrr": 58,
+      "metar": 59,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 60,
+      "hrrr": 61,
+      "metar": 51,
+      "best": 61,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 60,
+      "hrrr": 59,
+      "metar": 52,
+      "best": 59,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:36.053849+00:00",
+      "top_bucket": "58.0-59.0F",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-04-20T23:09:16.974072+00:00",
+      "top_bucket": "58.0-59.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "top_bucket": "58.0-59.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "top_bucket": "58.0-59.0F",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "top_bucket": "58.0-59.0F",
+      "top_price": 0.515
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 55°F or below on April 21?",
+      "market_id": "2019176",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.017,
+      "ask": 0.983,
+      "price": 0.017,
+      "spread": 0.966,
+      "volume": 8629.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on April 21?",
+      "market_id": "2019177",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.23,
+      "ask": 0.77,
+      "price": 0.23,
+      "spread": 0.54,
+      "volume": 7384.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 21?",
+      "market_id": "2019178",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.515,
+      "ask": 0.485,
+      "price": 0.515,
+      "spread": -0.03,
+      "volume": 4921.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 21?",
+      "market_id": "2019179",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 4619.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 21?",
+      "market_id": "2019180",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0335,
+      "ask": 0.9665,
+      "price": 0.0335,
+      "spread": 0.933,
+      "volume": 8946.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on April 21?",
+      "market_id": "2019181",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 5286.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on April 21?",
+      "market_id": "2019182",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 5439.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on April 21?",
+      "market_id": "2019183",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 5968.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on April 21?",
+      "market_id": "2019184",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5681.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on April 21?",
+      "market_id": "2019185",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 11155.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 74°F or higher on April 21?",
+      "market_id": "2019186",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2539.0
+    }
+  ],
+  "created_at": "2026-04-20T22:48:41.875493+00:00"
+}

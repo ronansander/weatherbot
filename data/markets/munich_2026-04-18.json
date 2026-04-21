@@ -6,11 +6,33 @@
   "station": "EDDM",
   "event_end_date": "2026-04-18T12:00:00Z",
   "hours_at_discovery": 43.1,
-  "status": "open",
-  "position": null,
+  "status": "resolved",
+  "position": {
+    "market_id": "1996460",
+    "question": "Will the highest temperature in Munich be 19°C on April 18?",
+    "bucket_low": 19.0,
+    "bucket_high": 19.0,
+    "entry_price": 0.21,
+    "bid_at_entry": 0.2,
+    "spread": 0.01,
+    "shares": 4.24,
+    "cost": 0.89,
+    "p": 1.0,
+    "ev": 3.7619,
+    "kelly": 0.25,
+    "forecast_temp": 19.1,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-16T20:07:37.665112+00:00",
+    "status": "closed",
+    "pnl": -0.89,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
+  },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -0.89,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:52:54.006655+00:00",
@@ -31,6 +53,16 @@
       "metar": null,
       "best": 19.1,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T20:07:37.665112+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 19.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.1,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +75,11 @@
       "ts": "2026-04-16T17:22:33.034491+00:00",
       "top_bucket": "21.0-21.0C",
       "top_price": 0.235
+    },
+    {
+      "ts": "2026-04-16T20:07:37.665112+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.275
     }
   ],
   "all_outcomes": [
@@ -57,7 +94,7 @@
       "ask": 0.9965,
       "price": 0.0035,
       "spread": 0.993,
-      "volume": 1214.0
+      "volume": 1238.0
     },
     {
       "question": "Will the highest temperature in Munich be 15°C on April 18?",
@@ -66,11 +103,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 4994.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 5063.0
     },
     {
       "question": "Will the highest temperature in Munich be 16°C on April 18?",
@@ -83,7 +120,7 @@
       "ask": 0.996,
       "price": 0.004,
       "spread": 0.992,
-      "volume": 1538.0
+      "volume": 1549.0
     },
     {
       "question": "Will the highest temperature in Munich be 17°C on April 18?",
@@ -92,11 +129,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0155,
-      "ask": 0.9845,
-      "price": 0.0155,
-      "spread": 0.969,
-      "volume": 1189.0
+      "bid": 0.0275,
+      "ask": 0.9725,
+      "price": 0.0275,
+      "spread": 0.945,
+      "volume": 1318.0
     },
     {
       "question": "Will the highest temperature in Munich be 18°C on April 18?",
@@ -105,11 +142,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.065,
-      "ask": 0.935,
-      "price": 0.065,
-      "spread": 0.87,
-      "volume": 1591.0
+      "bid": 0.06,
+      "ask": 0.94,
+      "price": 0.06,
+      "spread": 0.88,
+      "volume": 1610.0
     },
     {
       "question": "Will the highest temperature in Munich be 19°C on April 18?",
@@ -118,11 +155,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.18,
-      "ask": 0.82,
-      "price": 0.18,
-      "spread": 0.64,
-      "volume": 503.0
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 566.0
     },
     {
       "question": "Will the highest temperature in Munich be 20°C on April 18?",
@@ -131,11 +168,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.205,
-      "ask": 0.795,
-      "price": 0.205,
-      "spread": 0.59,
-      "volume": 455.0
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 496.0
     },
     {
       "question": "Will the highest temperature in Munich be 21°C on April 18?",
@@ -144,11 +181,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.235,
-      "ask": 0.765,
-      "price": 0.235,
-      "spread": 0.53,
-      "volume": 427.0
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 459.0
     },
     {
       "question": "Will the highest temperature in Munich be 22°C on April 18?",
@@ -157,11 +194,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.125,
-      "ask": 0.875,
-      "price": 0.125,
-      "spread": 0.75,
-      "volume": 1109.0
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 1264.0
     },
     {
       "question": "Will the highest temperature in Munich be 23°C on April 18?",
@@ -170,11 +207,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.0325,
-      "ask": 0.9675,
-      "price": 0.0325,
-      "spread": 0.935,
-      "volume": 997.0
+      "bid": 0.046,
+      "ask": 0.954,
+      "price": 0.046,
+      "spread": 0.908,
+      "volume": 1217.0
     },
     {
       "question": "Will the highest temperature in Munich be 24°C or higher on April 18?",
@@ -187,7 +224,7 @@
       "ask": 0.9855,
       "price": 0.0145,
       "spread": 0.971,
-      "volume": 748.0
+      "volume": 751.0
     }
   ],
   "created_at": "2026-04-16T16:52:58.428333+00:00"

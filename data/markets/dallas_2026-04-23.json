@@ -1,0 +1,209 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 53.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:31.445929+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:07:04.922141+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.9,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:11:02.336725+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:31.445929+00:00",
+      "top_bucket": "76.0-999.0F",
+      "top_price": 0.92
+    },
+    {
+      "ts": "2026-04-21T14:07:04.922141+00:00",
+      "top_bucket": "76.0-999.0F",
+      "top_price": 0.9375
+    },
+    {
+      "ts": "2026-04-21T15:11:02.336725+00:00",
+      "top_bucket": "76.0-999.0F",
+      "top_price": 0.9305
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 57°F or below on April 23?",
+      "market_id": "2040261",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1205.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 58-59°F on April 23?",
+      "market_id": "2040262",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 821.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 60-61°F on April 23?",
+      "market_id": "2040263",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 872.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 62-63°F on April 23?",
+      "market_id": "2040264",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 852.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 64-65°F on April 23?",
+      "market_id": "2040265",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 851.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 66-67°F on April 23?",
+      "market_id": "2040266",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 881.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 68-69°F on April 23?",
+      "market_id": "2040267",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 888.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 70-71°F on April 23?",
+      "market_id": "2040268",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1078.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 72-73°F on April 23?",
+      "market_id": "2040269",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1075.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 74-75°F on April 23?",
+      "market_id": "2040270",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 596.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 76°F or higher on April 23?",
+      "market_id": "2040271",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "bid": 0.9305,
+      "ask": 0.0695,
+      "price": 0.9305,
+      "spread": -0.861,
+      "volume": 2208.0
+    }
+  ],
+  "created_at": "2026-04-21T07:00:37.746381+00:00"
+}

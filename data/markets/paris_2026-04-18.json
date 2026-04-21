@@ -6,11 +6,33 @@
   "station": "LFPG",
   "event_end_date": "2026-04-18T12:00:00Z",
   "hours_at_discovery": 43.1,
-  "status": "open",
-  "position": null,
+  "status": "resolved",
+  "position": {
+    "market_id": "1996308",
+    "question": "Will the highest temperature in Paris be 21°C on April 18?",
+    "bucket_low": 21.0,
+    "bucket_high": 21.0,
+    "entry_price": 0.27,
+    "bid_at_entry": 0.26,
+    "spread": 0.01,
+    "shares": 4.41,
+    "cost": 1.19,
+    "p": 1.0,
+    "ev": 2.7037,
+    "kelly": 0.25,
+    "forecast_temp": 20.6,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-16T20:07:32.409790+00:00",
+    "status": "closed",
+    "pnl": -1.19,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
+  },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -1.19,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:52:48.766580+00:00",
@@ -31,6 +53,16 @@
       "metar": null,
       "best": 20.6,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T20:07:32.409790+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 20.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +75,11 @@
       "ts": "2026-04-16T17:22:10.894684+00:00",
       "top_bucket": "21.0-21.0C",
       "top_price": 0.275
+    },
+    {
+      "ts": "2026-04-16T20:07:32.409790+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.265
     }
   ],
   "all_outcomes": [
@@ -53,11 +90,11 @@
         -999.0,
         13.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 1958.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 2185.0
     },
     {
       "question": "Will the highest temperature in Paris be 14°C on April 18?",
@@ -66,11 +103,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 1301.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1599.0
     },
     {
       "question": "Will the highest temperature in Paris be 15°C on April 18?",
@@ -79,11 +116,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 1201.0
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1207.0
     },
     {
       "question": "Will the highest temperature in Paris be 16°C on April 18?",
@@ -92,11 +129,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 797.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 1003.0
     },
     {
       "question": "Will the highest temperature in Paris be 17°C on April 18?",
@@ -105,11 +142,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 781.0
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 2187.0
     },
     {
       "question": "Will the highest temperature in Paris be 18°C on April 18?",
@@ -118,11 +155,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.07,
-      "ask": 0.93,
-      "price": 0.07,
-      "spread": 0.86,
-      "volume": 1268.0
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 1389.0
     },
     {
       "question": "Will the highest temperature in Paris be 19°C on April 18?",
@@ -131,11 +168,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.145,
-      "ask": 0.855,
-      "price": 0.145,
-      "spread": 0.71,
-      "volume": 504.0
+      "bid": 0.135,
+      "ask": 0.865,
+      "price": 0.135,
+      "spread": 0.73,
+      "volume": 519.0
     },
     {
       "question": "Will the highest temperature in Paris be 20°C on April 18?",
@@ -144,11 +181,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.21,
-      "ask": 0.79,
-      "price": 0.21,
-      "spread": 0.58,
-      "volume": 402.0
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 417.0
     },
     {
       "question": "Will the highest temperature in Paris be 21°C on April 18?",
@@ -157,11 +194,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.275,
-      "ask": 0.725,
-      "price": 0.275,
-      "spread": 0.45,
-      "volume": 452.0
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 615.0
     },
     {
       "question": "Will the highest temperature in Paris be 22°C on April 18?",
@@ -170,11 +207,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.155,
-      "ask": 0.845,
-      "price": 0.155,
-      "spread": 0.69,
-      "volume": 550.0
+      "bid": 0.175,
+      "ask": 0.825,
+      "price": 0.175,
+      "spread": 0.65,
+      "volume": 556.0
     },
     {
       "question": "Will the highest temperature in Paris be 23°C or higher on April 18?",
@@ -183,11 +220,11 @@
         23.0,
         999.0
       ],
-      "bid": 0.105,
-      "ask": 0.895,
-      "price": 0.105,
-      "spread": 0.79,
-      "volume": 849.0
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 1211.0
     }
   ],
   "created_at": "2026-04-16T16:52:53.252969+00:00"

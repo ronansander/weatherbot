@@ -1,0 +1,246 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-04-22",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-04-22T12:00:00Z",
+  "hours_at_discovery": 37.2,
+  "status": "open",
+  "position": {
+    "market_id": "2029640",
+    "question": "Will the highest temperature in Wellington be 11°C on April 22?",
+    "bucket_low": 11.0,
+    "bucket_high": 11.0,
+    "entry_price": 0.24,
+    "bid_at_entry": 0.23,
+    "spread": 0.01,
+    "shares": 20.83,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 3.1667,
+    "kelly": 0.25,
+    "forecast_temp": 11.4,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-20T23:11:52.465160+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:50:12.242074+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 11.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 11.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-20T23:11:52.465160+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 11.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 11.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T14:09:59.760191+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.8,
+      "ecmwf": 11.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 11.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:12:43.870417+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.8,
+      "ecmwf": 11.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 11.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:50:12.242074+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-20T23:11:52.465160+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-21T14:09:59.760191+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.675
+    },
+    {
+      "ts": "2026-04-21T15:12:43.870417+00:00",
+      "top_bucket": "12.0-12.0C",
+      "top_price": 0.85
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 6°C or below on April 22?",
+      "market_id": "2029635",
+      "range": [
+        -999.0,
+        6.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2724.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 7°C on April 22?",
+      "market_id": "2029636",
+      "range": [
+        7.0,
+        7.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3624.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 8°C on April 22?",
+      "market_id": "2029637",
+      "range": [
+        8.0,
+        8.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4237.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 9°C on April 22?",
+      "market_id": "2029638",
+      "range": [
+        9.0,
+        9.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6386.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 10°C on April 22?",
+      "market_id": "2029639",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 12627.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on April 22?",
+      "market_id": "2029640",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 9727.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on April 22?",
+      "market_id": "2029641",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.85,
+      "ask": 0.15,
+      "price": 0.85,
+      "spread": -0.7,
+      "volume": 2541.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on April 22?",
+      "market_id": "2029642",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.105,
+      "ask": 0.895,
+      "price": 0.105,
+      "spread": 0.79,
+      "volume": 3251.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on April 22?",
+      "market_id": "2029643",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0355,
+      "ask": 0.9645,
+      "price": 0.0355,
+      "spread": 0.929,
+      "volume": 3341.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on April 22?",
+      "market_id": "2029644",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 3531.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C or higher on April 22?",
+      "market_id": "2029645",
+      "range": [
+        16.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2266.0
+    }
+  ],
+  "created_at": "2026-04-20T22:50:25.194590+00:00"
+}

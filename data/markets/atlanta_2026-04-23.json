@@ -1,0 +1,209 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 53.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:54.181300+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 85,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:07:18.500699+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.9,
+      "ecmwf": 83,
+      "hrrr": null,
+      "metar": null,
+      "best": 83,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:11:22.899497+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 83,
+      "hrrr": 82,
+      "metar": null,
+      "best": 82,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:54.181300+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-21T14:07:18.500699+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-21T15:11:22.899497+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.375
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 73°F or below on April 23?",
+      "market_id": "2040272",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 310.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 74-75°F on April 23?",
+      "market_id": "2040273",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 160.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 76-77°F on April 23?",
+      "market_id": "2040274",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 148.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on April 23?",
+      "market_id": "2040275",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 69.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on April 23?",
+      "market_id": "2040276",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.175,
+      "ask": 0.825,
+      "price": 0.175,
+      "spread": 0.65,
+      "volume": 184.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on April 23?",
+      "market_id": "2040277",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.375,
+      "ask": 0.625,
+      "price": 0.375,
+      "spread": 0.25,
+      "volume": 198.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on April 23?",
+      "market_id": "2040278",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 363.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on April 23?",
+      "market_id": "2040279",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 308.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on April 23?",
+      "market_id": "2040280",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 87.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on April 23?",
+      "market_id": "2040281",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 44.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 92°F or higher on April 23?",
+      "market_id": "2040282",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 36.0
+    }
+  ],
+  "created_at": "2026-04-21T07:00:59.818626+00:00"
+}

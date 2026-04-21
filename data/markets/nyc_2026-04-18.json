@@ -6,7 +6,7 @@
   "station": "KLGA",
   "event_end_date": "2026-04-18T12:00:00Z",
   "hours_at_discovery": 43.1,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "1996374",
     "question": "Will the highest temperature in New York City be between 68-69°F on April 18?",
@@ -24,15 +24,15 @@
     "forecast_src": "hrrr",
     "sigma": 2.0,
     "opened_at": "2026-04-16T17:21:23.492023+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:51:50.007385+00:00",
@@ -53,6 +53,16 @@
       "metar": null,
       "best": 68,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-16T20:06:45.713403+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 65,
+      "hrrr": 69,
+      "metar": null,
+      "best": 69,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -65,6 +75,11 @@
       "ts": "2026-04-16T17:21:23.492023+00:00",
       "top_bucket": "64.0-65.0F",
       "top_price": 0.29
+    },
+    {
+      "ts": "2026-04-16T20:06:45.713403+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.305
     }
   ],
   "all_outcomes": [
@@ -75,11 +90,11 @@
         -999.0,
         53.0
       ],
-      "bid": 0.0045,
-      "ask": 0.9955,
-      "price": 0.0045,
-      "spread": 0.991,
-      "volume": 1245.0
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 1271.0
     },
     {
       "question": "Will the highest temperature in New York City be between 54-55°F on April 18?",
@@ -92,7 +107,7 @@
       "ask": 0.9945,
       "price": 0.0055,
       "spread": 0.989,
-      "volume": 874.0
+      "volume": 911.0
     },
     {
       "question": "Will the highest temperature in New York City be between 56-57°F on April 18?",
@@ -101,11 +116,11 @@
         56.0,
         57.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 1000.0
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 1033.0
     },
     {
       "question": "Will the highest temperature in New York City be between 58-59°F on April 18?",
@@ -114,11 +129,11 @@
         58.0,
         59.0
       ],
-      "bid": 0.0195,
-      "ask": 0.9805,
-      "price": 0.0195,
-      "spread": 0.961,
-      "volume": 426.0
+      "bid": 0.0115,
+      "ask": 0.9885,
+      "price": 0.0115,
+      "spread": 0.977,
+      "volume": 459.0
     },
     {
       "question": "Will the highest temperature in New York City be between 60-61°F on April 18?",
@@ -127,11 +142,11 @@
         60.0,
         61.0
       ],
-      "bid": 0.06,
-      "ask": 0.94,
-      "price": 0.06,
-      "spread": 0.88,
-      "volume": 863.0
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 972.0
     },
     {
       "question": "Will the highest temperature in New York City be between 62-63°F on April 18?",
@@ -140,11 +155,11 @@
         62.0,
         63.0
       ],
-      "bid": 0.22,
-      "ask": 0.78,
-      "price": 0.22,
-      "spread": 0.56,
-      "volume": 607.0
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 840.0
     },
     {
       "question": "Will the highest temperature in New York City be between 64-65°F on April 18?",
@@ -153,11 +168,11 @@
         64.0,
         65.0
       ],
-      "bid": 0.29,
-      "ask": 0.71,
-      "price": 0.29,
-      "spread": 0.42,
-      "volume": 312.0
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 426.0
     },
     {
       "question": "Will the highest temperature in New York City be between 66-67°F on April 18?",
@@ -166,11 +181,11 @@
         66.0,
         67.0
       ],
-      "bid": 0.24,
-      "ask": 0.76,
-      "price": 0.24,
-      "spread": 0.52,
-      "volume": 264.0
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 332.0
     },
     {
       "question": "Will the highest temperature in New York City be between 68-69°F on April 18?",
@@ -179,11 +194,11 @@
         68.0,
         69.0
       ],
-      "bid": 0.11,
-      "ask": 0.89,
-      "price": 0.11,
-      "spread": 0.78,
-      "volume": 877.0
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 1390.0
     },
     {
       "question": "Will the highest temperature in New York City be between 70-71°F on April 18?",
@@ -192,11 +207,11 @@
         70.0,
         71.0
       ],
-      "bid": 0.046,
-      "ask": 0.954,
-      "price": 0.046,
-      "spread": 0.908,
-      "volume": 1403.0
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 1669.0
     },
     {
       "question": "Will the highest temperature in New York City be 72°F or higher on April 18?",
@@ -205,11 +220,11 @@
         72.0,
         999.0
       ],
-      "bid": 0.036,
-      "ask": 0.964,
-      "price": 0.036,
-      "spread": 0.928,
-      "volume": 2374.0
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 2871.0
     }
   ],
   "created_at": "2026-04-16T16:52:01.757986+00:00"

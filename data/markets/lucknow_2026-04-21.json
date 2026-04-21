@@ -1,0 +1,231 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-04-21",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-04-21T12:00:00Z",
+  "hours_at_discovery": 13.2,
+  "status": "resolved",
+  "position": {
+    "market_id": "2019266",
+    "question": "Will the highest temperature in Lucknow be 40°C on April 21?",
+    "bucket_low": 40.0,
+    "bucket_high": 40.0,
+    "entry_price": 0.23,
+    "bid_at_entry": 0.21,
+    "spread": 0.02,
+    "shares": 21.74,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 3.3478,
+    "kelly": 0.25,
+    "forecast_temp": 40.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-20T23:11:02.623287+00:00",
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-21T14:06:38.807771+00:00"
+  },
+  "actual_temp": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:38.303168+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-20T23:11:02.623287+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.8,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T14:09:00.967588+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 40.4,
+      "hrrr": null,
+      "metar": 35.0,
+      "best": 40.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:38.303168+00:00",
+      "top_bucket": "41.0-41.0C",
+      "top_price": 0.535
+    },
+    {
+      "ts": "2026-04-20T23:11:02.623287+00:00",
+      "top_bucket": "41.0-41.0C",
+      "top_price": 0.53
+    },
+    {
+      "ts": "2026-04-21T14:09:00.967588+00:00",
+      "top_bucket": "41.0-41.0C",
+      "top_price": 0.9985
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 38°C or below on April 21?",
+      "market_id": "2019264",
+      "range": [
+        -999.0,
+        38.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6104.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 39°C on April 21?",
+      "market_id": "2019265",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 9667.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 40°C on April 21?",
+      "market_id": "2019266",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7896.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 41°C on April 21?",
+      "market_id": "2019267",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "bid": 0.9985,
+      "ask": 0.0015,
+      "price": 0.9985,
+      "spread": -0.997,
+      "volume": 14829.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 42°C on April 21?",
+      "market_id": "2019268",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 9302.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 43°C on April 21?",
+      "market_id": "2019269",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6669.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 44°C on April 21?",
+      "market_id": "2019270",
+      "range": [
+        44.0,
+        44.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3535.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 45°C on April 21?",
+      "market_id": "2019271",
+      "range": [
+        45.0,
+        45.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1895.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 46°C on April 21?",
+      "market_id": "2019272",
+      "range": [
+        46.0,
+        46.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 8924.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 47°C on April 21?",
+      "market_id": "2019273",
+      "range": [
+        47.0,
+        47.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2019.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 48°C or higher on April 21?",
+      "market_id": "2019274",
+      "range": [
+        48.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1606.0
+    }
+  ],
+  "created_at": "2026-04-20T22:49:41.737478+00:00"
+}

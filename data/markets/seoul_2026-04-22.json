@@ -1,0 +1,261 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-04-22",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-04-22T12:00:00Z",
+  "hours_at_discovery": 37.2,
+  "status": "open",
+  "position": {
+    "market_id": "2029544",
+    "question": "Will the highest temperature in Seoul be 17°C on April 22?",
+    "bucket_low": 17.0,
+    "bucket_high": 17.0,
+    "entry_price": 0.21,
+    "bid_at_entry": 0.18,
+    "spread": 0.03,
+    "shares": 23.81,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 3.7619,
+    "kelly": 0.25,
+    "forecast_temp": 16.8,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-20T23:10:13.920610+00:00",
+    "status": "closed",
+    "pnl": -1.67,
+    "exit_price": 0.14,
+    "close_reason": "forecast_changed",
+    "closed_at": "2026-04-21T15:11:54.407326+00:00"
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:21.158035+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 16.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-20T23:10:13.920610+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 16.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T07:01:28.825403+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.0,
+      "ecmwf": 16.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T14:08:37.348620+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.9,
+      "ecmwf": 15.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:11:54.407326+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.8,
+      "ecmwf": 15.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:21.158035+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.195
+    },
+    {
+      "ts": "2026-04-20T23:10:13.920610+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.195
+    },
+    {
+      "ts": "2026-04-21T07:01:28.825403+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-21T14:08:37.348620+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-21T15:11:54.407326+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.275
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 9°C or below on April 22?",
+      "market_id": "2029536",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 10638.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 10°C on April 22?",
+      "market_id": "2029537",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6255.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 11°C on April 22?",
+      "market_id": "2029538",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7019.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 12°C on April 22?",
+      "market_id": "2029539",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 7586.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 13°C on April 22?",
+      "market_id": "2029540",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 12172.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 14°C on April 22?",
+      "market_id": "2029541",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 11430.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 15°C on April 22?",
+      "market_id": "2029542",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 7185.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 16°C on April 22?",
+      "market_id": "2029543",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 5889.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 17°C on April 22?",
+      "market_id": "2029544",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.14,
+      "ask": 0.86,
+      "price": 0.14,
+      "spread": 0.72,
+      "volume": 4815.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 18°C on April 22?",
+      "market_id": "2029545",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 6168.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 19°C or higher on April 22?",
+      "market_id": "2029546",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "bid": 0.046,
+      "ask": 0.954,
+      "price": 0.046,
+      "spread": 0.908,
+      "volume": 10725.0
+    }
+  ],
+  "created_at": "2026-04-20T22:49:24.646901+00:00"
+}

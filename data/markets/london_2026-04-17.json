@@ -31,6 +31,16 @@
       "metar": null,
       "best": 17.5,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T20:07:27.263312+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 17.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.5,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +53,11 @@
       "ts": "2026-04-16T17:22:04.288706+00:00",
       "top_bucket": "18.0-18.0C",
       "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-16T20:07:27.263312+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.475
     }
   ],
   "all_outcomes": [
@@ -57,7 +72,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 6134.0
+      "volume": 8816.0
     },
     {
       "question": "Will the highest temperature in London be 13°C on April 17?",
@@ -70,7 +85,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 5356.0
+      "volume": 7356.0
     },
     {
       "question": "Will the highest temperature in London be 14°C on April 17?",
@@ -83,7 +98,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 4307.0
+      "volume": 6307.0
     },
     {
       "question": "Will the highest temperature in London be 15°C on April 17?",
@@ -92,11 +107,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 3135.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 4095.0
     },
     {
       "question": "Will the highest temperature in London be 16°C on April 17?",
@@ -105,11 +120,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0375,
-      "ask": 0.9625,
-      "price": 0.0375,
-      "spread": 0.925,
-      "volume": 6210.0
+      "bid": 0.051,
+      "ask": 0.949,
+      "price": 0.051,
+      "spread": 0.898,
+      "volume": 7059.0
     },
     {
       "question": "Will the highest temperature in London be 17°C on April 17?",
@@ -118,11 +133,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.295,
-      "ask": 0.705,
-      "price": 0.295,
-      "spread": 0.41,
-      "volume": 5000.0
+      "bid": 0.31,
+      "ask": 0.69,
+      "price": 0.31,
+      "spread": 0.38,
+      "volume": 6215.0
     },
     {
       "question": "Will the highest temperature in London be 18°C on April 17?",
@@ -131,11 +146,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.515,
-      "ask": 0.485,
-      "price": 0.515,
-      "spread": -0.03,
-      "volume": 4361.0
+      "bid": 0.475,
+      "ask": 0.525,
+      "price": 0.475,
+      "spread": 0.05,
+      "volume": 5070.0
     },
     {
       "question": "Will the highest temperature in London be 19°C on April 17?",
@@ -144,11 +159,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.175,
-      "ask": 0.825,
-      "price": 0.175,
-      "spread": 0.65,
-      "volume": 3859.0
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 4694.0
     },
     {
       "question": "Will the highest temperature in London be 20°C on April 17?",
@@ -157,11 +172,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.0185,
-      "ask": 0.9815,
-      "price": 0.0185,
-      "spread": 0.963,
-      "volume": 3226.0
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 3905.0
     },
     {
       "question": "Will the highest temperature in London be 21°C on April 17?",
@@ -170,11 +185,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 1457.0
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 2018.0
     },
     {
       "question": "Will the highest temperature in London be 22°C or higher on April 17?",
@@ -183,11 +198,11 @@
         22.0,
         999.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 2908.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 4278.0
     }
   ],
   "created_at": "2026-04-16T16:52:46.067068+00:00"

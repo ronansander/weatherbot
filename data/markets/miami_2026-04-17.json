@@ -6,7 +6,7 @@
   "station": "KMIA",
   "event_end_date": "2026-04-17T12:00:00Z",
   "hours_at_discovery": 19.1,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "1988446",
     "question": "Will the highest temperature in Miami be between 84-85°F on April 17?",
@@ -24,15 +24,15 @@
     "forecast_src": "hrrr",
     "sigma": 2.0,
     "opened_at": "2026-04-16T17:21:35.324978+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": 6.36,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "win",
+  "pnl": 6.36,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:52:17.611060+00:00",
@@ -53,6 +53,16 @@
       "metar": null,
       "best": 84,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-16T20:06:57.458686+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 82,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -65,6 +75,11 @@
       "ts": "2026-04-16T17:21:35.324978+00:00",
       "top_bucket": "84.0-85.0F",
       "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-16T20:06:57.458686+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.465
     }
   ],
   "all_outcomes": [
@@ -118,7 +133,7 @@
       "ask": 0.9955,
       "price": 0.0045,
       "spread": 0.991,
-      "volume": 1701.0
+      "volume": 1705.0
     },
     {
       "question": "Will the highest temperature in Miami be between 78-79°F on April 17?",
@@ -127,11 +142,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 3171.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 3633.0
     },
     {
       "question": "Will the highest temperature in Miami be between 80-81°F on April 17?",
@@ -140,11 +155,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.0685,
-      "ask": 0.9315,
-      "price": 0.0685,
-      "spread": 0.863,
-      "volume": 4969.0
+      "bid": 0.051,
+      "ask": 0.949,
+      "price": 0.051,
+      "spread": 0.898,
+      "volume": 5461.0
     },
     {
       "question": "Will the highest temperature in Miami be between 82-83°F on April 17?",
@@ -157,7 +172,7 @@
       "ask": 0.68,
       "price": 0.32,
       "spread": 0.36,
-      "volume": 2920.0
+      "volume": 3200.0
     },
     {
       "question": "Will the highest temperature in Miami be between 84-85°F on April 17?",
@@ -166,11 +181,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.435,
-      "ask": 0.565,
-      "price": 0.435,
-      "spread": 0.13,
-      "volume": 5240.0
+      "bid": 0.465,
+      "ask": 0.535,
+      "price": 0.465,
+      "spread": 0.07,
+      "volume": 5491.0
     },
     {
       "question": "Will the highest temperature in Miami be between 86-87°F on April 17?",
@@ -179,11 +194,11 @@
         86.0,
         87.0
       ],
-      "bid": 0.085,
-      "ask": 0.915,
-      "price": 0.085,
-      "spread": 0.83,
-      "volume": 2913.0
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 3128.0
     },
     {
       "question": "Will the highest temperature in Miami be between 88-89°F on April 17?",
@@ -192,11 +207,11 @@
         88.0,
         89.0
       ],
-      "bid": 0.011,
-      "ask": 0.989,
-      "price": 0.011,
-      "spread": 0.978,
-      "volume": 2584.0
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 2812.0
     },
     {
       "question": "Will the highest temperature in Miami be 90°F or higher on April 17?",
@@ -209,7 +224,7 @@
       "ask": 0.996,
       "price": 0.004,
       "spread": 0.992,
-      "volume": 2073.0
+      "volume": 2082.0
     }
   ],
   "created_at": "2026-04-16T16:52:21.379425+00:00"

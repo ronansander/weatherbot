@@ -74,6 +74,28 @@ body{
 .meta{margin-top:6px;color:var(--muted);font-size:13px}
 .pnl.pos,.num.pos{color:var(--green)}
 .pnl.neg,.num.neg{color:var(--red)}
+.sub .num{font-weight:600}
+.num.flat{color:var(--text)}
+.ticket{
+  margin-top:10px;padding:12px;border:1px solid rgba(79,209,197,.18);border-radius:12px;
+  background:linear-gradient(180deg, rgba(79,209,197,.08), rgba(255,255,255,.02))
+}
+.ticket-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.side{
+  display:inline-flex;align-items:center;padding:5px 10px;border-radius:999px;
+  background:rgba(125,220,132,.14);color:var(--green);font-size:12px;font-weight:700;letter-spacing:.08em
+}
+.price-line{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.price-now{font-size:20px;font-weight:700;color:var(--text)}
+.price-entry{font-size:13px;color:var(--muted)}
+.ticket-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px
+}
+.ticket-stat{
+  padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.04)
+}
+.ticket-k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.ticket-v{margin-top:4px;font-size:13px;color:var(--text);font-weight:600}
 .pill{
   display:inline-block;padding:3px 8px;border-radius:999px;background:rgba(255,255,255,.06);
   color:var(--muted);font-size:12px
@@ -87,6 +109,7 @@ body{
   .wrap{padding:16px}
   .stats{grid-template-columns:repeat(2,1fr)}
   .header{flex-direction:column}
+  .ticket-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 </style>
 </head>
@@ -159,11 +182,25 @@ const money = v => '€' + Number(v || 0).toFixed(2);
 const pct = v => (v >= 0 ? '+' : '') + Number(v || 0).toFixed(1) + '%';
 const signed = v => (v >= 0 ? '+' : '-') + '€' + Math.abs(Number(v || 0)).toFixed(2);
 const timeNow = () => new Date().toLocaleTimeString('en-US', { hour12: false });
+const cents = v => {
+  const n = Number(v || 0);
+  if (!Number.isFinite(n) || n <= 0) return '0c';
+  const c = n * 100;
+  if (c < 1) return '<1c';
+  return `${Math.round(c)}c`;
+};
 const formatDate = value => {
   if (!value) return '';
   const m = String(value).match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (!m) return value;
   return `${m[3]}.${m[2]}.${m[1]}`;
+};
+const formatTemp = (value, unit) => {
+  if (value === null || value === undefined || value === '') return '';
+  const n = Number(value);
+  if (!Number.isFinite(n)) return '';
+  const suffix = unit === 'F' ? '°F' : '°C';
+  return `${Number.isInteger(n) ? n.toFixed(0) : n.toFixed(1)}${suffix}`;
 };
 
 function formatMarketQuestion(text) {
@@ -213,7 +250,7 @@ chart = new Chart(document.getElementById('chart'), {
 
 function renderPositions(positions) {
   const list = document.getElementById('pos-list');
-  const entries = Object.entries(positions || {});
+  const entries = Object.entries(positions || {}).sort((a, b) => Number(b[1].pnl || 0) - Number(a[1].pnl || 0));
   document.getElementById('pos-badge').textContent = entries.length + ' active';
   if (!entries.length) {
     list.innerHTML = '<div class="empty">No open positions.</div>';
@@ -223,7 +260,7 @@ function renderPositions(positions) {
     <div class="item">
       <div class="row">
         <div class="question">${formatMarketQuestion(p.question || '')}</div>
-        <div class="pnl ${p.pnl >= 0 ? 'pos' : 'neg'}">${signed(p.pnl)}</div>
+        <div class="pnl ${p.pnl >= 0 ? 'pos' : 'neg'}">+${money(Number(p.cost || 0) + Math.abs(Number(p.pnl || 0)))}</div>
       </div>
       <div class="meta">${p.location || ''} · ${formatDate(p.date || '')} · ${formatMarketLabel(p.label || '')}</div>
       <div class="meta">Entry ${money(p.entry_price)} -> Current ${money(p.current_price)} · Cost ${money(p.cost)} · ${String(p.forecast_src || '').toUpperCase()}</div>
@@ -233,7 +270,7 @@ function renderPositions(positions) {
 
 function renderTrades(trades) {
   const list = document.getElementById('trade-list');
-  const items = [...(trades || [])].reverse().slice(0, 16);
+  const items = [...(trades || [])].reverse().slice(0, 50);
   if (!items.length) {
     list.innerHTML = '<div class="empty">No trades yet - run `python bot_v2.py`.</div>';
     return;
@@ -282,6 +319,157 @@ function renderEntries(trades) {
   `).join('');
 }
 
+function renderPositions(positions) {
+  const list = document.getElementById('pos-list');
+  const entries = Object.entries(positions || {}).sort((a, b) => Number(b[1].pnl || 0) - Number(a[1].pnl || 0));
+  document.getElementById('pos-badge').textContent = entries.length + ' active';
+  if (!entries.length) {
+    list.innerHTML = '<div class="empty">No open positions.</div>';
+    return;
+  }
+  list.innerHTML = entries.map(([, p]) => `
+    <div class="item">
+      <div class="row">
+        <div class="question">${formatMarketQuestion(p.question || '')}</div>
+        <div class="pnl ${p.pnl >= 0 ? 'pos' : 'neg'}">${signed(p.pnl)}</div>
+      </div>
+      <div class="meta">${p.location || ''} · ${formatDate(p.date || '')} · ${formatMarketLabel(p.label || '')}</div>
+      <div class="ticket">
+        <div class="ticket-top">
+          <div class="price-line">
+            <span class="side">YES</span>
+            <span class="price-now">@ ${cents(p.entry_price)}</span>
+            <span class="price-entry">now ${cents(p.current_price)}</span>
+          </div>
+          <div class="pill">${String(p.forecast_src || '').toUpperCase()}</div>
+        </div>
+        <div class="ticket-grid">
+          <div class="ticket-stat">
+            <div class="ticket-k">Bought</div>
+            <div class="ticket-v">${cents(p.entry_price)}</div>
+          </div>
+          <div class="ticket-stat">
+            <div class="ticket-k">Now</div>
+            <div class="ticket-v">${cents(p.current_price)}</div>
+          </div>
+          <div class="ticket-stat">
+            <div class="ticket-k">Stake +/- PnL</div>
+            <div class="ticket-v ${p.pnl >= 0 ? 'num pos' : 'num neg'}">${money(p.cost)} ${p.pnl >= 0 ? '+' : '-'} ${money(Math.abs(Number(p.pnl || 0)))}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderTrades(trades) {
+  const list = document.getElementById('trade-list');
+  const ordered = [...(trades || [])].reverse();
+  const items = ordered.filter(t => t.type === 'exit').slice(0, 50);
+  if (!items.length) {
+    list.innerHTML = '<div class="empty">No trades yet - run `python bot_v2.py`.</div>';
+    return;
+  }
+  list.innerHTML = items.map(t => {
+    const exitNeg = Number(t.pnl || 0) < 0;
+    const sideClass = t.type === 'entry' ? 'num flat' : `num ${exitNeg ? 'neg' : 'pos'}`;
+    const sideText = t.type === 'entry' ? 'OPEN' : signed(t.pnl);
+    const actionPrice = t.type === 'entry' ? t.entry_price : t.exit_price;
+    const actionLabel = t.type === 'entry' ? 'bought' : 'sold';
+    const midLabel = t.type === 'entry' ? 'Status' : 'Sold';
+    const midValue = t.type === 'entry' ? 'Open' : cents(t.exit_price);
+    const tailLabel = t.type === 'entry' ? 'EV' : 'PnL';
+    const tailClass = t.type === 'entry' ? 'num flat' : `num ${exitNeg ? 'neg' : 'pos'}`;
+    const tailValue = t.type === 'entry' ? Number(t.ev || 0).toFixed(2) : signed(t.pnl);
+    const outcomeDetail = t.actual_temp !== null && t.actual_temp !== undefined
+      ? `Actual ${formatTemp(t.actual_temp, t.unit)}`
+      : (t.last_forecast !== null && t.last_forecast !== undefined
+          ? `Last forecast ${formatTemp(t.last_forecast, t.unit)}${t.last_forecast_src ? ` (${String(t.last_forecast_src).toUpperCase()})` : ''}`
+          : '');
+    const footer = t.type === 'entry'
+      ? `Probability ${(Number(t.our_prob || 0) * 100).toFixed(0)}%`
+      : `${outcomeDetail ? outcomeDetail + ' · ' : ''}Reason ${t.close_reason || 'closed'}`;
+    return `
+      <div class="item">
+        <div class="row">
+          <div>
+            <div class="question">${formatMarketQuestion(t.question || '')}</div>
+            <div class="meta">${t.location || ''} · ${formatDate(t.date || '')}</div>
+          </div>
+          <div class="${sideClass}">${sideText}</div>
+        </div>
+        <div class="ticket">
+          <div class="ticket-top">
+            <div class="price-line">
+              <span class="side">YES</span>
+              <span class="price-now">@ ${cents(actionPrice)}</span>
+              <span class="price-entry">${actionLabel}</span>
+            </div>
+            <div class="pill">${t.type === 'entry' ? 'ENTRY' : 'EXIT'}</div>
+          </div>
+          <div class="ticket-grid">
+            <div class="ticket-stat">
+              <div class="ticket-k">Bought</div>
+              <div class="ticket-v">${cents(t.entry_price)}</div>
+            </div>
+            <div class="ticket-stat">
+              <div class="ticket-k">${midLabel}</div>
+              <div class="ticket-v ${t.type === 'entry' ? 'num flat' : `num ${exitNeg ? 'neg' : 'pos'}`}">${midValue}</div>
+            </div>
+            <div class="ticket-stat">
+              <div class="ticket-k">${tailLabel}</div>
+              <div class="ticket-v ${tailClass}">${tailValue}</div>
+            </div>
+          </div>
+        </div>
+        <div class="meta">${footer}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderEntries(trades) {
+  const list = document.getElementById('ev-log');
+  const entries = (trades || []).filter(t => t.type === 'entry').reverse().slice(0, 16);
+  if (!entries.length) {
+    list.innerHTML = '<div class="empty">No BUY signals yet.</div>';
+    return;
+  }
+  list.innerHTML = entries.map(t => `
+    <div class="item">
+      <div class="row">
+        <div class="question">${formatMarketQuestion(t.question || '')}</div>
+      </div>
+      <div class="meta">${t.location || ''} · ${formatDate(t.date || '')}</div>
+      <div class="ticket">
+        <div class="ticket-top">
+          <div class="price-line">
+            <span class="side">YES</span>
+            <span class="price-now">@ ${cents(t.entry_price)}</span>
+            <span class="price-entry">bought</span>
+          </div>
+          <div class="pill">ENTRY</div>
+        </div>
+        <div class="ticket-grid">
+          <div class="ticket-stat">
+            <div class="ticket-k">Bought</div>
+            <div class="ticket-v">${cents(t.entry_price)}</div>
+          </div>
+          <div class="ticket-stat">
+            <div class="ticket-k">Stake</div>
+            <div class="ticket-v">${money(t.cost)}</div>
+          </div>
+          <div class="ticket-stat">
+            <div class="ticket-k">EV</div>
+            <div class="ticket-v ${Number(t.ev || 0) >= 0 ? 'num pos' : 'num neg'}">${Number(t.ev || 0).toFixed(2)}</div>
+          </div>
+        </div>
+      </div>
+      <div class="meta">Probability ${(Number(t.our_prob || 0) * 100).toFixed(0)}%</div>
+    </div>
+  `).join('');
+}
+
 async function loadData() {
   try {
     const res = await fetch('data/dashboard.json?t=' + Date.now());
@@ -298,21 +486,29 @@ async function loadData() {
     const peak = Number(data.peak_balance || balance);
     const positions = data.positions || {};
     const trades = data.trades || [];
+    const totalEntries = trades.filter(t => t.type === 'entry').length;
+    const exitTrades = trades.filter(t => t.type === 'exit');
+    const winCount = exitTrades.filter(t => Number(t.pnl || 0) > 0).length;
+    const lossCount = exitTrades.filter(t => Number(t.pnl || 0) < 0).length;
+    const grossWins = exitTrades
+      .filter(t => Number(t.pnl || 0) > 0)
+      .reduce((sum, t) => sum + Number(t.pnl || 0), 0);
+    const grossLossesAbs = Math.abs(exitTrades
+      .filter(t => Number(t.pnl || 0) < 0)
+      .reduce((sum, t) => sum + Number(t.pnl || 0), 0));
     const openValue = Object.values(positions).reduce((sum, p) => sum + Number(p.cost || 0) + Number(p.pnl || 0), 0);
     const equity = balance + openValue;
     const pnl = equity - start;
-    const winCount = Number(data.wins || 0);
-    const lossCount = Number(data.losses || 0);
     const resolved = winCount + lossCount;
 
     document.getElementById('s-bal').textContent = money(equity);
     document.getElementById('s-cash').textContent = money(balance);
     document.getElementById('s-open').textContent = Object.keys(positions).length;
-    document.getElementById('s-total').textContent = Number(data.total_trades || 0);
+    document.getElementById('s-total').textContent = totalEntries;
     document.getElementById('s-peak').textContent = money(peak);
     document.getElementById('s-pct').textContent = signed(pnl) + ' · ' + pct(start ? (pnl / start * 100) : 0);
     document.getElementById('s-wr').textContent = resolved ? Math.round(winCount / resolved * 100) + '%' : '-';
-    document.getElementById('s-wl').textContent = `${winCount}W / ${lossCount}L`;
+    document.getElementById('s-wl').innerHTML = `<span class="num pos">${winCount}W (${money(grossWins)})</span> / <span class="num neg">${lossCount}L (${money(grossLossesAbs)})</span>`;
 
     points.push(Number(equity.toFixed(2)));
     labels.push(timeNow());

@@ -1,0 +1,209 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 53.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 60,
+      "hrrr": 54,
+      "metar": null,
+      "best": 54,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.9,
+      "ecmwf": 60,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 60,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "top_bucket": "60.0-61.0F",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "top_bucket": "60.0-61.0F",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "top_bucket": "60.0-61.0F",
+      "top_price": 0.355
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 57°F or below on April 23?",
+      "market_id": "2040239",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "bid": 0.11,
+      "ask": 0.89,
+      "price": 0.11,
+      "spread": 0.78,
+      "volume": 1157.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 23?",
+      "market_id": "2040240",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 616.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 23?",
+      "market_id": "2040241",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 288.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 23?",
+      "market_id": "2040242",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.22,
+      "ask": 0.78,
+      "price": 0.22,
+      "spread": 0.56,
+      "volume": 544.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on April 23?",
+      "market_id": "2040243",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.023,
+      "ask": 0.977,
+      "price": 0.023,
+      "spread": 0.954,
+      "volume": 842.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on April 23?",
+      "market_id": "2040244",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0165,
+      "ask": 0.9835,
+      "price": 0.0165,
+      "spread": 0.967,
+      "volume": 234.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on April 23?",
+      "market_id": "2040245",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 180.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on April 23?",
+      "market_id": "2040246",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 375.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on April 23?",
+      "market_id": "2040247",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 341.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on April 23?",
+      "market_id": "2040248",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 502.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 76°F or higher on April 23?",
+      "market_id": "2040249",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 608.0
+    }
+  ],
+  "created_at": "2026-04-21T07:00:53.483119+00:00"
+}

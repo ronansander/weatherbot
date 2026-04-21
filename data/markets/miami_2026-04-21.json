@@ -1,0 +1,261 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-04-21",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-04-21T12:00:00Z",
+  "hours_at_discovery": 13.2,
+  "status": "closed",
+  "position": {
+    "market_id": "2019224",
+    "question": "Will the highest temperature in Miami be between 76-77°F on April 21?",
+    "bucket_low": 76.0,
+    "bucket_high": 77.0,
+    "entry_price": 0.16,
+    "bid_at_entry": 0.15,
+    "spread": 0.01,
+    "shares": 7.44,
+    "cost": 1.19,
+    "p": 1.0,
+    "ev": 5.25,
+    "kelly": 0.25,
+    "forecast_temp": 76,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-04-20T22:48:17.721020+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:17.721020+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 76,
+      "hrrr": 76,
+      "metar": null,
+      "best": 76,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-20T23:08:57.008880+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.8,
+      "ecmwf": 76,
+      "hrrr": 76,
+      "metar": null,
+      "best": 76,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T07:00:24.900447+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 76,
+      "hrrr": 78,
+      "metar": 73,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:06:59.978128+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 76,
+      "metar": 78,
+      "best": 76,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:10:56.740122+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 77,
+      "hrrr": 77,
+      "metar": 79,
+      "best": 77,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:17.721020+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-04-20T23:08:57.008880+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.47
+    },
+    {
+      "ts": "2026-04-21T07:00:24.900447+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-04-21T14:06:59.978128+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-21T15:10:56.740122+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.485
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 69°F or below on April 21?",
+      "market_id": "2019220",
+      "range": [
+        -999.0,
+        69.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1644.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 70-71°F on April 21?",
+      "market_id": "2019221",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1211.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 72-73°F on April 21?",
+      "market_id": "2019222",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 4011.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 74-75°F on April 21?",
+      "market_id": "2019223",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 14647.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 76-77°F on April 21?",
+      "market_id": "2019224",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 13114.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on April 21?",
+      "market_id": "2019225",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.485,
+      "ask": 0.515,
+      "price": 0.485,
+      "spread": 0.03,
+      "volume": 6910.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on April 21?",
+      "market_id": "2019226",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.435,
+      "ask": 0.565,
+      "price": 0.435,
+      "spread": 0.13,
+      "volume": 4033.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on April 21?",
+      "market_id": "2019227",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0605,
+      "ask": 0.9395,
+      "price": 0.0605,
+      "spread": 0.879,
+      "volume": 5054.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on April 21?",
+      "market_id": "2019228",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 5041.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on April 21?",
+      "market_id": "2019229",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 4175.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 88°F or higher on April 21?",
+      "market_id": "2019230",
+      "range": [
+        88.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4799.0
+    }
+  ],
+  "created_at": "2026-04-20T22:48:22.539541+00:00"
+}

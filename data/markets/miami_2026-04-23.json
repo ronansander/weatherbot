@@ -1,0 +1,209 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-04-23",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 53.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:24.900447+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 77,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:06:59.978128+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.9,
+      "ecmwf": 76,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:10:56.740122+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 76,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T07:00:24.900447+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-21T14:06:59.978128+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-04-21T15:10:56.740122+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.42
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 69°F or below on April 23?",
+      "market_id": "2040283",
+      "range": [
+        -999.0,
+        69.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 196.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 70-71°F on April 23?",
+      "market_id": "2040284",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 132.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 72-73°F on April 23?",
+      "market_id": "2040285",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 130.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 74-75°F on April 23?",
+      "market_id": "2040286",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0165,
+      "ask": 0.9835,
+      "price": 0.0165,
+      "spread": 0.967,
+      "volume": 1522.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 76-77°F on April 23?",
+      "market_id": "2040287",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.14,
+      "ask": 0.86,
+      "price": 0.14,
+      "spread": 0.72,
+      "volume": 607.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on April 23?",
+      "market_id": "2040288",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.385,
+      "ask": 0.615,
+      "price": 0.385,
+      "spread": 0.23,
+      "volume": 365.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on April 23?",
+      "market_id": "2040289",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.42,
+      "ask": 0.58,
+      "price": 0.42,
+      "spread": 0.16,
+      "volume": 198.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on April 23?",
+      "market_id": "2040290",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0605,
+      "ask": 0.9395,
+      "price": 0.0605,
+      "spread": 0.879,
+      "volume": 433.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on April 23?",
+      "market_id": "2040291",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 152.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on April 23?",
+      "market_id": "2040292",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 194.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 88°F or higher on April 23?",
+      "market_id": "2040293",
+      "range": [
+        88.0,
+        999.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 948.0
+    }
+  ],
+  "created_at": "2026-04-21T07:00:30.817853+00:00"
+}

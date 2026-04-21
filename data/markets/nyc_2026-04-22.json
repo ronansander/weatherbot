@@ -1,0 +1,261 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-04-22",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-22T12:00:00Z",
+  "hours_at_discovery": 37.2,
+  "status": "open",
+  "position": {
+    "market_id": "2029570",
+    "question": "Will the highest temperature in New York City be between 56-57°F on April 22?",
+    "bucket_low": 56.0,
+    "bucket_high": 57.0,
+    "entry_price": 0.25,
+    "bid_at_entry": 0.23,
+    "spread": 0.02,
+    "shares": 20.0,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 3.0,
+    "kelly": 0.25,
+    "forecast_temp": 57,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-04-21T14:06:38.808045+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:47:30.145928+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 56,
+      "hrrr": 52,
+      "metar": null,
+      "best": 52,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-20T23:08:45.083469+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.9,
+      "ecmwf": 56,
+      "hrrr": 52,
+      "metar": null,
+      "best": 52,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T06:59:57.142292+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.0,
+      "ecmwf": 53,
+      "hrrr": 51,
+      "metar": null,
+      "best": 51,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:06:38.808045+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.9,
+      "ecmwf": 56,
+      "hrrr": 57,
+      "metar": null,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:10:45.401976+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.8,
+      "ecmwf": 56,
+      "hrrr": 57,
+      "metar": null,
+      "best": 57,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:47:30.145928+00:00",
+      "top_bucket": "-999.0-55.0F",
+      "top_price": 0.54
+    },
+    {
+      "ts": "2026-04-20T23:08:45.083469+00:00",
+      "top_bucket": "-999.0-55.0F",
+      "top_price": 0.535
+    },
+    {
+      "ts": "2026-04-21T06:59:57.142292+00:00",
+      "top_bucket": "-999.0-55.0F",
+      "top_price": 0.62
+    },
+    {
+      "ts": "2026-04-21T14:06:38.808045+00:00",
+      "top_bucket": "-999.0-55.0F",
+      "top_price": 0.65
+    },
+    {
+      "ts": "2026-04-21T15:10:45.401976+00:00",
+      "top_bucket": "-999.0-55.0F",
+      "top_price": 0.595
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 55°F or below on April 22?",
+      "market_id": "2029569",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.595,
+      "ask": 0.405,
+      "price": 0.595,
+      "spread": -0.19,
+      "volume": 5572.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 56-57°F on April 22?",
+      "market_id": "2029570",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 2506.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 58-59°F on April 22?",
+      "market_id": "2029571",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 3041.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 60-61°F on April 22?",
+      "market_id": "2029572",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.023,
+      "ask": 0.977,
+      "price": 0.023,
+      "spread": 0.954,
+      "volume": 12150.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 62-63°F on April 22?",
+      "market_id": "2029573",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.014,
+      "ask": 0.986,
+      "price": 0.014,
+      "spread": 0.972,
+      "volume": 3933.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 64-65°F on April 22?",
+      "market_id": "2029574",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 4089.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 66-67°F on April 22?",
+      "market_id": "2029575",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 5845.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 68-69°F on April 22?",
+      "market_id": "2029576",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2411.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 70-71°F on April 22?",
+      "market_id": "2029577",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2627.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 72-73°F on April 22?",
+      "market_id": "2029578",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2459.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 74°F or higher on April 22?",
+      "market_id": "2029579",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2380.0
+    }
+  ],
+  "created_at": "2026-04-20T22:47:52.466376+00:00"
+}

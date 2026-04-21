@@ -6,7 +6,7 @@
   "station": "EGLC",
   "event_end_date": "2026-04-18T12:00:00Z",
   "hours_at_discovery": 43.1,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "1996296",
     "question": "Will the highest temperature in London be 18°C on April 18?",
@@ -24,15 +24,15 @@
     "forecast_src": "ecmwf",
     "sigma": 1.2,
     "opened_at": "2026-04-16T16:52:43.070154+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:52:43.070154+00:00",
@@ -53,6 +53,16 @@
       "metar": null,
       "best": 17.6,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T20:07:27.263312+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -65,6 +75,11 @@
       "ts": "2026-04-16T17:22:04.288706+00:00",
       "top_bucket": "17.0-17.0C",
       "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-16T20:07:27.263312+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.405
     }
   ],
   "all_outcomes": [
@@ -79,7 +94,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 2759.0
+      "volume": 2783.0
     },
     {
       "question": "Will the highest temperature in London be 12°C on April 18?",
@@ -88,11 +103,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.002,
-      "ask": 0.998,
-      "price": 0.002,
-      "spread": 0.996,
-      "volume": 2580.0
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 2716.0
     },
     {
       "question": "Will the highest temperature in London be 13°C on April 18?",
@@ -105,7 +120,7 @@
       "ask": 0.994,
       "price": 0.006,
       "spread": 0.988,
-      "volume": 1257.0
+      "volume": 1289.0
     },
     {
       "question": "Will the highest temperature in London be 14°C on April 18?",
@@ -118,7 +133,7 @@
       "ask": 0.9895,
       "price": 0.0105,
       "spread": 0.979,
-      "volume": 2213.0
+      "volume": 2284.0
     },
     {
       "question": "Will the highest temperature in London be 15°C on April 18?",
@@ -127,11 +142,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.07,
-      "ask": 0.93,
-      "price": 0.07,
-      "spread": 0.86,
-      "volume": 1748.0
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 1989.0
     },
     {
       "question": "Will the highest temperature in London be 16°C on April 18?",
@@ -144,7 +159,7 @@
       "ask": 0.795,
       "price": 0.205,
       "spread": 0.59,
-      "volume": 917.0
+      "volume": 1070.0
     },
     {
       "question": "Will the highest temperature in London be 17°C on April 18?",
@@ -153,11 +168,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.34,
-      "ask": 0.66,
-      "price": 0.34,
-      "spread": 0.32,
-      "volume": 926.0
+      "bid": 0.405,
+      "ask": 0.595,
+      "price": 0.405,
+      "spread": 0.19,
+      "volume": 1181.0
     },
     {
       "question": "Will the highest temperature in London be 18°C on April 18?",
@@ -166,11 +181,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.215,
-      "ask": 0.785,
-      "price": 0.215,
-      "spread": 0.57,
-      "volume": 951.0
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 1051.0
     },
     {
       "question": "Will the highest temperature in London be 19°C on April 18?",
@@ -179,11 +194,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.105,
-      "ask": 0.895,
-      "price": 0.105,
-      "spread": 0.79,
-      "volume": 636.0
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 659.0
     },
     {
       "question": "Will the highest temperature in London be 20°C on April 18?",
@@ -192,11 +207,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.024,
-      "ask": 0.976,
-      "price": 0.024,
-      "spread": 0.952,
-      "volume": 1013.0
+      "bid": 0.014,
+      "ask": 0.986,
+      "price": 0.014,
+      "spread": 0.972,
+      "volume": 1036.0
     },
     {
       "question": "Will the highest temperature in London be 21°C or higher on April 18?",
@@ -205,11 +220,11 @@
         21.0,
         999.0
       ],
-      "bid": 0.0145,
-      "ask": 0.9855,
-      "price": 0.0145,
-      "spread": 0.971,
-      "volume": 1070.0
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 1435.0
     }
   ],
   "created_at": "2026-04-16T16:52:47.430233+00:00"

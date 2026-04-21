@@ -6,7 +6,7 @@
   "station": "KDAL",
   "event_end_date": "2026-04-17T12:00:00Z",
   "hours_at_discovery": 19.1,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "1990477",
     "question": "Will the highest temperature in Dallas be between 84-85°F on April 17?",
@@ -24,15 +24,15 @@
     "forecast_src": "hrrr",
     "sigma": 2.0,
     "opened_at": "2026-04-16T16:52:24.224531+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:52:24.224531+00:00",
@@ -53,6 +53,16 @@
       "metar": null,
       "best": 84,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-16T20:07:02.563367+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 84,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -65,6 +75,11 @@
       "ts": "2026-04-16T17:21:41.354256+00:00",
       "top_bucket": "84.0-85.0F",
       "top_price": 0.405
+    },
+    {
+      "ts": "2026-04-16T20:07:02.563367+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.405
     }
   ],
   "all_outcomes": [
@@ -75,11 +90,11 @@
         -999.0,
         77.0
       ],
-      "bid": 0.017,
-      "ask": 0.983,
-      "price": 0.017,
-      "spread": 0.966,
-      "volume": 3820.0
+      "bid": 0.0175,
+      "ask": 0.9825,
+      "price": 0.0175,
+      "spread": 0.965,
+      "volume": 4265.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 78-79°F on April 17?",
@@ -88,11 +103,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.0275,
-      "ask": 0.9725,
-      "price": 0.0275,
-      "spread": 0.945,
-      "volume": 2578.0
+      "bid": 0.0205,
+      "ask": 0.9795,
+      "price": 0.0205,
+      "spread": 0.959,
+      "volume": 3117.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 80-81°F on April 17?",
@@ -101,11 +116,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.085,
-      "ask": 0.915,
-      "price": 0.085,
-      "spread": 0.83,
-      "volume": 2287.0
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 2501.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 82-83°F on April 17?",
@@ -114,11 +129,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.185,
-      "ask": 0.815,
-      "price": 0.185,
-      "spread": 0.63,
-      "volume": 3424.0
+      "bid": 0.405,
+      "ask": 0.595,
+      "price": 0.405,
+      "spread": 0.19,
+      "volume": 3976.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 84-85°F on April 17?",
@@ -127,11 +142,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.405,
-      "ask": 0.595,
-      "price": 0.405,
-      "spread": 0.19,
-      "volume": 1681.0
+      "bid": 0.375,
+      "ask": 0.625,
+      "price": 0.375,
+      "spread": 0.25,
+      "volume": 1889.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 86-87°F on April 17?",
@@ -140,11 +155,11 @@
         86.0,
         87.0
       ],
-      "bid": 0.145,
-      "ask": 0.855,
-      "price": 0.145,
-      "spread": 0.71,
-      "volume": 1915.0
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 2057.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 88-89°F on April 17?",
@@ -157,7 +172,7 @@
       "ask": 0.9825,
       "price": 0.0175,
       "spread": 0.965,
-      "volume": 2127.0
+      "volume": 2796.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 90-91°F on April 17?",
@@ -166,11 +181,11 @@
         90.0,
         91.0
       ],
-      "bid": 0.01,
-      "ask": 0.99,
-      "price": 0.01,
-      "spread": 0.98,
-      "volume": 1615.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 1701.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 92-93°F on April 17?",
@@ -192,11 +207,11 @@
         94.0,
         95.0
       ],
-      "bid": 0.0035,
-      "ask": 0.9965,
-      "price": 0.0035,
-      "spread": 0.993,
-      "volume": 1396.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1479.0
     },
     {
       "question": "Will the highest temperature in Dallas be 96°F or higher on April 17?",
@@ -205,11 +220,11 @@
         96.0,
         999.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 1474.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1542.0
     }
   ],
   "created_at": "2026-04-16T16:52:28.276217+00:00"

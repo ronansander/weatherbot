@@ -6,7 +6,7 @@
   "station": "NZWN",
   "event_end_date": "2026-04-17T12:00:00Z",
   "hours_at_discovery": 19.1,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "1988467",
     "question": "Will the highest temperature in Wellington be 17°C on April 17?",
@@ -24,15 +24,15 @@
     "forecast_src": "ecmwf",
     "sigma": 1.2,
     "opened_at": "2026-04-16T16:54:29.329931+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-20T22:47:30.145458+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-16T16:54:29.329931+00:00",

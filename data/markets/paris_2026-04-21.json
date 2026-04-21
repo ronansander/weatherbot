@@ -1,0 +1,239 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-04-21",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-04-21T12:00:00Z",
+  "hours_at_discovery": 13.2,
+  "status": "closed",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:06.981384+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 13.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-20T23:09:50.352464+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.8,
+      "ecmwf": 13.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T07:01:05.453503+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.0,
+      "ecmwf": 14.2,
+      "hrrr": null,
+      "metar": 6.0,
+      "best": 14.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T14:07:51.077105+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 14.0,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 14.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:11:31.959977+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 14.0,
+      "hrrr": null,
+      "metar": 15.0,
+      "best": 14.0,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:49:06.981384+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-20T23:09:50.352464+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-21T07:01:05.453503+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-04-21T14:07:51.077105+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.815
+    },
+    {
+      "ts": "2026-04-21T15:11:31.959977+00:00",
+      "top_bucket": "15.0-15.0C",
+      "top_price": 0.9395
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 10°C or below on April 21?",
+      "market_id": "2019121",
+      "range": [
+        -999.0,
+        10.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1775.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 11°C on April 21?",
+      "market_id": "2019122",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 3292.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 12°C on April 21?",
+      "market_id": "2019123",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6432.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 13°C on April 21?",
+      "market_id": "2019124",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7366.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 14°C on April 21?",
+      "market_id": "2019125",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 28901.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 15°C on April 21?",
+      "market_id": "2019126",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.9395,
+      "ask": 0.0605,
+      "price": 0.9395,
+      "spread": -0.879,
+      "volume": 22184.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on April 21?",
+      "market_id": "2019127",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 22282.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on April 21?",
+      "market_id": "2019128",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 24021.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on April 21?",
+      "market_id": "2019129",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 18988.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on April 21?",
+      "market_id": "2019130",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 13301.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C or higher on April 21?",
+      "market_id": "2019131",
+      "range": [
+        20.0,
+        999.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 9678.0
+    }
+  ],
+  "created_at": "2026-04-20T22:49:10.023871+00:00"
+}

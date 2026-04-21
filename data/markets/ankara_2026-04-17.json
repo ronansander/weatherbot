@@ -31,6 +31,16 @@
       "metar": null,
       "best": 19.2,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-16T20:07:42.892280+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.9,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.2,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +53,11 @@
       "ts": "2026-04-16T17:22:39.256616+00:00",
       "top_bucket": "21.0-21.0C",
       "top_price": 0.38
+    },
+    {
+      "ts": "2026-04-16T20:07:42.892280+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.375
     }
   ],
   "all_outcomes": [
@@ -53,11 +68,11 @@
         -999.0,
         15.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 2891.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 2930.0
     },
     {
       "question": "Will the highest temperature in Ankara be 16°C on April 17?",
@@ -66,11 +81,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 1175.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 1217.0
     },
     {
       "question": "Will the highest temperature in Ankara be 17°C on April 17?",
@@ -79,11 +94,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 1044.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1056.0
     },
     {
       "question": "Will the highest temperature in Ankara be 18°C on April 17?",
@@ -92,11 +107,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 2359.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 2429.0
     },
     {
       "question": "Will the highest temperature in Ankara be 19°C on April 17?",
@@ -105,11 +120,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.021,
-      "ask": 0.979,
-      "price": 0.021,
-      "spread": 0.958,
-      "volume": 3465.0
+      "bid": 0.0295,
+      "ask": 0.9705,
+      "price": 0.0295,
+      "spread": 0.941,
+      "volume": 3935.0
     },
     {
       "question": "Will the highest temperature in Ankara be 20°C on April 17?",
@@ -118,11 +133,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.15,
-      "ask": 0.85,
-      "price": 0.15,
-      "spread": 0.7,
-      "volume": 1827.0
+      "bid": 0.2,
+      "ask": 0.8,
+      "price": 0.2,
+      "spread": 0.6,
+      "volume": 2310.0
     },
     {
       "question": "Will the highest temperature in Ankara be 21°C on April 17?",
@@ -131,11 +146,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.38,
-      "ask": 0.62,
-      "price": 0.38,
-      "spread": 0.24,
-      "volume": 1508.0
+      "bid": 0.375,
+      "ask": 0.625,
+      "price": 0.375,
+      "spread": 0.25,
+      "volume": 1733.0
     },
     {
       "question": "Will the highest temperature in Ankara be 22°C on April 17?",
@@ -148,7 +163,7 @@
       "ask": 0.675,
       "price": 0.325,
       "spread": 0.35,
-      "volume": 1884.0
+      "volume": 2070.0
     },
     {
       "question": "Will the highest temperature in Ankara be 23°C on April 17?",
@@ -157,11 +172,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.0485,
-      "ask": 0.9515,
-      "price": 0.0485,
-      "spread": 0.903,
-      "volume": 2462.0
+      "bid": 0.0385,
+      "ask": 0.9615,
+      "price": 0.0385,
+      "spread": 0.923,
+      "volume": 2985.0
     },
     {
       "question": "Will the highest temperature in Ankara be 24°C on April 17?",
@@ -170,11 +185,11 @@
         24.0,
         24.0
       ],
-      "bid": 0.0125,
-      "ask": 0.9875,
-      "price": 0.0125,
-      "spread": 0.975,
-      "volume": 2165.0
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 2299.0
     },
     {
       "question": "Will the highest temperature in Ankara be 25°C or higher on April 17?",
@@ -183,11 +198,11 @@
         25.0,
         999.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 1073.0
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 1985.0
     }
   ],
   "created_at": "2026-04-16T16:53:02.144002+00:00"

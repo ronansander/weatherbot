@@ -1,0 +1,239 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-22",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-22T12:00:00Z",
+  "hours_at_discovery": 37.2,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:36.053849+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 56,
+      "hrrr": 50,
+      "metar": null,
+      "best": 50,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-20T23:09:16.974072+00:00",
+      "horizon": "D+2",
+      "hours_left": 36.8,
+      "ecmwf": 56,
+      "hrrr": 50,
+      "metar": null,
+      "best": 50,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.0,
+      "ecmwf": 56,
+      "hrrr": 51,
+      "metar": null,
+      "best": 51,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.9,
+      "ecmwf": 56,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.8,
+      "ecmwf": 56,
+      "hrrr": 55,
+      "metar": null,
+      "best": 55,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-20T22:48:36.053849+00:00",
+      "top_bucket": "-999.0-57.0F",
+      "top_price": 0.805
+    },
+    {
+      "ts": "2026-04-20T23:09:16.974072+00:00",
+      "top_bucket": "-999.0-57.0F",
+      "top_price": 0.8
+    },
+    {
+      "ts": "2026-04-21T07:00:39.118328+00:00",
+      "top_bucket": "-999.0-57.0F",
+      "top_price": 0.815
+    },
+    {
+      "ts": "2026-04-21T14:07:11.022954+00:00",
+      "top_bucket": "-999.0-57.0F",
+      "top_price": 0.94
+    },
+    {
+      "ts": "2026-04-21T15:11:08.870632+00:00",
+      "top_bucket": "-999.0-57.0F",
+      "top_price": 0.895
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 57°F or below on April 22?",
+      "market_id": "2029558",
+      "range": [
+        -999.0,
+        57.0
+      ],
+      "bid": 0.895,
+      "ask": 0.105,
+      "price": 0.895,
+      "spread": -0.79,
+      "volume": 3700.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 22?",
+      "market_id": "2029559",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 1792.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 22?",
+      "market_id": "2029560",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.0225,
+      "ask": 0.9775,
+      "price": 0.0225,
+      "spread": 0.955,
+      "volume": 2228.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 22?",
+      "market_id": "2029561",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 2792.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on April 22?",
+      "market_id": "2029562",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1114.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on April 22?",
+      "market_id": "2029563",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 859.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on April 22?",
+      "market_id": "2029564",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1689.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on April 22?",
+      "market_id": "2029565",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2108.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on April 22?",
+      "market_id": "2029566",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2092.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on April 22?",
+      "market_id": "2029567",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1091.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 76°F or higher on April 22?",
+      "market_id": "2029568",
+      "range": [
+        76.0,
+        999.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1432.0
+    }
+  ],
+  "created_at": "2026-04-20T22:48:43.905545+00:00"
+}

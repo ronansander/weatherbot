@@ -1,0 +1,194 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-04-23",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-04-23T12:00:00Z",
+  "hours_at_discovery": 45.8,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-21T14:09:14.636027+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.8,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-21T15:12:29.627977+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.8,
+      "ecmwf": 15.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-21T14:09:14.636027+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-04-21T15:12:29.627977+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.295
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 12°C or below on April 23?",
+      "market_id": "2040228",
+      "range": [
+        -999.0,
+        12.0
+      ],
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 1990.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 13°C on April 23?",
+      "market_id": "2040229",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.036,
+      "ask": 0.964,
+      "price": 0.036,
+      "spread": 0.928,
+      "volume": 1145.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 14°C on April 23?",
+      "market_id": "2040230",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0665,
+      "ask": 0.9335,
+      "price": 0.0665,
+      "spread": 0.867,
+      "volume": 42.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 15°C on April 23?",
+      "market_id": "2040231",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.155,
+      "ask": 0.845,
+      "price": 0.155,
+      "spread": 0.69,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 16°C on April 23?",
+      "market_id": "2040232",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.23,
+      "ask": 0.77,
+      "price": 0.23,
+      "spread": 0.54,
+      "volume": 102.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 17°C on April 23?",
+      "market_id": "2040233",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 274.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 18°C on April 23?",
+      "market_id": "2040234",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 344.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 19°C on April 23?",
+      "market_id": "2040235",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 208.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 20°C on April 23?",
+      "market_id": "2040236",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 342.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 21°C on April 23?",
+      "market_id": "2040237",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.011,
+      "ask": 0.989,
+      "price": 0.011,
+      "spread": 0.978,
+      "volume": 303.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 22°C or higher on April 23?",
+      "market_id": "2040238",
+      "range": [
+        22.0,
+        999.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 350.0
+    }
+  ],
+  "created_at": "2026-04-21T14:09:19.241796+00:00"
+}

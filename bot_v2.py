@@ -118,8 +118,8 @@ def calc_kelly(p, price):
     return round(min(max(0.0, f) * KELLY_FRACTION, 1.0), 4)
 
 def bet_size(kelly, balance):
-    raw = kelly * balance
-    return round(min(raw, MAX_BET), 2)
+    # Fixed-size staking: buy the configured max bet on every accepted signal.
+    return round(min(balance, MAX_BET), 2)
 
 # =============================================================================
 # CALIBRATION
@@ -265,6 +265,21 @@ def get_actual_temp(city_slug, date_str):
     except Exception as e:
         print(f"  [VC] {city_slug} {date_str}: {e}")
     return None
+
+def fill_actual_temp(mkt):
+    """Populate final resolved temperature for a market when available."""
+    if not mkt or mkt.get("actual_temp") is not None:
+        return mkt.get("actual_temp")
+    if mkt.get("status") != "resolved":
+        return None
+    city_slug = mkt.get("city")
+    date_str = mkt.get("date")
+    if not city_slug or not date_str:
+        return None
+    actual = get_actual_temp(city_slug, date_str)
+    if actual is not None:
+        mkt["actual_temp"] = actual
+    return actual
 
 def check_market_resolved(market_id):
     """
@@ -419,6 +434,7 @@ def export_dashboard_data():
         })
 
         if pos.get("status") == "closed":
+            last_snapshot = (mkt.get("forecast_snapshots") or [])[-1] if mkt.get("forecast_snapshots") else {}
             trades.append({
                 "type": "exit",
                 "market_id": pos.get("market_id"),
@@ -434,9 +450,15 @@ def export_dashboard_data():
                 "our_prob": pos.get("p", 0.0),
                 "close_reason": pos.get("close_reason"),
                 "closed_at": pos.get("closed_at"),
+                "actual_temp": mkt.get("actual_temp"),
+                "resolved_outcome": mkt.get("resolved_outcome"),
+                "unit": mkt.get("unit"),
+                "last_forecast": last_snapshot.get("best"),
+                "last_forecast_src": last_snapshot.get("best_source"),
             })
 
     trades.sort(key=lambda t: t.get("opened_at") or t.get("closed_at") or "")
+    total_entries = sum(1 for t in trades if t.get("type") == "entry")
 
     dashboard = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -445,7 +467,7 @@ def export_dashboard_data():
         "peak_balance": state.get("peak_balance", state.get("balance", BALANCE)),
         "wins": state.get("wins", 0),
         "losses": state.get("losses", 0),
-        "total_trades": state.get("total_trades", 0),
+        "total_trades": total_entries,
         "positions": positions,
         "trades": trades,
     }
@@ -656,31 +678,7 @@ def scan_and_update():
                         print(f"  [{reason}] {loc['name']} {date} | entry ${entry:.3f} exit ${current_price:.3f} | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
 
             # --- CLOSE POSITION if forecast shifted 2+ degrees ---
-            if mkt.get("position") and forecast_temp is not None:
-                pos = mkt["position"]
-                old_bucket_low  = pos["bucket_low"]
-                old_bucket_high = pos["bucket_high"]
-                # 2-degree buffer — avoid closing on small forecast fluctuations
-                unit = loc["unit"]
-                buffer = 2.0 if unit == "F" else 1.0
-                mid_bucket = (old_bucket_low + old_bucket_high) / 2 if old_bucket_low != -999 and old_bucket_high != 999 else forecast_temp
-                forecast_far = abs(forecast_temp - mid_bucket) > (abs(mid_bucket - old_bucket_low) + buffer)
-                if not in_bucket(forecast_temp, old_bucket_low, old_bucket_high) and forecast_far:
-                    current_price = None
-                    for o in outcomes:
-                        if o["market_id"] == pos["market_id"]:
-                            current_price = o["price"]
-                            break
-                    if current_price is not None:
-                        pnl = round((current_price - pos["entry_price"]) * pos["shares"], 2)
-                        balance += pos["cost"] + pnl
-                        mkt["position"]["closed_at"]    = snap.get("ts")
-                        mkt["position"]["close_reason"] = "forecast_changed"
-                        mkt["position"]["exit_price"]   = current_price
-                        mkt["position"]["pnl"]          = pnl
-                        mkt["position"]["status"]       = "closed"
-                        closed += 1
-                        print(f"  [CLOSE] {loc['name']} {date} — forecast changed | PnL: {'+'if pnl>=0 else ''}{pnl:.2f}")
+            # Open positions are held to final resolution. Do not close early on forecast changes.
 
             # --- OPEN POSITION ---
             if not mkt.get("position") and forecast_temp is not None and hours >= MIN_HOURS:
@@ -810,6 +808,7 @@ def scan_and_update():
         mkt["pnl"]          = pnl
         mkt["status"]       = "resolved"
         mkt["resolved_outcome"] = "win" if won else "loss"
+        fill_actual_temp(mkt)
 
         if won:
             state["wins"] += 1
@@ -829,6 +828,14 @@ def scan_and_update():
 
     # Run calibration if enough data collected
     all_mkts = load_all_markets()
+    updated_actuals = 0
+    for mkt in all_mkts:
+        if mkt.get("status") == "resolved" and mkt.get("actual_temp") is None:
+            if fill_actual_temp(mkt) is not None:
+                save_market(mkt)
+                updated_actuals += 1
+    if updated_actuals:
+        all_mkts = load_all_markets()
     resolved_count = len([m for m in all_mkts if m["status"] == "resolved"])
     if resolved_count >= CALIBRATION_MIN:
         global _cal
