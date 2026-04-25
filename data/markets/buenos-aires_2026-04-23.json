@@ -31,6 +31,16 @@
       "metar": null,
       "best": 21.5,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T04:52:35.025458+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.1,
+      "ecmwf": 22.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.0,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +53,11 @@
       "ts": "2026-04-21T15:12:38.893520+00:00",
       "top_bucket": "23.0-23.0C",
       "top_price": 0.275
+    },
+    {
+      "ts": "2026-04-22T04:52:35.025458+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.295
     }
   ],
   "all_outcomes": [
@@ -53,11 +68,11 @@
         -999.0,
         16.0
       ],
-      "bid": 0.0045,
-      "ask": 0.9955,
-      "price": 0.0045,
-      "spread": 0.991,
-      "volume": 739.0
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 894.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 17°C on April 23?",
@@ -66,11 +81,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 775.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 990.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 18°C on April 23?",
@@ -79,11 +94,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 1191.0
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 2643.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 19°C on April 23?",
@@ -92,11 +107,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 586.0
+      "bid": 0.0275,
+      "ask": 0.9725,
+      "price": 0.0275,
+      "spread": 0.945,
+      "volume": 1865.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 20°C on April 23?",
@@ -105,11 +120,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.05,
-      "ask": 0.95,
-      "price": 0.05,
-      "spread": 0.9,
-      "volume": 502.0
+      "bid": 0.052,
+      "ask": 0.948,
+      "price": 0.052,
+      "spread": 0.896,
+      "volume": 1521.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 21°C on April 23?",
@@ -118,11 +133,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.145,
-      "ask": 0.855,
-      "price": 0.145,
-      "spread": 0.71,
-      "volume": 261.0
+      "bid": 0.155,
+      "ask": 0.845,
+      "price": 0.155,
+      "spread": 0.69,
+      "volume": 551.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 22°C on April 23?",
@@ -131,11 +146,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.255,
-      "ask": 0.745,
-      "price": 0.255,
-      "spread": 0.49,
-      "volume": 327.0
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 477.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 23°C on April 23?",
@@ -144,11 +159,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.275,
-      "ask": 0.725,
-      "price": 0.275,
-      "spread": 0.45,
-      "volume": 36.0
+      "bid": 0.295,
+      "ask": 0.705,
+      "price": 0.295,
+      "spread": 0.41,
+      "volume": 228.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 24°C on April 23?",
@@ -157,11 +172,11 @@
         24.0,
         24.0
       ],
-      "bid": 0.135,
-      "ask": 0.865,
-      "price": 0.135,
-      "spread": 0.73,
-      "volume": 328.0
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 665.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 25°C on April 23?",
@@ -170,11 +185,11 @@
         25.0,
         25.0
       ],
-      "bid": 0.045,
-      "ask": 0.955,
-      "price": 0.045,
-      "spread": 0.91,
-      "volume": 211.0
+      "bid": 0.0405,
+      "ask": 0.9595,
+      "price": 0.0405,
+      "spread": 0.919,
+      "volume": 491.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 26°C or higher on April 23?",
@@ -183,11 +198,11 @@
         26.0,
         999.0
       ],
-      "bid": 0.0155,
-      "ask": 0.9845,
-      "price": 0.0155,
-      "spread": 0.969,
-      "volume": 678.0
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 1312.0
     }
   ],
   "created_at": "2026-04-21T14:09:58.961206+00:00"

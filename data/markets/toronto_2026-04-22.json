@@ -73,6 +73,16 @@
       "metar": null,
       "best": 18.6,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T04:52:05.870703+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 18.8,
+      "hrrr": null,
+      "metar": 7.0,
+      "best": 18.8,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -95,6 +105,11 @@
       "ts": "2026-04-21T15:12:29.627977+00:00",
       "top_bucket": "19.0-999.0C",
       "top_price": 0.515
+    },
+    {
+      "ts": "2026-04-22T04:52:05.870703+00:00",
+      "top_bucket": "19.0-999.0C",
+      "top_price": 0.685
     }
   ],
   "all_outcomes": [
@@ -105,11 +120,11 @@
         -999.0,
         9.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 4240.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 5100.0
     },
     {
       "question": "Will the highest temperature in Toronto be 10°C on April 22?",
@@ -118,11 +133,11 @@
         10.0,
         10.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 5952.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 6249.0
     },
     {
       "question": "Will the highest temperature in Toronto be 11°C on April 22?",
@@ -135,7 +150,7 @@
       "ask": 0.998,
       "price": 0.002,
       "spread": 0.996,
-      "volume": 2356.0
+      "volume": 2367.0
     },
     {
       "question": "Will the highest temperature in Toronto be 12°C on April 22?",
@@ -144,11 +159,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.0035,
-      "ask": 0.9965,
-      "price": 0.0035,
-      "spread": 0.993,
-      "volume": 5457.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 6178.0
     },
     {
       "question": "Will the highest temperature in Toronto be 13°C on April 22?",
@@ -157,11 +172,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 5603.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 7565.0
     },
     {
       "question": "Will the highest temperature in Toronto be 14°C on April 22?",
@@ -170,11 +185,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 5984.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 7118.0
     },
     {
       "question": "Will the highest temperature in Toronto be 15°C on April 22?",
@@ -183,11 +198,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.0145,
-      "ask": 0.9855,
-      "price": 0.0145,
-      "spread": 0.971,
-      "volume": 3901.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 7242.0
     },
     {
       "question": "Will the highest temperature in Toronto be 16°C on April 22?",
@@ -196,11 +211,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.035,
-      "ask": 0.965,
-      "price": 0.035,
-      "spread": 0.93,
-      "volume": 2172.0
+      "bid": 0.022,
+      "ask": 0.978,
+      "price": 0.022,
+      "spread": 0.956,
+      "volume": 5712.0
     },
     {
       "question": "Will the highest temperature in Toronto be 17°C on April 22?",
@@ -209,11 +224,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.155,
-      "ask": 0.845,
-      "price": 0.155,
-      "spread": 0.69,
-      "volume": 1833.0
+      "bid": 0.1,
+      "ask": 0.9,
+      "price": 0.1,
+      "spread": 0.8,
+      "volume": 4474.0
     },
     {
       "question": "Will the highest temperature in Toronto be 18°C on April 22?",
@@ -222,11 +237,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.305,
-      "ask": 0.695,
-      "price": 0.305,
-      "spread": 0.39,
-      "volume": 2409.0
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 5246.0
     },
     {
       "question": "Will the highest temperature in Toronto be 19°C or higher on April 22?",
@@ -235,11 +250,11 @@
         19.0,
         999.0
       ],
-      "bid": 0.515,
-      "ask": 0.485,
-      "price": 0.515,
-      "spread": -0.03,
-      "volume": 3908.0
+      "bid": 0.685,
+      "ask": 0.315,
+      "price": 0.685,
+      "spread": -0.37,
+      "volume": 7594.0
     }
   ],
   "created_at": "2026-04-20T22:49:54.152267+00:00"

@@ -6,7 +6,7 @@
   "station": "EDDM",
   "event_end_date": "2026-04-22T12:00:00Z",
   "hours_at_discovery": 37.2,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "2029663",
     "question": "Will the highest temperature in Munich be 13°C on April 22?",
@@ -24,15 +24,15 @@
     "forecast_src": "ecmwf",
     "sigma": 1.2,
     "opened_at": "2026-04-21T14:08:14.666693+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-25T16:24:34.035590+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-20T22:49:11.990262+00:00",
@@ -83,6 +83,16 @@
       "metar": null,
       "best": 13.3,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T04:51:13.897028+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.1,
+      "ecmwf": 13.3,
+      "hrrr": null,
+      "metar": -2.0,
+      "best": 13.3,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -110,6 +120,11 @@
       "ts": "2026-04-21T15:11:44.738048+00:00",
       "top_bucket": "14.0-14.0C",
       "top_price": 0.45
+    },
+    {
+      "ts": "2026-04-22T04:51:13.897028+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.525
     }
   ],
   "all_outcomes": [
@@ -124,7 +139,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 3236.0
+      "volume": 3244.0
     },
     {
       "question": "Will the highest temperature in Munich be 8°C on April 22?",
@@ -137,7 +152,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 1961.0
+      "volume": 2112.0
     },
     {
       "question": "Will the highest temperature in Munich be 9°C on April 22?",
@@ -163,7 +178,7 @@
       "ask": 0.9975,
       "price": 0.0025,
       "spread": 0.995,
-      "volume": 1416.0
+      "volume": 2246.0
     },
     {
       "question": "Will the highest temperature in Munich be 11°C on April 22?",
@@ -172,11 +187,11 @@
         11.0,
         11.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 1719.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2915.0
     },
     {
       "question": "Will the highest temperature in Munich be 12°C on April 22?",
@@ -185,11 +200,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.0155,
-      "ask": 0.9845,
-      "price": 0.0155,
-      "spread": 0.969,
-      "volume": 3345.0
+      "bid": 0.0185,
+      "ask": 0.9815,
+      "price": 0.0185,
+      "spread": 0.963,
+      "volume": 5680.0
     },
     {
       "question": "Will the highest temperature in Munich be 13°C on April 22?",
@@ -198,11 +213,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.19,
-      "ask": 0.81,
-      "price": 0.19,
-      "spread": 0.62,
-      "volume": 2064.0
+      "bid": 0.23,
+      "ask": 0.77,
+      "price": 0.23,
+      "spread": 0.54,
+      "volume": 3951.0
     },
     {
       "question": "Will the highest temperature in Munich be 14°C on April 22?",
@@ -211,11 +226,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.45,
-      "ask": 0.55,
-      "price": 0.45,
-      "spread": 0.1,
-      "volume": 967.0
+      "bid": 0.525,
+      "ask": 0.475,
+      "price": 0.525,
+      "spread": -0.05,
+      "volume": 1718.0
     },
     {
       "question": "Will the highest temperature in Munich be 15°C on April 22?",
@@ -224,11 +239,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.315,
-      "ask": 0.685,
-      "price": 0.315,
-      "spread": 0.37,
-      "volume": 1323.0
+      "bid": 0.17,
+      "ask": 0.83,
+      "price": 0.17,
+      "spread": 0.66,
+      "volume": 2344.0
     },
     {
       "question": "Will the highest temperature in Munich be 16°C on April 22?",
@@ -237,11 +252,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.035,
-      "ask": 0.965,
-      "price": 0.035,
-      "spread": 0.93,
-      "volume": 2144.0
+      "bid": 0.047,
+      "ask": 0.953,
+      "price": 0.047,
+      "spread": 0.906,
+      "volume": 3612.0
     },
     {
       "question": "Will the highest temperature in Munich be 17°C or higher on April 22?",
@@ -250,11 +265,11 @@
         17.0,
         999.0
       ],
-      "bid": 0.0085,
-      "ask": 0.9915,
-      "price": 0.0085,
-      "spread": 0.983,
-      "volume": 1697.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 2927.0
     }
   ],
   "created_at": "2026-04-20T22:49:16.075593+00:00"

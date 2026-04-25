@@ -1,0 +1,254 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 43.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:54.974976+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.6,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:35:45.776808+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.4,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:38:45.303960+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.4,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:01:39.571825+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:14:21.754584+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.8,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:31:22.530645+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": 17.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:54.974976+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T16:35:45.776808+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T16:38:45.303960+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T17:01:39.571825+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T17:14:21.754584+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T17:31:22.530645+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 13°C or below on April 27?",
+      "market_id": "2074394",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 1420.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 14°C on April 27?",
+      "market_id": "2074395",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 515.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 15°C on April 27?",
+      "market_id": "2074396",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 439.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 16°C on April 27?",
+      "market_id": "2074397",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.027,
+      "ask": 0.973,
+      "price": 0.027,
+      "spread": 0.946,
+      "volume": 120.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 17°C on April 27?",
+      "market_id": "2074398",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 319.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on April 27?",
+      "market_id": "2074399",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 394.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on April 27?",
+      "market_id": "2074400",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 454.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on April 27?",
+      "market_id": "2074401",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 1051.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C on April 27?",
+      "market_id": "2074402",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 1128.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on April 27?",
+      "market_id": "2074403",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 155.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C or higher on April 27?",
+      "market_id": "2074404",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 229.0
+    }
+  ],
+  "created_at": "2026-04-25T16:25:59.281111+00:00"
+}

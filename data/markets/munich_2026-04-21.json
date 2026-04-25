@@ -6,7 +6,7 @@
   "station": "EDDM",
   "event_end_date": "2026-04-21T12:00:00Z",
   "hours_at_discovery": 13.2,
-  "status": "closed",
+  "status": "resolved",
   "position": {
     "market_id": "2019281",
     "question": "Will the highest temperature in Munich be 10°C on April 21?",
@@ -24,15 +24,15 @@
     "forecast_src": "ecmwf",
     "sigma": 1.2,
     "opened_at": "2026-04-20T22:49:11.990262+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": 0.93,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-22T04:50:14.213124+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "win",
+  "pnl": 0.93,
   "forecast_snapshots": [
     {
       "ts": "2026-04-20T22:49:11.990262+00:00",

@@ -1,0 +1,224 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 43.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:26:39.480845+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.6,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:39:42.543439+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.3,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:02:14.172742+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-04-25T17:15:15.284264+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.7,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:26:39.480845+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T16:39:42.543439+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T17:02:14.172742+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-04-25T17:15:15.284264+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.265
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C or below on April 27?",
+      "market_id": "2074284",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "bid": 0.014,
+      "ask": 0.986,
+      "price": 0.014,
+      "spread": 0.972,
+      "volume": 305.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C on April 27?",
+      "market_id": "2074285",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 689.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 27°C on April 27?",
+      "market_id": "2074286",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.09,
+      "ask": 0.91,
+      "price": 0.09,
+      "spread": 0.82,
+      "volume": 676.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 28°C on April 27?",
+      "market_id": "2074287",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.215,
+      "ask": 0.785,
+      "price": 0.215,
+      "spread": 0.57,
+      "volume": 588.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 29°C on April 27?",
+      "market_id": "2074288",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 479.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 30°C on April 27?",
+      "market_id": "2074289",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 311.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 31°C on April 27?",
+      "market_id": "2074290",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 634.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 32°C on April 27?",
+      "market_id": "2074291",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 164.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 33°C on April 27?",
+      "market_id": "2074292",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0115,
+      "ask": 0.9885,
+      "price": 0.0115,
+      "spread": 0.977,
+      "volume": 205.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 34°C on April 27?",
+      "market_id": "2074293",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 343.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 35°C or higher on April 27?",
+      "market_id": "2074294",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1633.0
+    }
+  ],
+  "created_at": "2026-04-25T16:26:43.333916+00:00"
+}

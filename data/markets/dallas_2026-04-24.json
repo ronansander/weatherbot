@@ -1,0 +1,179 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-04-24",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 55.2,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T04:50:39.589757+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.2,
+      "ecmwf": 87,
+      "hrrr": null,
+      "metar": null,
+      "best": 87,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-22T04:50:39.589757+00:00",
+      "top_bucket": "74.0-999.0F",
+      "top_price": 0.9845
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 55°F or below on April 24?",
+      "market_id": "2049454",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 56-57°F on April 24?",
+      "market_id": "2049455",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 92.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 58-59°F on April 24?",
+      "market_id": "2049456",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 60-61°F on April 24?",
+      "market_id": "2049457",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 30.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 62-63°F on April 24?",
+      "market_id": "2049458",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 30.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 64-65°F on April 24?",
+      "market_id": "2049459",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 66-67°F on April 24?",
+      "market_id": "2049460",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 68-69°F on April 24?",
+      "market_id": "2049461",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 35.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 70-71°F on April 24?",
+      "market_id": "2049462",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 35.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 72-73°F on April 24?",
+      "market_id": "2049463",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 83.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 74°F or higher on April 24?",
+      "market_id": "2049464",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.9845,
+      "ask": 0.0155,
+      "price": 0.9845,
+      "spread": -0.969,
+      "volume": 831.0
+    }
+  ],
+  "created_at": "2026-04-22T04:50:44.688380+00:00"
+}

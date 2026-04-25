@@ -41,6 +41,16 @@
       "metar": null,
       "best": 17.8,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T04:50:56.441828+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.2,
+      "ecmwf": 17.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -58,6 +68,11 @@
       "ts": "2026-04-21T15:11:27.794497+00:00",
       "top_bucket": "17.0-17.0C",
       "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-22T04:50:56.441828+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.435
     }
   ],
   "all_outcomes": [
@@ -68,11 +83,11 @@
         -999.0,
         13.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 1686.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 3032.0
     },
     {
       "question": "Will the highest temperature in London be 14°C on April 23?",
@@ -81,11 +96,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 626.0
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 2395.0
     },
     {
       "question": "Will the highest temperature in London be 15°C on April 23?",
@@ -94,11 +109,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.015,
-      "ask": 0.985,
-      "price": 0.015,
-      "spread": 0.97,
-      "volume": 1366.0
+      "bid": 0.0235,
+      "ask": 0.9765,
+      "price": 0.0235,
+      "spread": 0.953,
+      "volume": 2316.0
     },
     {
       "question": "Will the highest temperature in London be 16°C on April 23?",
@@ -107,11 +122,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0705,
-      "ask": 0.9295,
-      "price": 0.0705,
-      "spread": 0.859,
-      "volume": 1190.0
+      "bid": 0.0995,
+      "ask": 0.9005,
+      "price": 0.0995,
+      "spread": 0.801,
+      "volume": 3174.0
     },
     {
       "question": "Will the highest temperature in London be 17°C on April 23?",
@@ -120,11 +135,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.345,
-      "ask": 0.655,
-      "price": 0.345,
-      "spread": 0.31,
-      "volume": 404.0
+      "bid": 0.395,
+      "ask": 0.605,
+      "price": 0.395,
+      "spread": 0.21,
+      "volume": 1633.0
     },
     {
       "question": "Will the highest temperature in London be 18°C on April 23?",
@@ -133,11 +148,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.315,
-      "ask": 0.685,
-      "price": 0.315,
-      "spread": 0.37,
-      "volume": 295.0
+      "bid": 0.435,
+      "ask": 0.565,
+      "price": 0.435,
+      "spread": 0.13,
+      "volume": 1556.0
     },
     {
       "question": "Will the highest temperature in London be 19°C on April 23?",
@@ -146,11 +161,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.205,
-      "ask": 0.795,
-      "price": 0.205,
-      "spread": 0.59,
-      "volume": 457.0
+      "bid": 0.0455,
+      "ask": 0.9545,
+      "price": 0.0455,
+      "spread": 0.909,
+      "volume": 3297.0
     },
     {
       "question": "Will the highest temperature in London be 20°C on April 23?",
@@ -159,11 +174,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.0625,
-      "ask": 0.9375,
-      "price": 0.0625,
-      "spread": 0.875,
-      "volume": 1057.0
+      "bid": 0.02,
+      "ask": 0.98,
+      "price": 0.02,
+      "spread": 0.96,
+      "volume": 2374.0
     },
     {
       "question": "Will the highest temperature in London be 21°C on April 23?",
@@ -172,11 +187,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.0115,
-      "ask": 0.9885,
-      "price": 0.0115,
-      "spread": 0.977,
-      "volume": 300.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1172.0
     },
     {
       "question": "Will the highest temperature in London be 22°C on April 23?",
@@ -185,11 +200,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 284.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 696.0
     },
     {
       "question": "Will the highest temperature in London be 23°C or higher on April 23?",
@@ -198,11 +213,11 @@
         23.0,
         999.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 786.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1297.0
     }
   ],
   "created_at": "2026-04-21T07:01:04.785603+00:00"

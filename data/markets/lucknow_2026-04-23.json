@@ -31,6 +31,16 @@
       "metar": null,
       "best": 41.7,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-22T04:51:53.198948+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.1,
+      "ecmwf": 41.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 41.7,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -43,6 +53,11 @@
       "ts": "2026-04-21T15:12:20.237795+00:00",
       "top_bucket": "42.0-42.0C",
       "top_price": 0.475
+    },
+    {
+      "ts": "2026-04-22T04:51:53.198948+00:00",
+      "top_bucket": "42.0-42.0C",
+      "top_price": 0.52
     }
   ],
   "all_outcomes": [
@@ -53,11 +68,11 @@
         -999.0,
         39.0
       ],
-      "bid": 0.0165,
-      "ask": 0.9835,
-      "price": 0.0165,
-      "spread": 0.967,
-      "volume": 589.0
+      "bid": 0.014,
+      "ask": 0.986,
+      "price": 0.014,
+      "spread": 0.972,
+      "volume": 6862.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 40°C on April 23?",
@@ -66,11 +81,11 @@
         40.0,
         40.0
       ],
-      "bid": 0.029,
-      "ask": 0.971,
-      "price": 0.029,
-      "spread": 0.942,
-      "volume": 945.0
+      "bid": 0.018,
+      "ask": 0.982,
+      "price": 0.018,
+      "spread": 0.964,
+      "volume": 1924.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 41°C on April 23?",
@@ -79,11 +94,11 @@
         41.0,
         41.0
       ],
-      "bid": 0.14,
-      "ask": 0.86,
-      "price": 0.14,
-      "spread": 0.72,
-      "volume": 122.0
+      "bid": 0.09,
+      "ask": 0.91,
+      "price": 0.09,
+      "spread": 0.82,
+      "volume": 864.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 42°C on April 23?",
@@ -92,11 +107,11 @@
         42.0,
         42.0
       ],
-      "bid": 0.475,
-      "ask": 0.525,
-      "price": 0.475,
-      "spread": 0.05,
-      "volume": 130.0
+      "bid": 0.52,
+      "ask": 0.48,
+      "price": 0.52,
+      "spread": -0.04,
+      "volume": 531.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 43°C on April 23?",
@@ -105,11 +120,11 @@
         43.0,
         43.0
       ],
-      "bid": 0.315,
-      "ask": 0.685,
-      "price": 0.315,
-      "spread": 0.37,
-      "volume": 49.0
+      "bid": 0.33,
+      "ask": 0.67,
+      "price": 0.33,
+      "spread": 0.34,
+      "volume": 458.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 44°C on April 23?",
@@ -118,11 +133,11 @@
         44.0,
         44.0
       ],
-      "bid": 0.026,
-      "ask": 0.974,
-      "price": 0.026,
-      "spread": 0.948,
-      "volume": 499.0
+      "bid": 0.0765,
+      "ask": 0.9235,
+      "price": 0.0765,
+      "spread": 0.847,
+      "volume": 1880.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 45°C on April 23?",
@@ -131,11 +146,11 @@
         45.0,
         45.0
       ],
-      "bid": 0.018,
-      "ask": 0.982,
-      "price": 0.018,
-      "spread": 0.964,
-      "volume": 95.0
+      "bid": 0.0065,
+      "ask": 0.9935,
+      "price": 0.0065,
+      "spread": 0.987,
+      "volume": 564.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 46°C on April 23?",
@@ -144,11 +159,11 @@
         46.0,
         46.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 70.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 381.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 47°C on April 23?",
@@ -157,11 +172,11 @@
         47.0,
         47.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 69.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 508.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 48°C on April 23?",
@@ -170,11 +185,11 @@
         48.0,
         48.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 73.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 491.0
     },
     {
       "question": "Will the highest temperature in Lucknow be 49°C or higher on April 23?",
@@ -183,11 +198,11 @@
         49.0,
         999.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 282.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 923.0
     }
   ],
   "created_at": "2026-04-21T14:09:07.159463+00:00"

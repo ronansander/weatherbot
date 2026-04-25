@@ -1,0 +1,254 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-04-26",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-04-26T12:00:00Z",
+  "hours_at_discovery": 19.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:14.958023+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T16:35:00.415378+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T16:37:29.092840+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:01:06.292291+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.0,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:13:31.757555+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.8,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:30:50.543540+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.5,
+      "ecmwf": 64,
+      "hrrr": 63,
+      "metar": null,
+      "best": 63,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:14.958023+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-25T16:35:00.415378+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-25T16:37:29.092840+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-25T17:01:06.292291+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-25T17:13:31.757555+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-25T17:30:50.543540+00:00",
+      "top_bucket": "64.0-999.0F",
+      "top_price": 0.915
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 45°F or below on April 26?",
+      "market_id": "2064886",
+      "range": [
+        -999.0,
+        45.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 780.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 46-47°F on April 26?",
+      "market_id": "2064887",
+      "range": [
+        46.0,
+        47.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 582.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 48-49°F on April 26?",
+      "market_id": "2064888",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 604.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 50-51°F on April 26?",
+      "market_id": "2064889",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 637.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 52-53°F on April 26?",
+      "market_id": "2064890",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 758.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 54-55°F on April 26?",
+      "market_id": "2064891",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1061.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on April 26?",
+      "market_id": "2064892",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1845.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on April 26?",
+      "market_id": "2064893",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 820.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on April 26?",
+      "market_id": "2064894",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1882.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on April 26?",
+      "market_id": "2064895",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.0645,
+      "ask": 0.9355,
+      "price": 0.0645,
+      "spread": 0.871,
+      "volume": 1341.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 64°F or higher on April 26?",
+      "market_id": "2064896",
+      "range": [
+        64.0,
+        999.0
+      ],
+      "bid": 0.915,
+      "ask": 0.085,
+      "price": 0.915,
+      "spread": -0.83,
+      "volume": 3185.0
+    }
+  ],
+  "created_at": "2026-04-25T16:25:20.113879+00:00"
+}

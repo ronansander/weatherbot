@@ -31,7 +31,8 @@ with open("config.json", encoding="utf-8") as f:
 BALANCE          = _cfg.get("balance", 10000.0)
 MAX_BET          = _cfg.get("max_bet", 20.0)        # max bet per trade
 MIN_EV           = _cfg.get("min_ev", 0.10)
-MAX_PRICE        = _cfg.get("max_price", 0.45)
+MIN_PRICE        = _cfg.get("min_price", 0.20)
+MAX_PRICE        = _cfg.get("max_price", 0.60)
 MIN_VOLUME       = _cfg.get("min_volume", 500)
 MIN_HOURS        = _cfg.get("min_hours", 2.0)
 MAX_HOURS        = _cfg.get("max_hours", 72.0)
@@ -97,6 +98,13 @@ MONTHS = ["january","february","march","april","may","june",
 
 def norm_cdf(x):
     return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
+
+def bucket_bounds(t_low, t_high):
+    if t_low == -999:
+        return (None, float(t_high) + 0.5)
+    if t_high == 999:
+        return (float(t_low) - 0.5, None)
+    return (float(t_low) - 0.5, float(t_high) + 0.5)
 
 def bucket_prob(forecast, t_low, t_high, sigma=None):
     """For regular buckets — exact match. For edge buckets — normal distribution."""
@@ -685,7 +693,7 @@ def scan_and_update():
                 sigma = get_sigma(city_slug, best_source or "ecmwf")
                 best_signal = None
 
-                # Find exactly ONE bucket that matches the forecast
+                # Find exactly ONE bucket that matches the forecast.
                 # If forecast doesn't fit any bucket cleanly — skip this market
                 matched_bucket = None
                 for o in outcomes:
@@ -744,7 +752,7 @@ def scan_and_update():
                         real_bid = float(mdata.get("bestBid", best_signal["bid_at_entry"]))
                         real_spread = round(real_ask - real_bid, 4)
                         # Re-check slippage and price with real values
-                        if real_spread > MAX_SLIPPAGE or real_ask >= MAX_PRICE:
+                        if real_spread > MAX_SLIPPAGE or real_ask < MIN_PRICE or real_ask >= MAX_PRICE:
                             print(f"  [SKIP] {loc['name']} {date} — real ask ${real_ask:.3f} spread ${real_spread:.3f}")
                             skip_position = True
                         else:
@@ -756,7 +764,7 @@ def scan_and_update():
                     except Exception as e:
                         print(f"  [WARN] Could not fetch real ask for {best_signal['market_id']}: {e}")
 
-                    if not skip_position and best_signal["entry_price"] < MAX_PRICE:
+                    if not skip_position and MIN_PRICE <= best_signal["entry_price"] < MAX_PRICE:
                         balance -= best_signal["cost"]
                         mkt["position"] = best_signal
                         state["total_trades"] += 1

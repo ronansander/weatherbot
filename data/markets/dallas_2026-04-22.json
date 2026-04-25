@@ -61,6 +61,26 @@
       "metar": null,
       "best": 75,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T16:18:32.958645+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.7,
+      "ecmwf": 74,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T04:50:39.589757+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.2,
+      "ecmwf": 75,
+      "hrrr": 76,
+      "metar": 62,
+      "best": 76,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -88,6 +108,16 @@
       "ts": "2026-04-21T15:11:02.336725+00:00",
       "top_bucket": "72.0-999.0F",
       "top_price": 0.976
+    },
+    {
+      "ts": "2026-04-21T16:18:32.958645+00:00",
+      "top_bucket": "72.0-999.0F",
+      "top_price": 0.9805
+    },
+    {
+      "ts": "2026-04-22T04:50:39.589757+00:00",
+      "top_bucket": "72.0-999.0F",
+      "top_price": 0.985
     }
   ],
   "all_outcomes": [
@@ -98,10 +128,10 @@
         -999.0,
         53.0
       ],
-      "bid": 0.001,
-      "ask": 0.999,
-      "price": 0.001,
-      "spread": 0.998,
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
       "volume": 16214.0
     },
     {
@@ -141,7 +171,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 3283.0
+      "volume": 3303.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 60-61°F on April 22?",
@@ -163,11 +193,11 @@
         62.0,
         63.0
       ],
-      "bid": 0.0005,
-      "ask": 0.9995,
-      "price": 0.0005,
-      "spread": 0.999,
-      "volume": 3900.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 7022.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 64-65°F on April 22?",
@@ -176,11 +206,11 @@
         64.0,
         65.0
       ],
-      "bid": 0.0005,
-      "ask": 0.9995,
-      "price": 0.0005,
-      "spread": 0.999,
-      "volume": 3309.0
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 5429.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 66-67°F on April 22?",
@@ -193,7 +223,7 @@
       "ask": 0.9975,
       "price": 0.0025,
       "spread": 0.995,
-      "volume": 7645.0
+      "volume": 9941.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 68-69°F on April 22?",
@@ -202,11 +232,11 @@
         68.0,
         69.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 5266.0
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 6531.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 70-71°F on April 22?",
@@ -215,11 +245,11 @@
         70.0,
         71.0
       ],
-      "bid": 0.0235,
-      "ask": 0.9765,
-      "price": 0.0235,
-      "spread": 0.953,
-      "volume": 3937.0
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 5463.0
     },
     {
       "question": "Will the highest temperature in Dallas be 72°F or higher on April 22?",
@@ -228,11 +258,11 @@
         72.0,
         999.0
       ],
-      "bid": 0.976,
-      "ask": 0.024,
-      "price": 0.976,
-      "spread": -0.952,
-      "volume": 10481.0
+      "bid": 0.985,
+      "ask": 0.015,
+      "price": 0.985,
+      "spread": -0.97,
+      "volume": 14206.0
     }
   ],
   "created_at": "2026-04-20T22:48:34.192324+00:00"

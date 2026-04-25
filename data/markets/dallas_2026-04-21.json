@@ -61,6 +61,16 @@
       "metar": 57,
       "best": 65,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T16:18:32.958645+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 68,
+      "hrrr": 64,
+      "metar": 57,
+      "best": 64,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -88,6 +98,11 @@
       "ts": "2026-04-21T15:11:02.336725+00:00",
       "top_bucket": "62.0-63.0F",
       "top_price": 0.8155
+    },
+    {
+      "ts": "2026-04-21T16:18:32.958645+00:00",
+      "top_bucket": "62.0-63.0F",
+      "top_price": 0.756
     }
   ],
   "all_outcomes": [
@@ -215,11 +230,11 @@
         62.0,
         63.0
       ],
-      "bid": 0.8155,
-      "ask": 0.1845,
-      "price": 0.8155,
-      "spread": -0.631,
-      "volume": 10295.0
+      "bid": 0.756,
+      "ask": 0.244,
+      "price": 0.756,
+      "spread": -0.512,
+      "volume": 10589.0
     },
     {
       "question": "Will the highest temperature in Dallas be 64°F or higher on April 21?",
@@ -228,11 +243,11 @@
         64.0,
         999.0
       ],
-      "bid": 0.19,
-      "ask": 0.81,
-      "price": 0.19,
-      "spread": 0.62,
-      "volume": 10870.0
+      "bid": 0.25,
+      "ask": 0.75,
+      "price": 0.25,
+      "spread": 0.5,
+      "volume": 11312.0
     }
   ],
   "created_at": "2026-04-20T22:48:32.827426+00:00"

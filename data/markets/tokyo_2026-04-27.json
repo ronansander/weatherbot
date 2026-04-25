@@ -1,0 +1,239 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 43.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:26:07.278069+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.6,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:36:11.978897+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.4,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:39:04.048013+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.3,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:01:47.859328+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:14:30.390075+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.8,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:26:07.278069+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T16:36:11.978897+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T16:39:04.048013+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T17:01:47.859328+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-04-25T17:14:30.390075+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.35
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 11°C or below on April 27?",
+      "market_id": "2074449",
+      "range": [
+        -999.0,
+        11.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 587.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 12°C on April 27?",
+      "market_id": "2074450",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 402.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 13°C on April 27?",
+      "market_id": "2074451",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 386.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 14°C on April 27?",
+      "market_id": "2074452",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 984.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 15°C on April 27?",
+      "market_id": "2074453",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 233.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 16°C on April 27?",
+      "market_id": "2074454",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.055,
+      "ask": 0.945,
+      "price": 0.055,
+      "spread": 0.89,
+      "volume": 1270.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 17°C on April 27?",
+      "market_id": "2074455",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.235,
+      "ask": 0.765,
+      "price": 0.235,
+      "spread": 0.53,
+      "volume": 376.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 18°C on April 27?",
+      "market_id": "2074456",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.35,
+      "ask": 0.65,
+      "price": 0.35,
+      "spread": 0.3,
+      "volume": 425.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 19°C on April 27?",
+      "market_id": "2074457",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.27,
+      "ask": 0.73,
+      "price": 0.27,
+      "spread": 0.46,
+      "volume": 396.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 20°C on April 27?",
+      "market_id": "2074458",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 392.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 21°C or higher on April 27?",
+      "market_id": "2074459",
+      "range": [
+        21.0,
+        999.0
+      ],
+      "bid": 0.0465,
+      "ask": 0.9535,
+      "price": 0.0465,
+      "spread": 0.907,
+      "volume": 2596.0
+    }
+  ],
+  "created_at": "2026-04-25T16:26:11.362777+00:00"
+}

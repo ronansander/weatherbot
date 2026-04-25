@@ -61,6 +61,16 @@
       "metar": 68,
       "best": 79,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T16:18:45.944448+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 78,
+      "hrrr": 79,
+      "metar": 70,
+      "best": 79,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -88,6 +98,11 @@
       "ts": "2026-04-21T15:11:22.899497+00:00",
       "top_bucket": "78.0-79.0F",
       "top_price": 0.46
+    },
+    {
+      "ts": "2026-04-21T16:18:45.944448+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.515
     }
   ],
   "all_outcomes": [
@@ -124,11 +139,11 @@
         74.0,
         75.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 4948.0
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 5505.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 76-77°F on April 21?",
@@ -137,11 +152,11 @@
         76.0,
         77.0
       ],
-      "bid": 0.065,
-      "ask": 0.935,
-      "price": 0.065,
-      "spread": 0.87,
-      "volume": 4580.0
+      "bid": 0.043,
+      "ask": 0.957,
+      "price": 0.043,
+      "spread": 0.914,
+      "volume": 5358.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 78-79°F on April 21?",
@@ -150,11 +165,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.46,
-      "ask": 0.54,
-      "price": 0.46,
-      "spread": 0.08,
-      "volume": 4969.0
+      "bid": 0.515,
+      "ask": 0.485,
+      "price": 0.515,
+      "spread": -0.03,
+      "volume": 6682.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 80-81°F on April 21?",
@@ -163,11 +178,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.445,
-      "ask": 0.555,
-      "price": 0.445,
-      "spread": 0.11,
-      "volume": 4520.0
+      "bid": 0.395,
+      "ask": 0.605,
+      "price": 0.395,
+      "spread": 0.21,
+      "volume": 5759.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 82-83°F on April 21?",
@@ -176,11 +191,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.0325,
-      "ask": 0.9675,
-      "price": 0.0325,
-      "spread": 0.935,
-      "volume": 6683.0
+      "bid": 0.0625,
+      "ask": 0.9375,
+      "price": 0.0625,
+      "spread": 0.875,
+      "volume": 8196.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 84-85°F on April 21?",
@@ -189,11 +204,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 3701.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 4093.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 86-87°F on April 21?",
@@ -206,7 +221,7 @@
       "ask": 0.9975,
       "price": 0.0025,
       "spread": 0.995,
-      "volume": 2558.0
+      "volume": 2911.0
     },
     {
       "question": "Will the highest temperature in Atlanta be between 88-89°F on April 21?",

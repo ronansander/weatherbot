@@ -1,0 +1,179 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-04-24",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-04-24T12:00:00Z",
+  "hours_at_discovery": 55.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-22T04:50:56.441828+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.1,
+      "ecmwf": 18.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-22T04:50:56.441828+00:00",
+      "top_bucket": "19.0-19.0C",
+      "top_price": 0.28
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 13°C or below on April 24?",
+      "market_id": "2049366",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 25.0
+    },
+    {
+      "question": "Will the highest temperature in London be 14°C on April 24?",
+      "market_id": "2049367",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 135.0
+    },
+    {
+      "question": "Will the highest temperature in London be 15°C on April 24?",
+      "market_id": "2049368",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 90.0
+    },
+    {
+      "question": "Will the highest temperature in London be 16°C on April 24?",
+      "market_id": "2049369",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 18.0
+    },
+    {
+      "question": "Will the highest temperature in London be 17°C on April 24?",
+      "market_id": "2049370",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.09,
+      "ask": 0.91,
+      "price": 0.09,
+      "spread": 0.82,
+      "volume": 16.0
+    },
+    {
+      "question": "Will the highest temperature in London be 18°C on April 24?",
+      "market_id": "2049371",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 5.0
+    },
+    {
+      "question": "Will the highest temperature in London be 19°C on April 24?",
+      "market_id": "2049372",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in London be 20°C on April 24?",
+      "market_id": "2049373",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in London be 21°C on April 24?",
+      "market_id": "2049374",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.08,
+      "ask": 0.92,
+      "price": 0.08,
+      "spread": 0.84,
+      "volume": 0.0
+    },
+    {
+      "question": "Will the highest temperature in London be 22°C on April 24?",
+      "market_id": "2049375",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 45.0
+    },
+    {
+      "question": "Will the highest temperature in London be 23°C or higher on April 24?",
+      "market_id": "2049376",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 88.0
+    }
+  ],
+  "created_at": "2026-04-22T04:51:00.554451+00:00"
+}

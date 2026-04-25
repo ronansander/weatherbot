@@ -6,11 +6,33 @@
   "station": "KLGA",
   "event_end_date": "2026-04-23T12:00:00Z",
   "hours_at_discovery": 53.0,
-  "status": "open",
-  "position": null,
+  "status": "resolved",
+  "position": {
+    "market_id": "2040255",
+    "question": "Will the highest temperature in New York City be between 70-71°F on April 23?",
+    "bucket_low": 70.0,
+    "bucket_high": 71.0,
+    "entry_price": 0.29,
+    "bid_at_entry": 0.28,
+    "spread": 0.01,
+    "shares": 17.24,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 2.4483,
+    "kelly": 0.25,
+    "forecast_temp": 70,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-04-22T04:50:14.213603+00:00",
+    "status": "closed",
+    "pnl": 12.24,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-25T16:24:34.035590+00:00"
+  },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "win",
+  "pnl": 12.24,
   "forecast_snapshots": [
     {
       "ts": "2026-04-21T06:59:57.142292+00:00",
@@ -41,6 +63,26 @@
       "metar": null,
       "best": 69,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-21T16:18:12.813732+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.7,
+      "ecmwf": 70,
+      "hrrr": 69,
+      "metar": null,
+      "best": 69,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-22T04:50:14.213603+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.2,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -58,6 +100,16 @@
       "ts": "2026-04-21T15:10:45.401976+00:00",
       "top_bucket": "72.0-73.0F",
       "top_price": 0.26
+    },
+    {
+      "ts": "2026-04-21T16:18:12.813732+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-22T04:50:14.213603+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.285
     }
   ],
   "all_outcomes": [
@@ -68,11 +120,11 @@
         -999.0,
         61.0
       ],
-      "bid": 0.0085,
-      "ask": 0.9915,
-      "price": 0.0085,
-      "spread": 0.983,
-      "volume": 1699.0
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 5247.0
     },
     {
       "question": "Will the highest temperature in New York City be between 62-63°F on April 23?",
@@ -81,11 +133,11 @@
         62.0,
         63.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 810.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 4011.0
     },
     {
       "question": "Will the highest temperature in New York City be between 64-65°F on April 23?",
@@ -94,11 +146,11 @@
         64.0,
         65.0
       ],
-      "bid": 0.033,
-      "ask": 0.967,
-      "price": 0.033,
-      "spread": 0.934,
-      "volume": 934.0
+      "bid": 0.0385,
+      "ask": 0.9615,
+      "price": 0.0385,
+      "spread": 0.923,
+      "volume": 2401.0
     },
     {
       "question": "Will the highest temperature in New York City be between 66-67°F on April 23?",
@@ -107,11 +159,11 @@
         66.0,
         67.0
       ],
-      "bid": 0.105,
-      "ask": 0.895,
-      "price": 0.105,
-      "spread": 0.79,
-      "volume": 332.0
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 1600.0
     },
     {
       "question": "Will the highest temperature in New York City be between 68-69°F on April 23?",
@@ -120,11 +172,11 @@
         68.0,
         69.0
       ],
-      "bid": 0.19,
-      "ask": 0.81,
-      "price": 0.19,
-      "spread": 0.62,
-      "volume": 324.0
+      "bid": 0.22,
+      "ask": 0.78,
+      "price": 0.22,
+      "spread": 0.56,
+      "volume": 1178.0
     },
     {
       "question": "Will the highest temperature in New York City be between 70-71°F on April 23?",
@@ -133,11 +185,11 @@
         70.0,
         71.0
       ],
-      "bid": 0.255,
-      "ask": 0.745,
-      "price": 0.255,
-      "spread": 0.49,
-      "volume": 417.0
+      "bid": 0.285,
+      "ask": 0.715,
+      "price": 0.285,
+      "spread": 0.43,
+      "volume": 1203.0
     },
     {
       "question": "Will the highest temperature in New York City be between 72-73°F on April 23?",
@@ -146,11 +198,11 @@
         72.0,
         73.0
       ],
-      "bid": 0.26,
-      "ask": 0.74,
-      "price": 0.26,
-      "spread": 0.48,
-      "volume": 220.0
+      "bid": 0.255,
+      "ask": 0.745,
+      "price": 0.255,
+      "spread": 0.49,
+      "volume": 858.0
     },
     {
       "question": "Will the highest temperature in New York City be between 74-75°F on April 23?",
@@ -159,11 +211,11 @@
         74.0,
         75.0
       ],
-      "bid": 0.105,
-      "ask": 0.895,
-      "price": 0.105,
-      "spread": 0.79,
-      "volume": 386.0
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 1666.0
     },
     {
       "question": "Will the highest temperature in New York City be between 76-77°F on April 23?",
@@ -172,11 +224,11 @@
         76.0,
         77.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 135.0
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 457.0
     },
     {
       "question": "Will the highest temperature in New York City be between 78-79°F on April 23?",
@@ -185,11 +237,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 166.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 609.0
     },
     {
       "question": "Will the highest temperature in New York City be 80°F or higher on April 23?",
@@ -198,11 +250,11 @@
         80.0,
         999.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 236.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 456.0
     }
   ],
   "created_at": "2026-04-21T07:00:03.520209+00:00"

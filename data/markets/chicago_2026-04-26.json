@@ -1,0 +1,254 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-04-26",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-04-26T12:00:00Z",
+  "hours_at_discovery": 19.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:24:42.761608+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T16:34:42.006958+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T16:37:11.120030+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:00:20.667224+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.0,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:13:14.639885+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.8,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T17:30:14.581076+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.5,
+      "ecmwf": 64,
+      "hrrr": 60,
+      "metar": null,
+      "best": 60,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:24:42.761608+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T16:34:42.006958+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T16:37:11.120030+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T17:00:20.667224+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T17:13:14.639885+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T17:30:14.581076+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.845
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 65°F or below on April 26?",
+      "market_id": "2064941",
+      "range": [
+        -999.0,
+        65.0
+      ],
+      "bid": 0.845,
+      "ask": 0.155,
+      "price": 0.845,
+      "spread": -0.69,
+      "volume": 1761.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 66-67°F on April 26?",
+      "market_id": "2064942",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 638.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 68-69°F on April 26?",
+      "market_id": "2064943",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.017,
+      "ask": 0.983,
+      "price": 0.017,
+      "spread": 0.966,
+      "volume": 2549.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 70-71°F on April 26?",
+      "market_id": "2064944",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 1527.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on April 26?",
+      "market_id": "2064945",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 2073.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 74-75°F on April 26?",
+      "market_id": "2064946",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 1003.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 76-77°F on April 26?",
+      "market_id": "2064947",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 534.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 78-79°F on April 26?",
+      "market_id": "2064948",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 478.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on April 26?",
+      "market_id": "2064949",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 720.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on April 26?",
+      "market_id": "2064950",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 642.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 84°F or higher on April 26?",
+      "market_id": "2064951",
+      "range": [
+        84.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 553.0
+    }
+  ],
+  "created_at": "2026-04-25T16:24:52.090870+00:00"
+}

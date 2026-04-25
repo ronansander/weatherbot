@@ -1,0 +1,254 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-04-27",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-04-27T12:00:00Z",
+  "hours_at_discovery": 43.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:59.975602+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.6,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:35:50.257518+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.4,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T16:38:50.815400+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.3,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:01:43.646716+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.0,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:14:25.991834+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.8,
+      "ecmwf": 17.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:31:35.453282+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-25T16:25:59.975602+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.225
+    },
+    {
+      "ts": "2026-04-25T16:35:50.257518+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.225
+    },
+    {
+      "ts": "2026-04-25T16:38:50.815400+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.22
+    },
+    {
+      "ts": "2026-04-25T17:01:43.646716+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.24
+    },
+    {
+      "ts": "2026-04-25T17:14:25.991834+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.25
+    },
+    {
+      "ts": "2026-04-25T17:31:35.453282+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.275
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 13°C or below on April 27?",
+      "market_id": "2074306",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1040.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 14°C on April 27?",
+      "market_id": "2074307",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.011,
+      "ask": 0.989,
+      "price": 0.011,
+      "spread": 0.978,
+      "volume": 1616.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 15°C on April 27?",
+      "market_id": "2074308",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.03,
+      "ask": 0.97,
+      "price": 0.03,
+      "spread": 0.94,
+      "volume": 2999.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 16°C on April 27?",
+      "market_id": "2074309",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 1851.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 17°C on April 27?",
+      "market_id": "2074310",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.185,
+      "ask": 0.815,
+      "price": 0.185,
+      "spread": 0.63,
+      "volume": 915.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 18°C on April 27?",
+      "market_id": "2074311",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.275,
+      "ask": 0.725,
+      "price": 0.275,
+      "spread": 0.45,
+      "volume": 758.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 19°C on April 27?",
+      "market_id": "2074312",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.2,
+      "ask": 0.8,
+      "price": 0.2,
+      "spread": 0.6,
+      "volume": 427.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 20°C on April 27?",
+      "market_id": "2074313",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.115,
+      "ask": 0.885,
+      "price": 0.115,
+      "spread": 0.77,
+      "volume": 515.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 21°C on April 27?",
+      "market_id": "2074314",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0405,
+      "ask": 0.9595,
+      "price": 0.0405,
+      "spread": 0.919,
+      "volume": 1424.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 22°C on April 27?",
+      "market_id": "2074315",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.018,
+      "ask": 0.982,
+      "price": 0.018,
+      "spread": 0.964,
+      "volume": 1523.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 23°C or higher on April 27?",
+      "market_id": "2074316",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 1208.0
+    }
+  ],
+  "created_at": "2026-04-25T16:26:06.596134+00:00"
+}
