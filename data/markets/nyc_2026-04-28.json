@@ -1,0 +1,194 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-04-28",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.8,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:43.918093+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 65,
+      "hrrr": 64,
+      "metar": null,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:38.993610+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 65,
+      "hrrr": 64,
+      "metar": null,
+      "best": 64,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:43.918093+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-04-26T08:18:38.993610+00:00",
+      "top_bucket": "64.0-65.0F",
+      "top_price": 0.305
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 55°F or below on April 28?",
+      "market_id": "2082367",
+      "range": [
+        -999.0,
+        55.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 221.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 56-57°F on April 28?",
+      "market_id": "2082368",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.0095,
+      "ask": 0.9905,
+      "price": 0.0095,
+      "spread": 0.981,
+      "volume": 39.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 58-59°F on April 28?",
+      "market_id": "2082369",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 36.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 60-61°F on April 28?",
+      "market_id": "2082370",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 332.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 62-63°F on April 28?",
+      "market_id": "2082371",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.26,
+      "ask": 0.74,
+      "price": 0.26,
+      "spread": 0.48,
+      "volume": 76.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 64-65°F on April 28?",
+      "market_id": "2082372",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 139.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 66-67°F on April 28?",
+      "market_id": "2082373",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.165,
+      "ask": 0.835,
+      "price": 0.165,
+      "spread": 0.67,
+      "volume": 39.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 68-69°F on April 28?",
+      "market_id": "2082374",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "bid": 0.07,
+      "ask": 0.93,
+      "price": 0.07,
+      "spread": 0.86,
+      "volume": 48.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 70-71°F on April 28?",
+      "market_id": "2082375",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "bid": 0.0395,
+      "ask": 0.9605,
+      "price": 0.0395,
+      "spread": 0.921,
+      "volume": 125.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 72-73°F on April 28?",
+      "market_id": "2082376",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 125.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 74°F or higher on April 28?",
+      "market_id": "2082377",
+      "range": [
+        74.0,
+        999.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 136.0
+    }
+  ],
+  "created_at": "2026-04-26T07:14:48.411524+00:00"
+}

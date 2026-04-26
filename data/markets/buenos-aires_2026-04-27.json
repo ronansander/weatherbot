@@ -7,7 +7,29 @@
   "event_end_date": "2026-04-27T12:00:00Z",
   "hours_at_discovery": 43.6,
   "status": "open",
-  "position": null,
+  "position": {
+    "market_id": "2074303",
+    "question": "Will the highest temperature in Buenos Aires be 16°C on April 27?",
+    "bucket_low": 16.0,
+    "bucket_high": 16.0,
+    "entry_price": 0.44,
+    "bid_at_entry": 0.42,
+    "spread": 0.02,
+    "shares": 11.36,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 1.2727,
+    "kelly": 0.25,
+    "forecast_temp": 15.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-26T07:17:06.295300+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
   "actual_temp": null,
   "resolved_outcome": null,
   "pnl": null,
@@ -51,6 +73,56 @@
       "metar": null,
       "best": 15.3,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:33:01.253775+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.4,
+      "ecmwf": 15.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:52.478782+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.3,
+      "ecmwf": 15.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:48:31.258510+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 15.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.6,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:17:06.295300+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 15.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:20:50.417144+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 15.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -73,6 +145,31 @@
       "ts": "2026-04-25T17:15:20.008951+00:00",
       "top_bucket": "17.0-17.0C",
       "top_price": 0.275
+    },
+    {
+      "ts": "2026-04-25T17:33:01.253775+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-04-25T21:44:52.478782+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T22:48:31.258510+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-04-26T07:17:06.295300+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-04-26T08:20:50.417144+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.4
     }
   ],
   "all_outcomes": [
@@ -83,11 +180,11 @@
         -999.0,
         8.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 588.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 1178.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 9°C on April 27?",
@@ -96,11 +193,11 @@
         9.0,
         9.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 885.0
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 1601.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 10°C on April 27?",
@@ -109,11 +206,11 @@
         10.0,
         10.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 789.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1723.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 11°C on April 27?",
@@ -122,11 +219,11 @@
         11.0,
         11.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 294.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1062.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 12°C on April 27?",
@@ -135,11 +232,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 271.0
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 391.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 13°C on April 27?",
@@ -148,11 +245,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.013,
-      "ask": 0.987,
-      "price": 0.013,
-      "spread": 0.974,
-      "volume": 651.0
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 901.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 14°C on April 27?",
@@ -161,11 +258,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.05,
-      "ask": 0.95,
-      "price": 0.05,
-      "spread": 0.9,
-      "volume": 108.0
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 519.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 15°C on April 27?",
@@ -174,11 +271,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.18,
-      "ask": 0.82,
-      "price": 0.18,
-      "spread": 0.64,
-      "volume": 159.0
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 508.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 16°C on April 27?",
@@ -187,11 +284,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.215,
-      "ask": 0.785,
-      "price": 0.215,
-      "spread": 0.57,
-      "volume": 197.0
+      "bid": 0.4,
+      "ask": 0.6,
+      "price": 0.4,
+      "spread": 0.2,
+      "volume": 763.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 17°C on April 27?",
@@ -200,11 +297,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.275,
-      "ask": 0.725,
-      "price": 0.275,
-      "spread": 0.45,
-      "volume": 378.0
+      "bid": 0.28,
+      "ask": 0.72,
+      "price": 0.28,
+      "spread": 0.44,
+      "volume": 878.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 18°C or higher on April 27?",
@@ -213,11 +310,11 @@
         18.0,
         999.0
       ],
-      "bid": 0.155,
-      "ask": 0.845,
-      "price": 0.155,
-      "spread": 0.69,
-      "volume": 700.0
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 1409.0
     }
   ],
   "created_at": "2026-04-25T16:26:47.877940+00:00"

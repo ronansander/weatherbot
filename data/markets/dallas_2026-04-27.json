@@ -71,6 +71,46 @@
       "metar": null,
       "best": 93,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T21:43:10.148857+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.3,
+      "ecmwf": 91,
+      "hrrr": 93,
+      "metar": null,
+      "best": 93,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T22:46:38.900638+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 91,
+      "hrrr": 93,
+      "metar": null,
+      "best": 93,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T07:15:11.358318+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 89,
+      "hrrr": 96,
+      "metar": null,
+      "best": 96,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:57.123098+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 90,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -103,6 +143,26 @@
       "ts": "2026-04-25T17:30:44.536705+00:00",
       "top_bucket": "88.0-999.0F",
       "top_price": 0.89
+    },
+    {
+      "ts": "2026-04-25T21:43:10.148857+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.9245
+    },
+    {
+      "ts": "2026-04-25T22:46:38.900638+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.9045
+    },
+    {
+      "ts": "2026-04-26T07:15:11.358318+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.9195
+    },
+    {
+      "ts": "2026-04-26T08:18:57.123098+00:00",
+      "top_bucket": "88.0-999.0F",
+      "top_price": 0.943
     }
   ],
   "all_outcomes": [
@@ -113,11 +173,11 @@
         -999.0,
         69.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 1752.0
+      "bid": 0.0055,
+      "ask": 0.9945,
+      "price": 0.0055,
+      "spread": 0.989,
+      "volume": 2314.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 70-71°F on April 27?",
@@ -126,11 +186,11 @@
         70.0,
         71.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 1034.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 1093.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 72-73°F on April 27?",
@@ -143,7 +203,7 @@
       "ask": 0.996,
       "price": 0.004,
       "spread": 0.992,
-      "volume": 420.0
+      "volume": 834.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 74-75°F on April 27?",
@@ -156,7 +216,7 @@
       "ask": 0.996,
       "price": 0.004,
       "spread": 0.992,
-      "volume": 1264.0
+      "volume": 1458.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 76-77°F on April 27?",
@@ -169,7 +229,7 @@
       "ask": 0.996,
       "price": 0.004,
       "spread": 0.992,
-      "volume": 1109.0
+      "volume": 1157.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 78-79°F on April 27?",
@@ -178,11 +238,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 497.0
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 994.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 80-81°F on April 27?",
@@ -191,11 +251,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 344.0
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 798.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 82-83°F on April 27?",
@@ -204,11 +264,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.0085,
-      "ask": 0.9915,
-      "price": 0.0085,
-      "spread": 0.983,
-      "volume": 415.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 836.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 84-85°F on April 27?",
@@ -217,11 +277,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.015,
-      "ask": 0.985,
-      "price": 0.015,
-      "spread": 0.97,
-      "volume": 335.0
+      "bid": 0.013,
+      "ask": 0.987,
+      "price": 0.013,
+      "spread": 0.974,
+      "volume": 763.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 86-87°F on April 27?",
@@ -230,11 +290,11 @@
         86.0,
         87.0
       ],
-      "bid": 0.033,
-      "ask": 0.967,
-      "price": 0.033,
-      "spread": 0.934,
-      "volume": 747.0
+      "bid": 0.0355,
+      "ask": 0.9645,
+      "price": 0.0355,
+      "spread": 0.929,
+      "volume": 1927.0
     },
     {
       "question": "Will the highest temperature in Dallas be 88°F or higher on April 27?",
@@ -243,11 +303,11 @@
         88.0,
         999.0
       ],
-      "bid": 0.89,
-      "ask": 0.11,
-      "price": 0.89,
-      "spread": -0.78,
-      "volume": 1243.0
+      "bid": 0.943,
+      "ask": 0.057,
+      "price": 0.943,
+      "spread": -0.886,
+      "volume": 1883.0
     }
   ],
   "created_at": "2026-04-25T16:25:13.082233+00:00"

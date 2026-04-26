@@ -61,6 +61,56 @@
       "metar": null,
       "best": 20.2,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:32:01.953242+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": 20.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:00.501583+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.3,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:50.852578+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 20.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:16:11.199478+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 20.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:55.620637+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 19.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.2,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -88,6 +138,31 @@
       "ts": "2026-04-25T17:14:30.390075+00:00",
       "top_bucket": "18.0-18.0C",
       "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T17:32:01.953242+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T21:44:00.501583+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T22:47:50.852578+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-26T07:16:11.199478+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-04-26T08:19:55.620637+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.37
     }
   ],
   "all_outcomes": [
@@ -98,11 +173,11 @@
         -999.0,
         11.0
       ],
-      "bid": 0.003,
-      "ask": 0.997,
-      "price": 0.003,
-      "spread": 0.994,
-      "volume": 587.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 696.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 12°C on April 27?",
@@ -111,11 +186,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 402.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1367.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 13°C on April 27?",
@@ -124,11 +199,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 386.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1290.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 14°C on April 27?",
@@ -137,11 +212,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0035,
-      "ask": 0.9965,
-      "price": 0.0035,
-      "spread": 0.993,
-      "volume": 984.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1703.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 15°C on April 27?",
@@ -150,11 +225,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.0105,
-      "ask": 0.9895,
-      "price": 0.0105,
-      "spread": 0.979,
-      "volume": 233.0
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 3128.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 16°C on April 27?",
@@ -163,11 +238,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.055,
-      "ask": 0.945,
-      "price": 0.055,
-      "spread": 0.89,
-      "volume": 1270.0
+      "bid": 0.054,
+      "ask": 0.946,
+      "price": 0.054,
+      "spread": 0.892,
+      "volume": 4292.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 17°C on April 27?",
@@ -176,11 +251,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.235,
-      "ask": 0.765,
-      "price": 0.235,
-      "spread": 0.53,
-      "volume": 376.0
+      "bid": 0.37,
+      "ask": 0.63,
+      "price": 0.37,
+      "spread": 0.26,
+      "volume": 1237.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 18°C on April 27?",
@@ -189,11 +264,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.35,
-      "ask": 0.65,
-      "price": 0.35,
-      "spread": 0.3,
-      "volume": 425.0
+      "bid": 0.305,
+      "ask": 0.695,
+      "price": 0.305,
+      "spread": 0.39,
+      "volume": 1095.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 19°C on April 27?",
@@ -202,11 +277,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.27,
-      "ask": 0.73,
-      "price": 0.27,
-      "spread": 0.46,
-      "volume": 396.0
+      "bid": 0.15,
+      "ask": 0.85,
+      "price": 0.15,
+      "spread": 0.7,
+      "volume": 1059.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 20°C on April 27?",
@@ -215,11 +290,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.085,
-      "ask": 0.915,
-      "price": 0.085,
-      "spread": 0.83,
-      "volume": 392.0
+      "bid": 0.0265,
+      "ask": 0.9735,
+      "price": 0.0265,
+      "spread": 0.947,
+      "volume": 1973.0
     },
     {
       "question": "Will the highest temperature in Tokyo be 21°C or higher on April 27?",
@@ -228,11 +303,11 @@
         21.0,
         999.0
       ],
-      "bid": 0.0465,
-      "ask": 0.9535,
-      "price": 0.0465,
-      "spread": 0.907,
-      "volume": 2596.0
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 5403.0
     }
   ],
   "created_at": "2026-04-25T16:26:11.362777+00:00"

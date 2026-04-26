@@ -51,6 +51,56 @@
       "metar": null,
       "best": 16.2,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:33:09.341821+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.4,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:57.137015+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.2,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:48:36.457610+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 16.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:17:11.107647+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 16.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:20:54.684753+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.6,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
     }
   ],
   "market_snapshots": [
@@ -73,6 +123,31 @@
       "ts": "2026-04-25T17:15:24.800684+00:00",
       "top_bucket": "16.0-16.0C",
       "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T17:33:09.341821+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T21:44:57.137015+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-25T22:48:36.457610+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-04-26T07:17:11.107647+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-04-26T08:20:54.684753+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.435
     }
   ],
   "all_outcomes": [
@@ -83,11 +158,11 @@
         -999.0,
         10.0
       ],
-      "bid": 0.0035,
-      "ask": 0.9965,
-      "price": 0.0035,
-      "spread": 0.993,
-      "volume": 456.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3469.0
     },
     {
       "question": "Will the highest temperature in Wellington be 11°C on April 27?",
@@ -96,11 +171,11 @@
         11.0,
         11.0
       ],
-      "bid": 0.004,
-      "ask": 0.996,
-      "price": 0.004,
-      "spread": 0.992,
-      "volume": 288.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 1969.0
     },
     {
       "question": "Will the highest temperature in Wellington be 12°C on April 27?",
@@ -109,11 +184,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.0065,
-      "ask": 0.9935,
-      "price": 0.0065,
-      "spread": 0.987,
-      "volume": 218.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 912.0
     },
     {
       "question": "Will the highest temperature in Wellington be 13°C on April 27?",
@@ -122,11 +197,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 236.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 482.0
     },
     {
       "question": "Will the highest temperature in Wellington be 14°C on April 27?",
@@ -135,11 +210,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0195,
-      "ask": 0.9805,
-      "price": 0.0195,
-      "spread": 0.961,
-      "volume": 482.0
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 1260.0
     },
     {
       "question": "Will the highest temperature in Wellington be 15°C on April 27?",
@@ -148,11 +223,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.08,
-      "ask": 0.92,
-      "price": 0.08,
-      "spread": 0.84,
-      "volume": 256.0
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 1648.0
     },
     {
       "question": "Will the highest temperature in Wellington be 16°C on April 27?",
@@ -161,11 +236,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.365,
-      "ask": 0.635,
-      "price": 0.365,
-      "spread": 0.27,
-      "volume": 116.0
+      "bid": 0.33,
+      "ask": 0.67,
+      "price": 0.33,
+      "spread": 0.34,
+      "volume": 1746.0
     },
     {
       "question": "Will the highest temperature in Wellington be 17°C on April 27?",
@@ -174,11 +249,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.34,
-      "ask": 0.66,
-      "price": 0.34,
-      "spread": 0.32,
-      "volume": 47.0
+      "bid": 0.435,
+      "ask": 0.565,
+      "price": 0.435,
+      "spread": 0.13,
+      "volume": 648.0
     },
     {
       "question": "Will the highest temperature in Wellington be 18°C on April 27?",
@@ -187,11 +262,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.155,
-      "ask": 0.845,
-      "price": 0.155,
-      "spread": 0.69,
-      "volume": 70.0
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 741.0
     },
     {
       "question": "Will the highest temperature in Wellington be 19°C on April 27?",
@@ -200,11 +275,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.023,
-      "ask": 0.977,
-      "price": 0.023,
-      "spread": 0.954,
-      "volume": 439.0
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 662.0
     },
     {
       "question": "Will the highest temperature in Wellington be 20°C or higher on April 27?",
@@ -213,11 +288,11 @@
         20.0,
         999.0
       ],
-      "bid": 0.009,
-      "ask": 0.991,
-      "price": 0.009,
-      "spread": 0.982,
-      "volume": 267.0
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 519.0
     }
   ],
   "created_at": "2026-04-25T16:26:52.528855+00:00"

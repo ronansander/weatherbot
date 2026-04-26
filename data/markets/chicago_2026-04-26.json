@@ -71,6 +71,46 @@
       "metar": null,
       "best": 60,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T21:42:59.444263+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 63,
+      "hrrr": 57,
+      "metar": null,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T22:46:22.255964+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 63,
+      "hrrr": 57,
+      "metar": null,
+      "best": 57,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T07:14:49.096787+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.8,
+      "ecmwf": 63,
+      "hrrr": 58,
+      "metar": 43,
+      "best": 58,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:44.037450+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 62,
+      "hrrr": 58,
+      "metar": 42,
+      "best": 58,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -103,6 +143,26 @@
       "ts": "2026-04-25T17:30:14.581076+00:00",
       "top_bucket": "-999.0-65.0F",
       "top_price": 0.845
+    },
+    {
+      "ts": "2026-04-25T21:42:59.444263+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.875
+    },
+    {
+      "ts": "2026-04-25T22:46:22.255964+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.91
+    },
+    {
+      "ts": "2026-04-26T07:14:49.096787+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.915
+    },
+    {
+      "ts": "2026-04-26T08:18:44.037450+00:00",
+      "top_bucket": "-999.0-65.0F",
+      "top_price": 0.94
     }
   ],
   "all_outcomes": [
@@ -113,11 +173,11 @@
         -999.0,
         65.0
       ],
-      "bid": 0.845,
-      "ask": 0.155,
-      "price": 0.845,
-      "spread": -0.69,
-      "volume": 1761.0
+      "bid": 0.94,
+      "ask": 0.06,
+      "price": 0.94,
+      "spread": -0.88,
+      "volume": 2569.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 66-67°F on April 26?",
@@ -126,11 +186,11 @@
         66.0,
         67.0
       ],
-      "bid": 0.13,
-      "ask": 0.87,
-      "price": 0.13,
-      "spread": 0.74,
-      "volume": 638.0
+      "bid": 0.0345,
+      "ask": 0.9655,
+      "price": 0.0345,
+      "spread": 0.931,
+      "volume": 1943.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 68-69°F on April 26?",
@@ -139,11 +199,11 @@
         68.0,
         69.0
       ],
-      "bid": 0.017,
-      "ask": 0.983,
-      "price": 0.017,
-      "spread": 0.966,
-      "volume": 2549.0
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 4405.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 70-71°F on April 26?",
@@ -152,11 +212,11 @@
         70.0,
         71.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 1527.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 2863.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 72-73°F on April 26?",
@@ -165,11 +225,11 @@
         72.0,
         73.0
       ],
-      "bid": 0.002,
-      "ask": 0.998,
-      "price": 0.002,
-      "spread": 0.996,
-      "volume": 2073.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 3152.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 74-75°F on April 26?",
@@ -178,11 +238,11 @@
         74.0,
         75.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 1003.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 1114.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 76-77°F on April 26?",
@@ -191,11 +251,11 @@
         76.0,
         77.0
       ],
-      "bid": 0.002,
-      "ask": 0.998,
-      "price": 0.002,
-      "spread": 0.996,
-      "volume": 534.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 549.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 78-79°F on April 26?",
@@ -217,11 +277,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 720.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 730.0
     },
     {
       "question": "Will the highest temperature in Chicago be between 82-83°F on April 26?",
@@ -230,11 +290,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 642.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 652.0
     },
     {
       "question": "Will the highest temperature in Chicago be 84°F or higher on April 26?",

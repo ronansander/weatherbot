@@ -71,6 +71,46 @@
       "metar": null,
       "best": 86,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T21:43:10.148857+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 86,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T22:46:38.900638+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 86,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T07:15:11.358318+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 84,
+      "hrrr": 85,
+      "metar": 73,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:57.123098+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 85,
+      "hrrr": 84,
+      "metar": 72,
+      "best": 84,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -103,6 +143,26 @@
       "ts": "2026-04-25T17:30:44.536705+00:00",
       "top_bucket": "86.0-999.0F",
       "top_price": 0.915
+    },
+    {
+      "ts": "2026-04-25T21:43:10.148857+00:00",
+      "top_bucket": "86.0-999.0F",
+      "top_price": 0.925
+    },
+    {
+      "ts": "2026-04-25T22:46:38.900638+00:00",
+      "top_bucket": "86.0-999.0F",
+      "top_price": 0.915
+    },
+    {
+      "ts": "2026-04-26T07:15:11.358318+00:00",
+      "top_bucket": "86.0-999.0F",
+      "top_price": 0.81
+    },
+    {
+      "ts": "2026-04-26T08:18:57.123098+00:00",
+      "top_bucket": "86.0-999.0F",
+      "top_price": 0.82
     }
   ],
   "all_outcomes": [
@@ -113,11 +173,11 @@
         -999.0,
         67.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 739.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 744.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 68-69°F on April 26?",
@@ -169,7 +229,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 1030.0
+      "volume": 1071.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 76-77°F on April 26?",
@@ -178,11 +238,11 @@
         76.0,
         77.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 759.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 764.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 78-79°F on April 26?",
@@ -191,11 +251,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 1735.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 2866.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 80-81°F on April 26?",
@@ -204,11 +264,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 3566.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 4366.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 82-83°F on April 26?",
@@ -217,11 +277,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.0155,
-      "ask": 0.9845,
-      "price": 0.0155,
-      "spread": 0.969,
-      "volume": 4012.0
+      "bid": 0.0135,
+      "ask": 0.9865,
+      "price": 0.0135,
+      "spread": 0.973,
+      "volume": 6192.0
     },
     {
       "question": "Will the highest temperature in Dallas be between 84-85°F on April 26?",
@@ -230,11 +290,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.05,
-      "ask": 0.95,
-      "price": 0.05,
-      "spread": 0.9,
-      "volume": 2850.0
+      "bid": 0.165,
+      "ask": 0.835,
+      "price": 0.165,
+      "spread": 0.67,
+      "volume": 4763.0
     },
     {
       "question": "Will the highest temperature in Dallas be 86°F or higher on April 26?",
@@ -243,11 +303,11 @@
         86.0,
         999.0
       ],
-      "bid": 0.915,
-      "ask": 0.085,
-      "price": 0.915,
-      "spread": -0.83,
-      "volume": 4795.0
+      "bid": 0.82,
+      "ask": 0.18,
+      "price": 0.82,
+      "spread": -0.64,
+      "volume": 5846.0
     }
   ],
   "created_at": "2026-04-25T16:25:11.309838+00:00"

@@ -7,7 +7,29 @@
   "event_end_date": "2026-04-27T12:00:00Z",
   "hours_at_discovery": 43.6,
   "status": "open",
-  "position": null,
+  "position": {
+    "market_id": "2074476",
+    "question": "Will the highest temperature in Shanghai be 26°C on April 27?",
+    "bucket_low": 26.0,
+    "bucket_high": 26.0,
+    "entry_price": 0.29,
+    "bid_at_entry": 0.28,
+    "spread": 0.01,
+    "shares": 17.24,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 2.4483,
+    "kelly": 0.25,
+    "forecast_temp": 25.5,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-25T21:44:04.847189+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
   "actual_temp": null,
   "resolved_outcome": null,
   "pnl": null,
@@ -51,6 +73,56 @@
       "metar": null,
       "best": 24.2,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:32:16.786878+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": 24.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:04.847189+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.3,
+      "ecmwf": 25.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 25.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:56.248728+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 25.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 25.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:16:15.533033+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:20:01.674925+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 24.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.9,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -73,6 +145,31 @@
       "ts": "2026-04-25T17:14:34.777918+00:00",
       "top_bucket": "27.0-27.0C",
       "top_price": 0.335
+    },
+    {
+      "ts": "2026-04-25T17:32:16.786878+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-25T21:44:04.847189+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T22:47:56.248728+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-26T07:16:15.533033+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-26T08:20:01.674925+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 0.355
     }
   ],
   "all_outcomes": [
@@ -83,11 +180,11 @@
         -999.0,
         21.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 744.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2853.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 22°C on April 27?",
@@ -96,11 +193,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 861.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1649.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 23°C on April 27?",
@@ -109,11 +206,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.013,
-      "ask": 0.987,
-      "price": 0.013,
-      "spread": 0.974,
-      "volume": 2179.0
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 3214.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 24°C on April 27?",
@@ -122,11 +219,11 @@
         24.0,
         24.0
       ],
-      "bid": 0.0295,
-      "ask": 0.9705,
-      "price": 0.0295,
-      "spread": 0.941,
-      "volume": 1537.0
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 4054.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 25°C on April 27?",
@@ -135,11 +232,11 @@
         25.0,
         25.0
       ],
-      "bid": 0.085,
-      "ask": 0.915,
-      "price": 0.085,
-      "spread": 0.83,
-      "volume": 1303.0
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 3951.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 26°C on April 27?",
@@ -148,11 +245,11 @@
         26.0,
         26.0
       ],
-      "bid": 0.3,
-      "ask": 0.7,
-      "price": 0.3,
-      "spread": 0.4,
-      "volume": 619.0
+      "bid": 0.285,
+      "ask": 0.715,
+      "price": 0.285,
+      "spread": 0.43,
+      "volume": 1957.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 27°C on April 27?",
@@ -161,11 +258,11 @@
         27.0,
         27.0
       ],
-      "bid": 0.335,
-      "ask": 0.665,
-      "price": 0.335,
-      "spread": 0.33,
-      "volume": 339.0
+      "bid": 0.355,
+      "ask": 0.645,
+      "price": 0.355,
+      "spread": 0.29,
+      "volume": 1861.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 28°C on April 27?",
@@ -174,11 +271,11 @@
         28.0,
         28.0
       ],
-      "bid": 0.125,
-      "ask": 0.875,
-      "price": 0.125,
-      "spread": 0.75,
-      "volume": 623.0
+      "bid": 0.13,
+      "ask": 0.87,
+      "price": 0.13,
+      "spread": 0.74,
+      "volume": 2549.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 29°C on April 27?",
@@ -187,11 +284,11 @@
         29.0,
         29.0
       ],
-      "bid": 0.015,
-      "ask": 0.985,
-      "price": 0.015,
-      "spread": 0.97,
-      "volume": 346.0
+      "bid": 0.0345,
+      "ask": 0.9655,
+      "price": 0.0345,
+      "spread": 0.931,
+      "volume": 1302.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 30°C on April 27?",
@@ -200,11 +297,11 @@
         30.0,
         30.0
       ],
-      "bid": 0.015,
-      "ask": 0.985,
-      "price": 0.015,
-      "spread": 0.97,
-      "volume": 621.0
+      "bid": 0.023,
+      "ask": 0.977,
+      "price": 0.023,
+      "spread": 0.954,
+      "volume": 2273.0
     },
     {
       "question": "Will the highest temperature in Shanghai be 31°C or higher on April 27?",
@@ -213,11 +310,11 @@
         31.0,
         999.0
       ],
-      "bid": 0.0095,
-      "ask": 0.9905,
-      "price": 0.0095,
-      "spread": 0.981,
-      "volume": 433.0
+      "bid": 0.008,
+      "ask": 0.992,
+      "price": 0.008,
+      "spread": 0.984,
+      "volume": 958.0
     }
   ],
   "created_at": "2026-04-25T16:26:16.191587+00:00"

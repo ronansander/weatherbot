@@ -6,7 +6,7 @@
   "station": "RKSI",
   "event_end_date": "2026-04-26T12:00:00Z",
   "hours_at_discovery": 19.6,
-  "status": "open",
+  "status": "resolved",
   "position": {
     "market_id": "2064873",
     "question": "Will the highest temperature in Seoul be 19°C on April 26?",
@@ -24,15 +24,15 @@
     "forecast_src": "ecmwf",
     "sigma": 1.2,
     "opened_at": "2026-04-25T16:25:59.975602+00:00",
-    "status": "open",
-    "pnl": null,
-    "exit_price": null,
-    "close_reason": null,
-    "closed_at": null
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-04-26T07:14:43.917679+00:00"
   },
   "actual_temp": null,
-  "resolved_outcome": null,
-  "pnl": null,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
   "forecast_snapshots": [
     {
       "ts": "2026-04-25T16:25:59.975602+00:00",
@@ -93,6 +93,36 @@
       "metar": null,
       "best": null,
       "best_source": null
+    },
+    {
+      "ts": "2026-04-25T21:43:55.168266+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:44.842729+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:16:06.179964+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 18.6,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 18.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -125,6 +155,21 @@
       "ts": "2026-04-25T17:31:35.453282+00:00",
       "top_bucket": "20.0-999.0C",
       "top_price": 0.725
+    },
+    {
+      "ts": "2026-04-25T21:43:55.168266+00:00",
+      "top_bucket": "20.0-999.0C",
+      "top_price": 0.555
+    },
+    {
+      "ts": "2026-04-25T22:47:44.842729+00:00",
+      "top_bucket": "20.0-999.0C",
+      "top_price": 0.575
+    },
+    {
+      "ts": "2026-04-26T07:16:06.179964+00:00",
+      "top_bucket": "20.0-999.0C",
+      "top_price": 1.0
     }
   ],
   "all_outcomes": [
@@ -148,10 +193,10 @@
         11.0,
         11.0
       ],
-      "bid": 0.0005,
-      "ask": 0.9995,
-      "price": 0.0005,
-      "spread": 0.999,
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
       "volume": 3730.0
     },
     {
@@ -161,10 +206,10 @@
         12.0,
         12.0
       ],
-      "bid": 0.0005,
-      "ask": 0.9995,
-      "price": 0.0005,
-      "spread": 0.999,
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
       "volume": 3779.0
     },
     {
@@ -174,10 +219,10 @@
         13.0,
         13.0
       ],
-      "bid": 0.0005,
-      "ask": 0.9995,
-      "price": 0.0005,
-      "spread": 0.999,
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
       "volume": 7646.0
     },
     {
@@ -187,11 +232,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 10303.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 12013.0
     },
     {
       "question": "Will the highest temperature in Seoul be 15°C on April 26?",
@@ -200,11 +245,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 10503.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 15345.0
     },
     {
       "question": "Will the highest temperature in Seoul be 16°C on April 26?",
@@ -213,11 +258,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 7674.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 19384.0
     },
     {
       "question": "Will the highest temperature in Seoul be 17°C on April 26?",
@@ -226,11 +271,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0145,
-      "ask": 0.9855,
-      "price": 0.0145,
-      "spread": 0.971,
-      "volume": 11389.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 23400.0
     },
     {
       "question": "Will the highest temperature in Seoul be 18°C on April 26?",
@@ -239,11 +284,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.072,
-      "ask": 0.928,
-      "price": 0.072,
-      "spread": 0.856,
-      "volume": 6956.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 22931.0
     },
     {
       "question": "Will the highest temperature in Seoul be 19°C on April 26?",
@@ -252,11 +297,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.19,
-      "ask": 0.81,
-      "price": 0.19,
-      "spread": 0.62,
-      "volume": 6664.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 63938.0
     },
     {
       "question": "Will the highest temperature in Seoul be 20°C or higher on April 26?",
@@ -265,11 +310,11 @@
         20.0,
         999.0
       ],
-      "bid": 0.725,
-      "ask": 0.275,
-      "price": 0.725,
-      "spread": -0.45,
-      "volume": 11970.0
+      "bid": 1.0,
+      "ask": 0.0,
+      "price": 1.0,
+      "spread": -1.0,
+      "volume": 61484.0
     }
   ],
   "created_at": "2026-04-25T16:26:05.241902+00:00"

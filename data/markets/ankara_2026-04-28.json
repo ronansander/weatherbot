@@ -1,0 +1,194 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:16:01.187168+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.7,
+      "ecmwf": 17.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 17.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:45.779954+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 16.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:16:01.187168+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.255
+    },
+    {
+      "ts": "2026-04-26T08:19:45.779954+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.265
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 13°C or below on April 28?",
+      "market_id": "2082422",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 239.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 14°C on April 28?",
+      "market_id": "2082423",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 259.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 15°C on April 28?",
+      "market_id": "2082424",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 187.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 16°C on April 28?",
+      "market_id": "2082425",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 132.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 17°C on April 28?",
+      "market_id": "2082426",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 20.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on April 28?",
+      "market_id": "2082427",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.265,
+      "ask": 0.735,
+      "price": 0.265,
+      "spread": 0.47,
+      "volume": 192.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on April 28?",
+      "market_id": "2082428",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 30.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on April 28?",
+      "market_id": "2082429",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 263.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C on April 28?",
+      "market_id": "2082430",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 442.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on April 28?",
+      "market_id": "2082431",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0675,
+      "ask": 0.9325,
+      "price": 0.0675,
+      "spread": 0.865,
+      "volume": 169.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C or higher on April 28?",
+      "market_id": "2082432",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 165.0
+    }
+  ],
+  "created_at": "2026-04-26T07:16:05.448895+00:00"
+}

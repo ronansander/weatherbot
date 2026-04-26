@@ -1,0 +1,194 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:15:49.877056+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.7,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:27.448271+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 22.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:15:49.877056+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-26T08:19:27.448271+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 15°C or below on April 28?",
+      "market_id": "2082301",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 146.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on April 28?",
+      "market_id": "2082302",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 192.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on April 28?",
+      "market_id": "2082303",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 359.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on April 28?",
+      "market_id": "2082304",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.025,
+      "ask": 0.975,
+      "price": 0.025,
+      "spread": 0.95,
+      "volume": 41.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on April 28?",
+      "market_id": "2082305",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 82.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on April 28?",
+      "market_id": "2082306",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.205,
+      "ask": 0.795,
+      "price": 0.205,
+      "spread": 0.59,
+      "volume": 292.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on April 28?",
+      "market_id": "2082307",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 213.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on April 28?",
+      "market_id": "2082308",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.19,
+      "ask": 0.81,
+      "price": 0.19,
+      "spread": 0.62,
+      "volume": 59.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on April 28?",
+      "market_id": "2082309",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 76.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on April 28?",
+      "market_id": "2082310",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.016,
+      "ask": 0.984,
+      "price": 0.016,
+      "spread": 0.968,
+      "volume": 213.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 25°C or higher on April 28?",
+      "market_id": "2082311",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 136.0
+    }
+  ],
+  "created_at": "2026-04-26T07:15:54.839516+00:00"
+}

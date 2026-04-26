@@ -93,6 +93,46 @@
       "metar": null,
       "best": 18.9,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:43:51.033142+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 18.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:39.110260+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 18.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 18.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:16:01.187168+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 19.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:45.779954+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 18.6,
+      "hrrr": null,
+      "metar": 16.0,
+      "best": 18.6,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -125,6 +165,26 @@
       "ts": "2026-04-25T17:31:22.530645+00:00",
       "top_bucket": "21.0-21.0C",
       "top_price": 0.3425
+    },
+    {
+      "ts": "2026-04-25T21:43:51.033142+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.4865
+    },
+    {
+      "ts": "2026-04-25T22:47:39.110260+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.51
+    },
+    {
+      "ts": "2026-04-26T07:16:01.187168+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.6295
+    },
+    {
+      "ts": "2026-04-26T08:19:45.779954+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.6405
     }
   ],
   "all_outcomes": [
@@ -139,7 +199,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 667.0
+      "volume": 821.0
     },
     {
       "question": "Will the highest temperature in Ankara be 14°C on April 26?",
@@ -152,7 +212,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 1055.0
+      "volume": 1223.0
     },
     {
       "question": "Will the highest temperature in Ankara be 15°C on April 26?",
@@ -165,7 +225,7 @@
       "ask": 0.9995,
       "price": 0.0005,
       "spread": 0.999,
-      "volume": 893.0
+      "volume": 1037.0
     },
     {
       "question": "Will the highest temperature in Ankara be 16°C on April 26?",
@@ -174,11 +234,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 895.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2231.0
     },
     {
       "question": "Will the highest temperature in Ankara be 17°C on April 26?",
@@ -187,11 +247,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 2024.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 4108.0
     },
     {
       "question": "Will the highest temperature in Ankara be 18°C on April 26?",
@@ -200,11 +260,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.024,
-      "ask": 0.976,
-      "price": 0.024,
-      "spread": 0.952,
-      "volume": 2688.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 4220.0
     },
     {
       "question": "Will the highest temperature in Ankara be 19°C on April 26?",
@@ -213,11 +273,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.115,
-      "ask": 0.885,
-      "price": 0.115,
-      "spread": 0.77,
-      "volume": 3221.0
+      "bid": 0.0605,
+      "ask": 0.9395,
+      "price": 0.0605,
+      "spread": 0.879,
+      "volume": 6699.0
     },
     {
       "question": "Will the highest temperature in Ankara be 20°C on April 26?",
@@ -226,11 +286,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.325,
-      "ask": 0.675,
-      "price": 0.325,
-      "spread": 0.35,
-      "volume": 1648.0
+      "bid": 0.24,
+      "ask": 0.76,
+      "price": 0.24,
+      "spread": 0.52,
+      "volume": 4638.0
     },
     {
       "question": "Will the highest temperature in Ankara be 21°C on April 26?",
@@ -239,11 +299,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.3425,
-      "ask": 0.6575,
-      "price": 0.3425,
-      "spread": 0.315,
-      "volume": 1864.0
+      "bid": 0.6405,
+      "ask": 0.3595,
+      "price": 0.6405,
+      "spread": -0.281,
+      "volume": 3754.0
     },
     {
       "question": "Will the highest temperature in Ankara be 22°C on April 26?",
@@ -252,11 +312,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.0685,
-      "ask": 0.9315,
-      "price": 0.0685,
-      "spread": 0.863,
-      "volume": 1611.0
+      "bid": 0.066,
+      "ask": 0.934,
+      "price": 0.066,
+      "spread": 0.868,
+      "volume": 2839.0
     },
     {
       "question": "Will the highest temperature in Ankara be 23°C or higher on April 26?",
@@ -265,11 +325,11 @@
         23.0,
         999.0
       ],
-      "bid": 0.029,
-      "ask": 0.971,
-      "price": 0.029,
-      "spread": 0.942,
-      "volume": 2057.0
+      "bid": 0.0145,
+      "ask": 0.9855,
+      "price": 0.0145,
+      "spread": 0.971,
+      "volume": 3463.0
     }
   ],
   "created_at": "2026-04-25T16:25:58.025058+00:00"

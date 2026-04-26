@@ -1,0 +1,194 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-04-28",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:56.051183+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.7,
+      "ecmwf": 80,
+      "hrrr": 85,
+      "metar": null,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:51.321421+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 80,
+      "hrrr": 85,
+      "metar": null,
+      "best": 85,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:56.051183+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-04-26T08:18:51.321421+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.375
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 73°F or below on April 28?",
+      "market_id": "2082400",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 238.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 74-75°F on April 28?",
+      "market_id": "2082401",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 238.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 76-77°F on April 28?",
+      "market_id": "2082402",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on April 28?",
+      "market_id": "2082403",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 40.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on April 28?",
+      "market_id": "2082404",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.085,
+      "ask": 0.915,
+      "price": 0.085,
+      "spread": 0.83,
+      "volume": 410.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on April 28?",
+      "market_id": "2082405",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.285,
+      "ask": 0.715,
+      "price": 0.285,
+      "spread": 0.43,
+      "volume": 323.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on April 28?",
+      "market_id": "2082406",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.375,
+      "ask": 0.625,
+      "price": 0.375,
+      "spread": 0.25,
+      "volume": 328.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on April 28?",
+      "market_id": "2082407",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.21,
+      "ask": 0.79,
+      "price": 0.21,
+      "spread": 0.58,
+      "volume": 163.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on April 28?",
+      "market_id": "2082408",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.0255,
+      "ask": 0.9745,
+      "price": 0.0255,
+      "spread": 0.949,
+      "volume": 35.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on April 28?",
+      "market_id": "2082409",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.015,
+      "ask": 0.985,
+      "price": 0.015,
+      "spread": 0.97,
+      "volume": 160.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 92°F or higher on April 28?",
+      "market_id": "2082410",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 127.0
+    }
+  ],
+  "created_at": "2026-04-26T07:15:10.605141+00:00"
+}

@@ -51,6 +51,56 @@
       "metar": null,
       "best": 15.1,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:33:01.253775+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.4,
+      "ecmwf": 15.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:52.478782+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 15.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:48:31.258510+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 15.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 15.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:17:06.295300+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 15.3,
+      "hrrr": null,
+      "metar": 11.0,
+      "best": 15.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:20:50.417144+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 15.1,
+      "hrrr": null,
+      "metar": 10.0,
+      "best": 15.1,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -73,6 +123,31 @@
       "ts": "2026-04-25T17:15:20.008951+00:00",
       "top_bucket": "16.0-16.0C",
       "top_price": 0.355
+    },
+    {
+      "ts": "2026-04-25T17:33:01.253775+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-25T21:44:52.478782+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-04-25T22:48:31.258510+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-04-26T07:17:06.295300+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-26T08:20:50.417144+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.37
     }
   ],
   "all_outcomes": [
@@ -83,11 +158,11 @@
         -999.0,
         10.0
       ],
-      "bid": 0.002,
-      "ask": 0.998,
-      "price": 0.002,
-      "spread": 0.996,
-      "volume": 938.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1036.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 11°C on April 26?",
@@ -96,11 +171,11 @@
         11.0,
         11.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 1192.0
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1256.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 12°C on April 26?",
@@ -109,11 +184,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 336.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 1334.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 13°C on April 26?",
@@ -122,11 +197,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.0085,
-      "ask": 0.9915,
-      "price": 0.0085,
-      "spread": 0.983,
-      "volume": 944.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1549.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 14°C on April 26?",
@@ -135,11 +210,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.0225,
-      "ask": 0.9775,
-      "price": 0.0225,
-      "spread": 0.955,
-      "volume": 392.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 1824.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 15°C on April 26?",
@@ -148,11 +223,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.18,
-      "ask": 0.82,
-      "price": 0.18,
-      "spread": 0.64,
-      "volume": 659.0
+      "bid": 0.0795,
+      "ask": 0.9205,
+      "price": 0.0795,
+      "spread": 0.841,
+      "volume": 2165.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 16°C on April 26?",
@@ -161,11 +236,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.355,
-      "ask": 0.645,
-      "price": 0.355,
-      "spread": 0.29,
-      "volume": 849.0
+      "bid": 0.325,
+      "ask": 0.675,
+      "price": 0.325,
+      "spread": 0.35,
+      "volume": 1576.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 17°C on April 26?",
@@ -174,11 +249,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.305,
-      "ask": 0.695,
-      "price": 0.305,
-      "spread": 0.39,
-      "volume": 713.0
+      "bid": 0.37,
+      "ask": 0.63,
+      "price": 0.37,
+      "spread": 0.26,
+      "volume": 1063.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 18°C on April 26?",
@@ -187,11 +262,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.165,
-      "ask": 0.835,
-      "price": 0.165,
-      "spread": 0.67,
-      "volume": 781.0
+      "bid": 0.12,
+      "ask": 0.88,
+      "price": 0.12,
+      "spread": 0.76,
+      "volume": 1508.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 19°C on April 26?",
@@ -200,11 +275,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.038,
-      "ask": 0.962,
-      "price": 0.038,
-      "spread": 0.924,
-      "volume": 1880.0
+      "bid": 0.0335,
+      "ask": 0.9665,
+      "price": 0.0335,
+      "spread": 0.933,
+      "volume": 2519.0
     },
     {
       "question": "Will the highest temperature in Buenos Aires be 20°C or higher on April 26?",
@@ -213,11 +288,11 @@
         20.0,
         999.0
       ],
-      "bid": 0.013,
-      "ask": 0.987,
-      "price": 0.013,
-      "spread": 0.974,
-      "volume": 2112.0
+      "bid": 0.0155,
+      "ask": 0.9845,
+      "price": 0.0155,
+      "spread": 0.969,
+      "volume": 4094.0
     }
   ],
   "created_at": "2026-04-25T16:26:47.096578+00:00"

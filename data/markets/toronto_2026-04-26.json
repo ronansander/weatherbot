@@ -73,6 +73,56 @@
       "metar": null,
       "best": 14.4,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T17:32:34.852499+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.5,
+      "ecmwf": 14.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 14.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:44:34.505081+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 14.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 14.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:48:20.497456+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 14.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 14.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:16:33.974902+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 4.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-04-26T08:20:32.277767+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 15.0,
+      "hrrr": null,
+      "metar": 4.0,
+      "best": 15.0,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -95,6 +145,31 @@
       "ts": "2026-04-25T17:15:10.835013+00:00",
       "top_bucket": "14.0-14.0C",
       "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-25T17:32:34.852499+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-04-25T21:44:34.505081+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-04-25T22:48:20.497456+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-26T07:16:33.974902+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-04-26T08:20:32.277767+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.36
     }
   ],
   "all_outcomes": [
@@ -105,11 +180,11 @@
         -999.0,
         8.0
       ],
-      "bid": 0.004,
-      "ask": 0.996,
-      "price": 0.004,
-      "spread": 0.992,
-      "volume": 2955.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6167.0
     },
     {
       "question": "Will the highest temperature in Toronto be 9°C on April 26?",
@@ -122,7 +197,7 @@
       "ask": 0.9955,
       "price": 0.0045,
       "spread": 0.991,
-      "volume": 2199.0
+      "volume": 3086.0
     },
     {
       "question": "Will the highest temperature in Toronto be 10°C on April 26?",
@@ -131,11 +206,11 @@
         10.0,
         10.0
       ],
-      "bid": 0.007,
-      "ask": 0.993,
-      "price": 0.007,
-      "spread": 0.986,
-      "volume": 1400.0
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 2841.0
     },
     {
       "question": "Will the highest temperature in Toronto be 11°C on April 26?",
@@ -144,11 +219,11 @@
         11.0,
         11.0
       ],
-      "bid": 0.009,
-      "ask": 0.991,
-      "price": 0.009,
-      "spread": 0.982,
-      "volume": 1467.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 3377.0
     },
     {
       "question": "Will the highest temperature in Toronto be 12°C on April 26?",
@@ -157,11 +232,11 @@
         12.0,
         12.0
       ],
-      "bid": 0.07,
-      "ask": 0.93,
-      "price": 0.07,
-      "spread": 0.86,
-      "volume": 1022.0
+      "bid": 0.0335,
+      "ask": 0.9665,
+      "price": 0.0335,
+      "spread": 0.933,
+      "volume": 2799.0
     },
     {
       "question": "Will the highest temperature in Toronto be 13°C on April 26?",
@@ -170,11 +245,11 @@
         13.0,
         13.0
       ],
-      "bid": 0.17,
-      "ask": 0.83,
-      "price": 0.17,
-      "spread": 0.66,
-      "volume": 1043.0
+      "bid": 0.11,
+      "ask": 0.89,
+      "price": 0.11,
+      "spread": 0.78,
+      "volume": 2802.0
     },
     {
       "question": "Will the highest temperature in Toronto be 14°C on April 26?",
@@ -183,11 +258,11 @@
         14.0,
         14.0
       ],
-      "bid": 0.325,
-      "ask": 0.675,
-      "price": 0.325,
-      "spread": 0.35,
-      "volume": 892.0
+      "bid": 0.36,
+      "ask": 0.64,
+      "price": 0.36,
+      "spread": 0.28,
+      "volume": 2777.0
     },
     {
       "question": "Will the highest temperature in Toronto be 15°C on April 26?",
@@ -196,11 +271,11 @@
         15.0,
         15.0
       ],
-      "bid": 0.19,
-      "ask": 0.81,
-      "price": 0.19,
-      "spread": 0.62,
-      "volume": 543.0
+      "bid": 0.335,
+      "ask": 0.665,
+      "price": 0.335,
+      "spread": 0.33,
+      "volume": 1492.0
     },
     {
       "question": "Will the highest temperature in Toronto be 16°C on April 26?",
@@ -209,11 +284,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.105,
-      "ask": 0.895,
-      "price": 0.105,
-      "spread": 0.79,
-      "volume": 1309.0
+      "bid": 0.11,
+      "ask": 0.89,
+      "price": 0.11,
+      "spread": 0.78,
+      "volume": 2027.0
     },
     {
       "question": "Will the highest temperature in Toronto be 17°C on April 26?",
@@ -222,11 +297,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0135,
-      "ask": 0.9865,
-      "price": 0.0135,
-      "spread": 0.973,
-      "volume": 2790.0
+      "bid": 0.029,
+      "ask": 0.971,
+      "price": 0.029,
+      "spread": 0.942,
+      "volume": 3406.0
     },
     {
       "question": "Will the highest temperature in Toronto be 18°C or higher on April 26?",
@@ -235,11 +310,11 @@
         18.0,
         999.0
       ],
-      "bid": 0.009,
-      "ask": 0.991,
-      "price": 0.009,
-      "spread": 0.982,
-      "volume": 2362.0
+      "bid": 0.0115,
+      "ask": 0.9885,
+      "price": 0.0115,
+      "spread": 0.977,
+      "volume": 3916.0
     }
   ],
   "created_at": "2026-04-25T16:26:37.417612+00:00"

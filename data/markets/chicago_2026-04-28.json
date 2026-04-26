@@ -1,0 +1,194 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-04-28",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.8,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:49.096787+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 65,
+      "hrrr": 64,
+      "metar": null,
+      "best": 64,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:44.037450+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 64,
+      "hrrr": 62,
+      "metar": null,
+      "best": 62,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:14:49.096787+00:00",
+      "top_bucket": "56.0-999.0F",
+      "top_price": 0.9725
+    },
+    {
+      "ts": "2026-04-26T08:18:44.037450+00:00",
+      "top_bucket": "56.0-999.0F",
+      "top_price": 0.9765
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 37°F or below on April 28?",
+      "market_id": "2082411",
+      "range": [
+        -999.0,
+        37.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 554.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 38-39°F on April 28?",
+      "market_id": "2082412",
+      "range": [
+        38.0,
+        39.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 431.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 40-41°F on April 28?",
+      "market_id": "2082413",
+      "range": [
+        40.0,
+        41.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 373.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 42-43°F on April 28?",
+      "market_id": "2082414",
+      "range": [
+        42.0,
+        43.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 433.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 44-45°F on April 28?",
+      "market_id": "2082415",
+      "range": [
+        44.0,
+        45.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 433.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 46-47°F on April 28?",
+      "market_id": "2082416",
+      "range": [
+        46.0,
+        47.0
+      ],
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 363.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 48-49°F on April 28?",
+      "market_id": "2082417",
+      "range": [
+        48.0,
+        49.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 428.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 50-51°F on April 28?",
+      "market_id": "2082418",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.007,
+      "ask": 0.993,
+      "price": 0.007,
+      "spread": 0.986,
+      "volume": 373.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 52-53°F on April 28?",
+      "market_id": "2082419",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 387.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 54-55°F on April 28?",
+      "market_id": "2082420",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 508.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 56°F or higher on April 28?",
+      "market_id": "2082421",
+      "range": [
+        56.0,
+        999.0
+      ],
+      "bid": 0.9765,
+      "ask": 0.0235,
+      "price": 0.9765,
+      "spread": -0.953,
+      "volume": 740.0
+    }
+  ],
+  "created_at": "2026-04-26T07:14:54.799144+00:00"
+}

@@ -71,6 +71,46 @@
       "metar": null,
       "best": 20.5,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:43:41.972170+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:28.686334+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 20.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 20.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:15:49.877056+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 20.8,
+      "hrrr": null,
+      "metar": 12.0,
+      "best": 20.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:27.448271+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 21.2,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 21.2,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -103,6 +143,26 @@
       "ts": "2026-04-25T17:31:13.810724+00:00",
       "top_bucket": "22.0-22.0C",
       "top_price": 0.49
+    },
+    {
+      "ts": "2026-04-25T21:43:41.972170+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.48
+    },
+    {
+      "ts": "2026-04-25T22:47:28.686334+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.49
+    },
+    {
+      "ts": "2026-04-26T07:15:49.877056+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.43
+    },
+    {
+      "ts": "2026-04-26T08:19:27.448271+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.53
     }
   ],
   "all_outcomes": [
@@ -113,11 +173,11 @@
         -999.0,
         15.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 4364.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 8038.0
     },
     {
       "question": "Will the highest temperature in Paris be 16°C on April 26?",
@@ -126,11 +186,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 1358.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1417.0
     },
     {
       "question": "Will the highest temperature in Paris be 17°C on April 26?",
@@ -139,11 +199,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 2348.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 2453.0
     },
     {
       "question": "Will the highest temperature in Paris be 18°C on April 26?",
@@ -152,11 +212,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.0035,
-      "ask": 0.9965,
-      "price": 0.0035,
-      "spread": 0.993,
-      "volume": 1797.0
+      "bid": 0.0045,
+      "ask": 0.9955,
+      "price": 0.0045,
+      "spread": 0.991,
+      "volume": 2919.0
     },
     {
       "question": "Will the highest temperature in Paris be 19°C on April 26?",
@@ -165,11 +225,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 5282.0
+      "bid": 0.001,
+      "ask": 0.999,
+      "price": 0.001,
+      "spread": 0.998,
+      "volume": 6366.0
     },
     {
       "question": "Will the highest temperature in Paris be 20°C on April 26?",
@@ -178,11 +238,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.0125,
-      "ask": 0.9875,
-      "price": 0.0125,
-      "spread": 0.975,
-      "volume": 3668.0
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 5993.0
     },
     {
       "question": "Will the highest temperature in Paris be 21°C on April 26?",
@@ -195,7 +255,7 @@
       "ask": 0.94,
       "price": 0.06,
       "spread": 0.88,
-      "volume": 2558.0
+      "volume": 7758.0
     },
     {
       "question": "Will the highest temperature in Paris be 22°C on April 26?",
@@ -204,11 +264,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.49,
-      "ask": 0.51,
-      "price": 0.49,
-      "spread": 0.02,
-      "volume": 1960.0
+      "bid": 0.53,
+      "ask": 0.47,
+      "price": 0.53,
+      "spread": -0.06,
+      "volume": 4108.0
     },
     {
       "question": "Will the highest temperature in Paris be 23°C on April 26?",
@@ -217,11 +277,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.34,
-      "ask": 0.66,
-      "price": 0.34,
-      "spread": 0.32,
-      "volume": 2686.0
+      "bid": 0.375,
+      "ask": 0.625,
+      "price": 0.375,
+      "spread": 0.25,
+      "volume": 5202.0
     },
     {
       "question": "Will the highest temperature in Paris be 24°C on April 26?",
@@ -230,11 +290,11 @@
         24.0,
         24.0
       ],
-      "bid": 0.012,
-      "ask": 0.988,
-      "price": 0.012,
-      "spread": 0.976,
-      "volume": 3351.0
+      "bid": 0.0245,
+      "ask": 0.9755,
+      "price": 0.0245,
+      "spread": 0.951,
+      "volume": 6861.0
     },
     {
       "question": "Will the highest temperature in Paris be 25°C or higher on April 26?",
@@ -243,11 +303,11 @@
         25.0,
         999.0
       ],
-      "bid": 0.0095,
-      "ask": 0.9905,
-      "price": 0.0095,
-      "spread": 0.981,
-      "volume": 1974.0
+      "bid": 0.0105,
+      "ask": 0.9895,
+      "price": 0.0105,
+      "spread": 0.979,
+      "volume": 4735.0
     }
   ],
   "created_at": "2026-04-25T16:25:48.455959+00:00"

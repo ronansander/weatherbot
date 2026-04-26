@@ -7,7 +7,29 @@
   "event_end_date": "2026-04-27T12:00:00Z",
   "hours_at_discovery": 43.6,
   "status": "open",
-  "position": null,
+  "position": {
+    "market_id": "2074269",
+    "question": "Will the highest temperature in London be 22°C on April 27?",
+    "bucket_low": 22.0,
+    "bucket_high": 22.0,
+    "entry_price": 0.23,
+    "bid_at_entry": 0.22,
+    "spread": 0.01,
+    "shares": 21.74,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 3.3478,
+    "kelly": 0.25,
+    "forecast_temp": 21.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-04-25T21:43:36.757453+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
   "actual_temp": null,
   "resolved_outcome": null,
   "pnl": null,
@@ -71,6 +93,46 @@
       "metar": null,
       "best": 21.7,
       "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T21:43:36.757453+00:00",
+      "horizon": "D+2",
+      "hours_left": 38.3,
+      "ecmwf": 21.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-25T22:47:24.024035+00:00",
+      "horizon": "D+2",
+      "hours_left": 37.2,
+      "ecmwf": 21.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T07:15:45.718966+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.7,
+      "ecmwf": 21.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:22.530642+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 21.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 21.0,
+      "best_source": "ecmwf"
     }
   ],
   "market_snapshots": [
@@ -103,6 +165,26 @@
       "ts": "2026-04-25T17:31:09.431739+00:00",
       "top_bucket": "21.0-21.0C",
       "top_price": 0.325
+    },
+    {
+      "ts": "2026-04-25T21:43:36.757453+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-04-25T22:47:24.024035+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-04-26T07:15:45.718966+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-04-26T08:19:22.530642+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.395
     }
   ],
   "all_outcomes": [
@@ -113,11 +195,11 @@
         -999.0,
         15.0
       ],
-      "bid": 0.0025,
-      "ask": 0.9975,
-      "price": 0.0025,
-      "spread": 0.995,
-      "volume": 1199.0
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 2616.0
     },
     {
       "question": "Will the highest temperature in London be 16°C on April 27?",
@@ -126,11 +208,11 @@
         16.0,
         16.0
       ],
-      "bid": 0.0045,
-      "ask": 0.9955,
-      "price": 0.0045,
-      "spread": 0.991,
-      "volume": 1686.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 2596.0
     },
     {
       "question": "Will the highest temperature in London be 17°C on April 27?",
@@ -139,11 +221,11 @@
         17.0,
         17.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 1413.0
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 2048.0
     },
     {
       "question": "Will the highest temperature in London be 18°C on April 27?",
@@ -152,11 +234,11 @@
         18.0,
         18.0
       ],
-      "bid": 0.0135,
-      "ask": 0.9865,
-      "price": 0.0135,
-      "spread": 0.973,
-      "volume": 962.0
+      "bid": 0.0205,
+      "ask": 0.9795,
+      "price": 0.0205,
+      "spread": 0.959,
+      "volume": 2599.0
     },
     {
       "question": "Will the highest temperature in London be 19°C on April 27?",
@@ -165,11 +247,11 @@
         19.0,
         19.0
       ],
-      "bid": 0.045,
-      "ask": 0.955,
-      "price": 0.045,
-      "spread": 0.91,
-      "volume": 1469.0
+      "bid": 0.1005,
+      "ask": 0.8995,
+      "price": 0.1005,
+      "spread": 0.799,
+      "volume": 3716.0
     },
     {
       "question": "Will the highest temperature in London be 20°C on April 27?",
@@ -178,11 +260,11 @@
         20.0,
         20.0
       ],
-      "bid": 0.235,
-      "ask": 0.765,
-      "price": 0.235,
-      "spread": 0.53,
-      "volume": 1081.0
+      "bid": 0.3,
+      "ask": 0.7,
+      "price": 0.3,
+      "spread": 0.4,
+      "volume": 1923.0
     },
     {
       "question": "Will the highest temperature in London be 21°C on April 27?",
@@ -191,11 +273,11 @@
         21.0,
         21.0
       ],
-      "bid": 0.325,
-      "ask": 0.675,
-      "price": 0.325,
-      "spread": 0.35,
-      "volume": 969.0
+      "bid": 0.395,
+      "ask": 0.605,
+      "price": 0.395,
+      "spread": 0.21,
+      "volume": 1939.0
     },
     {
       "question": "Will the highest temperature in London be 22°C on April 27?",
@@ -204,11 +286,11 @@
         22.0,
         22.0
       ],
-      "bid": 0.215,
-      "ask": 0.785,
-      "price": 0.215,
-      "spread": 0.57,
-      "volume": 408.0
+      "bid": 0.165,
+      "ask": 0.835,
+      "price": 0.165,
+      "spread": 0.67,
+      "volume": 1658.0
     },
     {
       "question": "Will the highest temperature in London be 23°C on April 27?",
@@ -217,11 +299,11 @@
         23.0,
         23.0
       ],
-      "bid": 0.08,
-      "ask": 0.92,
-      "price": 0.08,
-      "spread": 0.84,
-      "volume": 586.0
+      "bid": 0.0305,
+      "ask": 0.9695,
+      "price": 0.0305,
+      "spread": 0.939,
+      "volume": 2645.0
     },
     {
       "question": "Will the highest temperature in London be 24°C on April 27?",
@@ -230,11 +312,11 @@
         24.0,
         24.0
       ],
-      "bid": 0.0075,
-      "ask": 0.9925,
-      "price": 0.0075,
-      "spread": 0.985,
-      "volume": 629.0
+      "bid": 0.0085,
+      "ask": 0.9915,
+      "price": 0.0085,
+      "spread": 0.983,
+      "volume": 1727.0
     },
     {
       "question": "Will the highest temperature in London be 25°C or higher on April 27?",
@@ -243,11 +325,11 @@
         25.0,
         999.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 238.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 2453.0
     }
   ],
   "created_at": "2026-04-25T16:25:35.745920+00:00"

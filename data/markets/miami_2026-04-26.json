@@ -7,7 +7,29 @@
   "event_end_date": "2026-04-26T12:00:00Z",
   "hours_at_discovery": 19.6,
   "status": "open",
-  "position": null,
+  "position": {
+    "market_id": "2064936",
+    "question": "Will the highest temperature in Miami be between 84-85°F on April 26?",
+    "bucket_low": 84.0,
+    "bucket_high": 85.0,
+    "entry_price": 0.5,
+    "bid_at_entry": 0.48,
+    "spread": 0.02,
+    "shares": 10.0,
+    "cost": 5.0,
+    "p": 1.0,
+    "ev": 1.0,
+    "kelly": 0.25,
+    "forecast_temp": 85,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-04-26T08:18:51.321421+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
   "actual_temp": null,
   "resolved_outcome": null,
   "pnl": null,
@@ -71,6 +93,46 @@
       "metar": null,
       "best": 84,
       "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T21:43:04.759750+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 84,
+      "hrrr": 85,
+      "metar": null,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-25T22:46:29.089397+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.2,
+      "ecmwf": 84,
+      "hrrr": 85,
+      "metar": null,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T07:14:56.051183+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.7,
+      "ecmwf": 83,
+      "hrrr": 85,
+      "metar": 74,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-04-26T08:18:51.321421+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.7,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 74,
+      "best": 85,
+      "best_source": "hrrr"
     }
   ],
   "market_snapshots": [
@@ -103,6 +165,26 @@
       "ts": "2026-04-25T17:30:39.050805+00:00",
       "top_bucket": "84.0-85.0F",
       "top_price": 0.47
+    },
+    {
+      "ts": "2026-04-25T21:43:04.759750+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-04-25T22:46:29.089397+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.49
+    },
+    {
+      "ts": "2026-04-26T07:14:56.051183+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.52
+    },
+    {
+      "ts": "2026-04-26T08:18:51.321421+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.455
     }
   ],
   "all_outcomes": [
@@ -113,11 +195,11 @@
         -999.0,
         73.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 3016.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3582.0
     },
     {
       "question": "Will the highest temperature in Miami be between 74-75°F on April 26?",
@@ -126,11 +208,11 @@
         74.0,
         75.0
       ],
-      "bid": 0.0015,
-      "ask": 0.9985,
-      "price": 0.0015,
-      "spread": 0.997,
-      "volume": 1312.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1765.0
     },
     {
       "question": "Will the highest temperature in Miami be between 76-77°F on April 26?",
@@ -139,11 +221,11 @@
         76.0,
         77.0
       ],
-      "bid": 0.006,
-      "ask": 0.994,
-      "price": 0.006,
-      "spread": 0.988,
-      "volume": 1055.0
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1572.0
     },
     {
       "question": "Will the highest temperature in Miami be between 78-79°F on April 26?",
@@ -152,11 +234,11 @@
         78.0,
         79.0
       ],
-      "bid": 0.0085,
-      "ask": 0.9915,
-      "price": 0.0085,
-      "spread": 0.983,
-      "volume": 3372.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 4139.0
     },
     {
       "question": "Will the highest temperature in Miami be between 80-81°F on April 26?",
@@ -165,11 +247,11 @@
         80.0,
         81.0
       ],
-      "bid": 0.011,
-      "ask": 0.989,
-      "price": 0.011,
-      "spread": 0.978,
-      "volume": 2790.0
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 4593.0
     },
     {
       "question": "Will the highest temperature in Miami be between 82-83°F on April 26?",
@@ -178,11 +260,11 @@
         82.0,
         83.0
       ],
-      "bid": 0.08,
-      "ask": 0.92,
-      "price": 0.08,
-      "spread": 0.84,
-      "volume": 3522.0
+      "bid": 0.075,
+      "ask": 0.925,
+      "price": 0.075,
+      "spread": 0.85,
+      "volume": 4816.0
     },
     {
       "question": "Will the highest temperature in Miami be between 84-85°F on April 26?",
@@ -191,11 +273,11 @@
         84.0,
         85.0
       ],
-      "bid": 0.47,
-      "ask": 0.53,
-      "price": 0.47,
-      "spread": 0.06,
-      "volume": 3183.0
+      "bid": 0.455,
+      "ask": 0.545,
+      "price": 0.455,
+      "spread": 0.09,
+      "volume": 4166.0
     },
     {
       "question": "Will the highest temperature in Miami be between 86-87°F on April 26?",
@@ -208,7 +290,7 @@
       "ask": 0.655,
       "price": 0.345,
       "spread": 0.31,
-      "volume": 2260.0
+      "volume": 3703.0
     },
     {
       "question": "Will the highest temperature in Miami be between 88-89°F on April 26?",
@@ -217,11 +299,11 @@
         88.0,
         89.0
       ],
-      "bid": 0.065,
-      "ask": 0.935,
-      "price": 0.065,
-      "spread": 0.87,
-      "volume": 1662.0
+      "bid": 0.084,
+      "ask": 0.916,
+      "price": 0.084,
+      "spread": 0.832,
+      "volume": 2626.0
     },
     {
       "question": "Will the highest temperature in Miami be between 90-91°F on April 26?",
@@ -230,11 +312,11 @@
         90.0,
         91.0
       ],
-      "bid": 0.008,
-      "ask": 0.992,
-      "price": 0.008,
-      "spread": 0.984,
-      "volume": 1298.0
+      "bid": 0.0265,
+      "ask": 0.9735,
+      "price": 0.0265,
+      "spread": 0.947,
+      "volume": 2245.0
     },
     {
       "question": "Will the highest temperature in Miami be 92°F or higher on April 26?",
@@ -243,11 +325,11 @@
         92.0,
         999.0
       ],
-      "bid": 0.0055,
-      "ask": 0.9945,
-      "price": 0.0055,
-      "spread": 0.989,
-      "volume": 689.0
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 4143.0
     }
   ],
   "created_at": "2026-04-25T16:25:01.267159+00:00"

@@ -1,0 +1,194 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-04-28",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-04-28T12:00:00Z",
+  "hours_at_discovery": 52.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-04-26T07:16:11.199478+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.7,
+      "ecmwf": 22.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-04-26T08:19:55.620637+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-04-26T07:16:11.199478+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-04-26T08:19:55.620637+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 15°C or below on April 28?",
+      "market_id": "2082477",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 195.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 16°C on April 28?",
+      "market_id": "2082478",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.004,
+      "ask": 0.996,
+      "price": 0.004,
+      "spread": 0.992,
+      "volume": 192.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 17°C on April 28?",
+      "market_id": "2082479",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 488.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 18°C on April 28?",
+      "market_id": "2082480",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 74.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 19°C on April 28?",
+      "market_id": "2082481",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.009,
+      "ask": 0.991,
+      "price": 0.009,
+      "spread": 0.982,
+      "volume": 28.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 20°C on April 28?",
+      "market_id": "2082482",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.04,
+      "ask": 0.96,
+      "price": 0.04,
+      "spread": 0.92,
+      "volume": 110.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 21°C on April 28?",
+      "market_id": "2082483",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.145,
+      "ask": 0.855,
+      "price": 0.145,
+      "spread": 0.71,
+      "volume": 120.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 22°C on April 28?",
+      "market_id": "2082484",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 60.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 23°C on April 28?",
+      "market_id": "2082485",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.255,
+      "ask": 0.745,
+      "price": 0.255,
+      "spread": 0.49,
+      "volume": 19.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 24°C on April 28?",
+      "market_id": "2082486",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.08,
+      "ask": 0.92,
+      "price": 0.08,
+      "spread": 0.84,
+      "volume": 23.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 25°C or higher on April 28?",
+      "market_id": "2082487",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.05,
+      "ask": 0.95,
+      "price": 0.05,
+      "spread": 0.9,
+      "volume": 46.0
+    }
+  ],
+  "created_at": "2026-04-26T07:16:14.852146+00:00"
+}
